@@ -1,0 +1,6 @@
+C:\Users\alberto.barbero\Desktop\n4pag115\bin\Debug\n4pag115.exe.config
+C:\Users\alberto.barbero\Desktop\n4pag115\bin\Debug\n4pag115.exe
+C:\Users\alberto.barbero\Desktop\n4pag115\bin\Debug\n4pag115.pdb
+C:\Users\alberto.barbero\Desktop\n4pag115\obj\Debug\n4pag115.csprojAssemblyReference.cache
+C:\Users\alberto.barbero\Desktop\n4pag115\obj\Debug\n4pag115.exe
+C:\Users\alberto.barbero\Desktop\n4pag115\obj\Debug\n4pag115.pdb

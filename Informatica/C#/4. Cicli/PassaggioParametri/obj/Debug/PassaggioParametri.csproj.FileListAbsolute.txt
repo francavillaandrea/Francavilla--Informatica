@@ -1,0 +1,12 @@
+C:\Users\Alberto\Desktop\PassaggioParametri\bin\Debug\PassaggioParametri.exe.config
+C:\Users\Alberto\Desktop\PassaggioParametri\bin\Debug\PassaggioParametri.exe
+C:\Users\Alberto\Desktop\PassaggioParametri\bin\Debug\PassaggioParametri.pdb
+C:\Users\Alberto\Desktop\PassaggioParametri\obj\Debug\PassaggioParametri.csprojAssemblyReference.cache
+C:\Users\Alberto\Desktop\PassaggioParametri\obj\Debug\PassaggioParametri.exe
+C:\Users\Alberto\Desktop\PassaggioParametri\obj\Debug\PassaggioParametri.pdb
+C:\Users\alberto.barbero\Downloads\PassaggioParametri\PassaggioParametri\bin\Debug\PassaggioParametri.exe.config
+C:\Users\alberto.barbero\Downloads\PassaggioParametri\PassaggioParametri\bin\Debug\PassaggioParametri.exe
+C:\Users\alberto.barbero\Downloads\PassaggioParametri\PassaggioParametri\bin\Debug\PassaggioParametri.pdb
+C:\Users\alberto.barbero\Downloads\PassaggioParametri\PassaggioParametri\obj\Debug\PassaggioParametri.csprojAssemblyReference.cache
+C:\Users\alberto.barbero\Downloads\PassaggioParametri\PassaggioParametri\obj\Debug\PassaggioParametri.exe
+C:\Users\alberto.barbero\Downloads\PassaggioParametri\PassaggioParametri\obj\Debug\PassaggioParametri.pdb

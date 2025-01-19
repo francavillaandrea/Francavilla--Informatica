@@ -1,0 +1,7 @@
+D:\Andrea Superiori\Informatica\C#\Esericizi Stringhe\bin\Debug\Esericizi Stringhe.exe.config
+D:\Andrea Superiori\Informatica\C#\Esericizi Stringhe\bin\Debug\Esericizi Stringhe.exe
+D:\Andrea Superiori\Informatica\C#\Esericizi Stringhe\bin\Debug\Esericizi Stringhe.pdb
+D:\Andrea Superiori\Informatica\C#\Esericizi Stringhe\obj\Debug\Esericizi Stringhe.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\Esericizi Stringhe\obj\Debug\Esericizi Stringhe.csproj.CoreCompileInputs.cache
+D:\Andrea Superiori\Informatica\C#\Esericizi Stringhe\obj\Debug\Esericizi Stringhe.exe
+D:\Andrea Superiori\Informatica\C#\Esericizi Stringhe\obj\Debug\Esericizi Stringhe.pdb

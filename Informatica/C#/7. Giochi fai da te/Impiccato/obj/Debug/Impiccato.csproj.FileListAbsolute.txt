@@ -1,0 +1,7 @@
+C:\Users\marco.paschetta\Desktop\3B INF\Impiccato\bin\Debug\Impiccato.exe.config
+C:\Users\marco.paschetta\Desktop\3B INF\Impiccato\bin\Debug\Impiccato.exe
+C:\Users\marco.paschetta\Desktop\3B INF\Impiccato\bin\Debug\Impiccato.pdb
+C:\Users\marco.paschetta\Desktop\3B INF\Impiccato\obj\Debug\Impiccato.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B INF\Impiccato\obj\Debug\Impiccato.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B INF\Impiccato\obj\Debug\Impiccato.exe
+C:\Users\marco.paschetta\Desktop\3B INF\Impiccato\obj\Debug\Impiccato.pdb

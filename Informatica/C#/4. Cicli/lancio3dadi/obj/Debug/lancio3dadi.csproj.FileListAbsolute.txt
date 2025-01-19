@@ -1,0 +1,9 @@
+D:\Andrea Superiori\Informatica\C\C 3°\Programmi Vari\lancio3dadi\obj\Debug\lancio3dadi.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C\C 3°\Programmi Vari\lancio3dadi\obj\Debug\lancio3dadi.csproj.CoreCompileInputs.cache
+D:\Andrea Superiori\Informatica\C#\Programmi Vari\lancio3dadi\obj\Debug\lancio3dadi.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\Programmi Vari\lancio3dadi\obj\Debug\lancio3dadi.csproj.CoreCompileInputs.cache
+D:\Andrea Superiori\Informatica\C#\Programmi Vari\lancio3dadi\bin\Debug\lancio3dadi.exe.config
+D:\Andrea Superiori\Informatica\C#\Programmi Vari\lancio3dadi\bin\Debug\lancio3dadi.exe
+D:\Andrea Superiori\Informatica\C#\Programmi Vari\lancio3dadi\bin\Debug\lancio3dadi.pdb
+D:\Andrea Superiori\Informatica\C#\Programmi Vari\lancio3dadi\obj\Debug\lancio3dadi.exe
+D:\Andrea Superiori\Informatica\C#\Programmi Vari\lancio3dadi\obj\Debug\lancio3dadi.pdb

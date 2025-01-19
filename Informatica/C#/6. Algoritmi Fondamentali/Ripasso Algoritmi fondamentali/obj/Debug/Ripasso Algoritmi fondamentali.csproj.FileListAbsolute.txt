@@ -1,0 +1,8 @@
+D:\Andrea Superiori\Informatica\C#\Ripasso Algoritmi fondamentali\bin\Debug\Ripasso Algoritmi fondamentali.exe.config
+D:\Andrea Superiori\Informatica\C#\Ripasso Algoritmi fondamentali\bin\Debug\Ripasso Algoritmi fondamentali.exe
+D:\Andrea Superiori\Informatica\C#\Ripasso Algoritmi fondamentali\bin\Debug\Ripasso Algoritmi fondamentali.pdb
+D:\Andrea Superiori\Informatica\C#\Ripasso Algoritmi fondamentali\obj\Debug\Ripasso Algoritmi fondamentali.exe
+D:\Andrea Superiori\Informatica\C#\Ripasso Algoritmi fondamentali\obj\Debug\Ripasso Algoritmi fondamentali.pdb
+D:\Andrea Superiori\Informatica\C#\Ripasso Algoritmi fondamentali\obj\Debug\Ripasso Algoritmi fondamentali.csprojAssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\Ripasso Algoritmi fondamentali\obj\Debug\Ripasso Algoritmi fondamentali.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\Ripasso Algoritmi fondamentali\obj\Debug\Ripasso Algoritmi fondamentali.csproj.CoreCompileInputs.cache

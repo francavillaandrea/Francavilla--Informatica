@@ -1,0 +1,20 @@
+C:\Users\Alberto\Downloads\Compito3B_INF\bin\Debug\Compito3B_INF.exe.config
+C:\Users\Alberto\Downloads\Compito3B_INF\bin\Debug\Compito3B_INF.exe
+C:\Users\Alberto\Downloads\Compito3B_INF\bin\Debug\Compito3B_INF.pdb
+C:\Users\Alberto\Downloads\Compito3B_INF\obj\Debug\Compito3B_INF.csprojAssemblyReference.cache
+C:\Users\Alberto\Downloads\Compito3B_INF\obj\Debug\Compito3B_INF.exe
+C:\Users\Alberto\Downloads\Compito3B_INF\obj\Debug\Compito3B_INF.pdb
+C:\Users\a.francavilla.3537\Desktop\Compito3B_INF\obj\Debug\Compito3B_INF.csproj.AssemblyReference.cache
+C:\Users\a.francavilla.3537\Desktop\Compito3B_INF\obj\Debug\Compito3B_INF.csproj.CoreCompileInputs.cache
+C:\Users\a.francavilla.3537\Desktop\Compito3B_INF\obj\Debug\Compito3B_INF.exe
+C:\Users\a.francavilla.3537\Desktop\Compito3B_INF\obj\Debug\Compito3B_INF.pdb
+C:\Users\a.francavilla.3537\Desktop\Compito3B_INF\bin\Debug\Compito3B_INF.exe.config
+C:\Users\a.francavilla.3537\Desktop\Compito3B_INF\bin\Debug\Compito3B_INF.exe
+C:\Users\a.francavilla.3537\Desktop\Compito3B_INF\bin\Debug\Compito3B_INF.pdb
+D:\Andrea Superiori\Informatica\C#\Correzione Verifica 5.11\obj\Debug\Compito3B_INF.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\Correzione Verifica 5.11\obj\Debug\Compito3B_INF.csproj.CoreCompileInputs.cache
+D:\Andrea Superiori\Informatica\C#\Correzione Verifica 5.11\obj\Debug\Compito3B_INF.exe
+D:\Andrea Superiori\Informatica\C#\Correzione Verifica 5.11\obj\Debug\Compito3B_INF.pdb
+D:\Andrea Superiori\Informatica\C#\Correzione Verifica 5.11\bin\Debug\Compito3B_INF.exe.config
+D:\Andrea Superiori\Informatica\C#\Correzione Verifica 5.11\bin\Debug\Compito3B_INF.exe
+D:\Andrea Superiori\Informatica\C#\Correzione Verifica 5.11\bin\Debug\Compito3B_INF.pdb

@@ -1,0 +1,7 @@
+D:\Scuola\Manunta Gabriele Informatica\Ese17_N°26 Pag 52\Ese17_N°26 Pag 52\bin\Debug\Ese17_N°26 Pag 52.exe.config
+D:\Scuola\Manunta Gabriele Informatica\Ese17_N°26 Pag 52\Ese17_N°26 Pag 52\bin\Debug\Ese17_N°26 Pag 52.exe
+D:\Scuola\Manunta Gabriele Informatica\Ese17_N°26 Pag 52\Ese17_N°26 Pag 52\bin\Debug\Ese17_N°26 Pag 52.pdb
+D:\Scuola\Manunta Gabriele Informatica\Ese17_N°26 Pag 52\Ese17_N°26 Pag 52\obj\Debug\Ese17_N°26 Pag 52.csproj.AssemblyReference.cache
+D:\Scuola\Manunta Gabriele Informatica\Ese17_N°26 Pag 52\Ese17_N°26 Pag 52\obj\Debug\Ese17_N°26 Pag 52.csproj.CoreCompileInputs.cache
+D:\Scuola\Manunta Gabriele Informatica\Ese17_N°26 Pag 52\Ese17_N°26 Pag 52\obj\Debug\Ese17_N°26 Pag 52.exe
+D:\Scuola\Manunta Gabriele Informatica\Ese17_N°26 Pag 52\Ese17_N°26 Pag 52\obj\Debug\Ese17_N°26 Pag 52.pdb

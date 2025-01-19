@@ -1,0 +1,6 @@
+D:\Andrea Superiori\Informatica\C#\Es1Pag150\Es1Pag150\bin\Debug\Es1Pag150.exe.config
+D:\Andrea Superiori\Informatica\C#\Es1Pag150\Es1Pag150\bin\Debug\Es1Pag150.exe
+D:\Andrea Superiori\Informatica\C#\Es1Pag150\Es1Pag150\bin\Debug\Es1Pag150.pdb
+D:\Andrea Superiori\Informatica\C#\Es1Pag150\Es1Pag150\obj\Debug\Es1Pag150.csprojAssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\Es1Pag150\Es1Pag150\obj\Debug\Es1Pag150.exe
+D:\Andrea Superiori\Informatica\C#\Es1Pag150\Es1Pag150\obj\Debug\Es1Pag150.pdb

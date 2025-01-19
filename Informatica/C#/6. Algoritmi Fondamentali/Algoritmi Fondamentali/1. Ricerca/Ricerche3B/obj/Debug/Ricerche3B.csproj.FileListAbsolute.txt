@@ -1,0 +1,14 @@
+C:\Users\alberto.barbero\Desktop\Ricerche3B\obj\Debug\Ricerche3B.csproj.AssemblyReference.cache
+C:\Users\alberto.barbero\Desktop\Ricerche3B\obj\Debug\Ricerche3B.csproj.CoreCompileInputs.cache
+C:\Users\alberto.barbero\Desktop\Ricerche3B\bin\Debug\Ricerche3B.exe.config
+C:\Users\alberto.barbero\Desktop\Ricerche3B\bin\Debug\Ricerche3B.exe
+C:\Users\alberto.barbero\Desktop\Ricerche3B\bin\Debug\Ricerche3B.pdb
+C:\Users\alberto.barbero\Desktop\Ricerche3B\obj\Debug\Ricerche3B.exe
+C:\Users\alberto.barbero\Desktop\Ricerche3B\obj\Debug\Ricerche3B.pdb
+D:\3B.INF\RICERCHE =)\Ricerche3B\bin\Debug\Ricerche3B.exe.config
+D:\3B.INF\RICERCHE =)\Ricerche3B\bin\Debug\Ricerche3B.exe
+D:\3B.INF\RICERCHE =)\Ricerche3B\bin\Debug\Ricerche3B.pdb
+D:\3B.INF\RICERCHE =)\Ricerche3B\obj\Debug\Ricerche3B.exe
+D:\3B.INF\RICERCHE =)\Ricerche3B\obj\Debug\Ricerche3B.pdb
+D:\3B.INF\RICERCHE =)\Ricerche3B\obj\Debug\Ricerche3B.csproj.AssemblyReference.cache
+D:\3B.INF\RICERCHE =)\Ricerche3B\obj\Debug\Ricerche3B.csproj.CoreCompileInputs.cache

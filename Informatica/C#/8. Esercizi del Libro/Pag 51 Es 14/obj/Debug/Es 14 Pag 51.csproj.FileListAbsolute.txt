@@ -1,0 +1,16 @@
+E:\Andrea Superiori\Informatica\C#\Es 14 Pag 51\bin\Debug\Es 14 Pag 51.exe.config
+E:\Andrea Superiori\Informatica\C#\Es 14 Pag 51\bin\Debug\Es 14 Pag 51.exe
+E:\Andrea Superiori\Informatica\C#\Es 14 Pag 51\bin\Debug\Es 14 Pag 51.pdb
+E:\Andrea Superiori\Informatica\C#\Es 14 Pag 51\obj\Debug\Es 14 Pag 51.csproj.AssemblyReference.cache
+E:\Andrea Superiori\Informatica\C#\Es 14 Pag 51\obj\Debug\Es 14 Pag 51.csproj.SuggestedBindingRedirects.cache
+E:\Andrea Superiori\Informatica\C#\Es 14 Pag 51\obj\Debug\Es 14 Pag 51.csproj.CoreCompileInputs.cache
+E:\Andrea Superiori\Informatica\C#\Es 14 Pag 51\obj\Debug\Es 14 Pag 51.exe
+E:\Andrea Superiori\Informatica\C#\Es 14 Pag 51\obj\Debug\Es 14 Pag 51.pdb
+D:\Andrea Superiori\Informatica\C#\Es 14 Pag 51\bin\Debug\Es 14 Pag 51.exe.config
+D:\Andrea Superiori\Informatica\C#\Es 14 Pag 51\bin\Debug\Es 14 Pag 51.exe
+D:\Andrea Superiori\Informatica\C#\Es 14 Pag 51\bin\Debug\Es 14 Pag 51.pdb
+D:\Andrea Superiori\Informatica\C#\Es 14 Pag 51\obj\Debug\Es 14 Pag 51.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\Es 14 Pag 51\obj\Debug\Es 14 Pag 51.csproj.CoreCompileInputs.cache
+D:\Andrea Superiori\Informatica\C#\Es 14 Pag 51\obj\Debug\Es 14 Pag 51.exe
+D:\Andrea Superiori\Informatica\C#\Es 14 Pag 51\obj\Debug\Es 14 Pag 51.pdb
+D:\Andrea Superiori\Informatica\C#\Es 14 Pag 51\obj\Debug\Es 14 Pag 51.csproj.SuggestedBindingRedirects.cache

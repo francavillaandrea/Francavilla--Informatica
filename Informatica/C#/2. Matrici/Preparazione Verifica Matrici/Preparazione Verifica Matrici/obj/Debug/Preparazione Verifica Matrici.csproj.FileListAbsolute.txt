@@ -1,0 +1,7 @@
+D:\Andrea Superiori\Informatica\C#\2. Matrici\Preparazione Verifica Matrici\Preparazione Verifica Matrici\bin\Debug\Preparazione Verifica Matrici.exe.config
+D:\Andrea Superiori\Informatica\C#\2. Matrici\Preparazione Verifica Matrici\Preparazione Verifica Matrici\bin\Debug\Preparazione Verifica Matrici.exe
+D:\Andrea Superiori\Informatica\C#\2. Matrici\Preparazione Verifica Matrici\Preparazione Verifica Matrici\bin\Debug\Preparazione Verifica Matrici.pdb
+D:\Andrea Superiori\Informatica\C#\2. Matrici\Preparazione Verifica Matrici\Preparazione Verifica Matrici\obj\Debug\Preparazione Verifica Matrici.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\2. Matrici\Preparazione Verifica Matrici\Preparazione Verifica Matrici\obj\Debug\Preparazione Verifica Matrici.csproj.CoreCompileInputs.cache
+D:\Andrea Superiori\Informatica\C#\2. Matrici\Preparazione Verifica Matrici\Preparazione Verifica Matrici\obj\Debug\Preparazione Verifica Matrici.exe
+D:\Andrea Superiori\Informatica\C#\2. Matrici\Preparazione Verifica Matrici\Preparazione Verifica Matrici\obj\Debug\Preparazione Verifica Matrici.pdb

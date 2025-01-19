@@ -1,0 +1,13 @@
+C:\Users\marco.paschetta\Desktop\3B INF\AlgoritmiMerge\bin\Debug\AlgoritmiMerge.exe.config
+C:\Users\marco.paschetta\Desktop\3B INF\AlgoritmiMerge\bin\Debug\AlgoritmiMerge.exe
+C:\Users\marco.paschetta\Desktop\3B INF\AlgoritmiMerge\bin\Debug\AlgoritmiMerge.pdb
+C:\Users\marco.paschetta\Desktop\3B INF\AlgoritmiMerge\obj\Debug\AlgoritmiMerge.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B INF\AlgoritmiMerge\obj\Debug\AlgoritmiMerge.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B INF\AlgoritmiMerge\obj\Debug\AlgoritmiMerge.exe
+C:\Users\marco.paschetta\Desktop\3B INF\AlgoritmiMerge\obj\Debug\AlgoritmiMerge.pdb
+D:\Andrea Superiori\Informatica\C#\AlgoritmiMerge\bin\Debug\AlgoritmiMerge.exe.config
+D:\Andrea Superiori\Informatica\C#\AlgoritmiMerge\bin\Debug\AlgoritmiMerge.exe
+D:\Andrea Superiori\Informatica\C#\AlgoritmiMerge\bin\Debug\AlgoritmiMerge.pdb
+D:\Andrea Superiori\Informatica\C#\AlgoritmiMerge\obj\Debug\AlgoritmiMerge.csprojAssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\AlgoritmiMerge\obj\Debug\AlgoritmiMerge.exe
+D:\Andrea Superiori\Informatica\C#\AlgoritmiMerge\obj\Debug\AlgoritmiMerge.pdb

@@ -1,0 +1,21 @@
+C:\Users\marco.paschetta\Desktop\3B INF\Verifica_09122024\bin\Debug\Verifica_09122024.exe.config
+C:\Users\marco.paschetta\Desktop\3B INF\Verifica_09122024\bin\Debug\Verifica_09122024.exe
+C:\Users\marco.paschetta\Desktop\3B INF\Verifica_09122024\bin\Debug\Verifica_09122024.pdb
+C:\Users\marco.paschetta\Desktop\3B INF\Verifica_09122024\obj\Debug\Verifica_09122024.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B INF\Verifica_09122024\obj\Debug\Verifica_09122024.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B INF\Verifica_09122024\obj\Debug\Verifica_09122024.exe
+C:\Users\marco.paschetta\Desktop\3B INF\Verifica_09122024\obj\Debug\Verifica_09122024.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavilla_09122024\bin\Debug\Verifica_09122024.exe.config
+C:\Users\a.francavilla.3537\Desktop\Francavilla_09122024\bin\Debug\Verifica_09122024.exe
+C:\Users\a.francavilla.3537\Desktop\Francavilla_09122024\bin\Debug\Verifica_09122024.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavilla_09122024\obj\Debug\Verifica_09122024.csprojAssemblyReference.cache
+C:\Users\a.francavilla.3537\Desktop\Francavilla_09122024\obj\Debug\Verifica_09122024.exe
+C:\Users\a.francavilla.3537\Desktop\Francavilla_09122024\obj\Debug\Verifica_09122024.pdb
+E:\Francavilla_09122024\bin\Debug\Verifica_09122024.exe.config
+E:\Francavilla_09122024\bin\Debug\Verifica_09122024.exe
+E:\Francavilla_09122024\bin\Debug\Verifica_09122024.pdb
+E:\Francavilla_09122024\obj\Debug\Verifica_09122024.csproj.AssemblyReference.cache
+E:\Francavilla_09122024\obj\Debug\Verifica_09122024.csproj.SuggestedBindingRedirects.cache
+E:\Francavilla_09122024\obj\Debug\Verifica_09122024.csproj.CoreCompileInputs.cache
+E:\Francavilla_09122024\obj\Debug\Verifica_09122024.exe
+E:\Francavilla_09122024\obj\Debug\Verifica_09122024.pdb

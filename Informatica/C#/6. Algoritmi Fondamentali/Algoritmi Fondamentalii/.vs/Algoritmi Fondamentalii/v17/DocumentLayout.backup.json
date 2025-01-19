@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Andrea Superiori\\Informatica\\C#\\Algoritmi Fondamentalii\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D16468F1-386E-42BC-B0C6-526C31382AA0}|Algoritmi Fondamentalii.csproj|D:\\Andrea Superiori\\Informatica\\C#\\Algoritmi Fondamentalii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D16468F1-386E-42BC-B0C6-526C31382AA0}|Algoritmi Fondamentalii.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16468F1-386E-42BC-B0C6-526C31382AA0}|Algoritmi Fondamentalii.csproj|D:\\Andrea Superiori\\Informatica\\C#\\Algoritmi Fondamentalii\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D16468F1-386E-42BC-B0C6-526C31382AA0}|Algoritmi Fondamentalii.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Andrea Superiori\\Informatica\\C#\\Algoritmi Fondamentali\\3. Merge\\AlgoritmiMerge\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16468F1-386E-42BC-B0C6-526C31382AA0}|Algoritmi Fondamentalii.csproj|D:\\Andrea Superiori\\Informatica\\C#\\Algoritmi Fondamentalii\\algoritmifond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D16468F1-386E-42BC-B0C6-526C31382AA0}|Algoritmi Fondamentalii.csproj|solutionrelative:algoritmifond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 291,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Andrea Superiori\\Informatica\\C#\\Algoritmi Fondamentali\\3. Merge\\AlgoritmiMerge\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Algoritmi Fondamentali\\3. Merge\\AlgoritmiMerge\\Program.cs",
+              "ToolTip": "D:\\Andrea Superiori\\Informatica\\C#\\Algoritmi Fondamentali\\3. Merge\\AlgoritmiMerge\\Program.cs",
+              "RelativeToolTip": "..\\Algoritmi Fondamentali\\3. Merge\\AlgoritmiMerge\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:39:54.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AlgoritmiFond.cs",
+              "DocumentMoniker": "D:\\Andrea Superiori\\Informatica\\C#\\Algoritmi Fondamentalii\\AlgoritmiFond.cs",
+              "RelativeDocumentMoniker": "AlgoritmiFond.cs",
+              "ToolTip": "D:\\Andrea Superiori\\Informatica\\C#\\Algoritmi Fondamentalii\\AlgoritmiFond.cs",
+              "RelativeToolTip": "AlgoritmiFond.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAmwEwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:52:09.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\Andrea Superiori\\Informatica\\C#\\Algoritmi Fondamentalii\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "D:\\Andrea Superiori\\Informatica\\C#\\Algoritmi Fondamentalii\\Menu.cs",
+              "RelativeToolTip": "Menu.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAcwEwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:50:42.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Andrea Superiori\\Informatica\\C#\\Algoritmi Fondamentalii\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Andrea Superiori\\Informatica\\C#\\Algoritmi Fondamentalii\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwDQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:18:20.669Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

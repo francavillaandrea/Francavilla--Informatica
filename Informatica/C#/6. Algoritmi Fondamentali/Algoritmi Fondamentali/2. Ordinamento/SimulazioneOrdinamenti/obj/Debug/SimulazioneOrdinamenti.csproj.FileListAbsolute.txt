@@ -1,0 +1,7 @@
+C:\Users\marco.paschetta\Desktop\3B INF\SimulazioneOrdinamenti\bin\Debug\SimulazioneOrdinamenti.exe.config
+C:\Users\marco.paschetta\Desktop\3B INF\SimulazioneOrdinamenti\bin\Debug\SimulazioneOrdinamenti.exe
+C:\Users\marco.paschetta\Desktop\3B INF\SimulazioneOrdinamenti\bin\Debug\SimulazioneOrdinamenti.pdb
+C:\Users\marco.paschetta\Desktop\3B INF\SimulazioneOrdinamenti\obj\Debug\SimulazioneOrdinamenti.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B INF\SimulazioneOrdinamenti\obj\Debug\SimulazioneOrdinamenti.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B INF\SimulazioneOrdinamenti\obj\Debug\SimulazioneOrdinamenti.exe
+C:\Users\marco.paschetta\Desktop\3B INF\SimulazioneOrdinamenti\obj\Debug\SimulazioneOrdinamenti.pdb

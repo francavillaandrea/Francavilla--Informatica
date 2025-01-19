@@ -1,0 +1,6 @@
+C:\Users\alberto.barbero\Desktop\VettoriInizio3B\bin\Debug\VettoriInizio3B.exe.config
+C:\Users\alberto.barbero\Desktop\VettoriInizio3B\bin\Debug\VettoriInizio3B.exe
+C:\Users\alberto.barbero\Desktop\VettoriInizio3B\bin\Debug\VettoriInizio3B.pdb
+C:\Users\alberto.barbero\Desktop\VettoriInizio3B\obj\Debug\VettoriInizio3B.exe
+C:\Users\alberto.barbero\Desktop\VettoriInizio3B\obj\Debug\VettoriInizio3B.pdb
+C:\Users\alberto.barbero\Desktop\VettoriInizio3B\obj\Debug\VettoriInizio3B.csprojAssemblyReference.cache

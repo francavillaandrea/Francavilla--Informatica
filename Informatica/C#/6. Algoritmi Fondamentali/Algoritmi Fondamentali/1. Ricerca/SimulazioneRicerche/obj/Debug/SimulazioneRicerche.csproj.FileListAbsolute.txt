@@ -1,0 +1,7 @@
+C:\Users\marco.paschetta\Desktop\3B INF\SimulazioneRicerche\bin\Debug\SimulazioneRicerche.exe.config
+C:\Users\marco.paschetta\Desktop\3B INF\SimulazioneRicerche\bin\Debug\SimulazioneRicerche.exe
+C:\Users\marco.paschetta\Desktop\3B INF\SimulazioneRicerche\bin\Debug\SimulazioneRicerche.pdb
+C:\Users\marco.paschetta\Desktop\3B INF\SimulazioneRicerche\obj\Debug\SimulazioneRicerche.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B INF\SimulazioneRicerche\obj\Debug\SimulazioneRicerche.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B INF\SimulazioneRicerche\obj\Debug\SimulazioneRicerche.exe
+C:\Users\marco.paschetta\Desktop\3B INF\SimulazioneRicerche\obj\Debug\SimulazioneRicerche.pdb

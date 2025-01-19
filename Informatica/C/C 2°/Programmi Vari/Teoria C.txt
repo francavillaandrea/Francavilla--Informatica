@@ -1,0 +1,1 @@
+U programma scritto in c ha una funzione principale detta main, quest'ultimo deve essere senmpre presente e viene eseguita per prima dal compiler.

@@ -1,0 +1,7 @@
+D:\Andrea Superiori\Informatica\C\C 3°\Programmi Vari\Max_Più_Valori\bin\Debug\Max_Più_Valori.exe.config
+D:\Andrea Superiori\Informatica\C\C 3°\Programmi Vari\Max_Più_Valori\bin\Debug\Max_Più_Valori.exe
+D:\Andrea Superiori\Informatica\C\C 3°\Programmi Vari\Max_Più_Valori\bin\Debug\Max_Più_Valori.pdb
+D:\Andrea Superiori\Informatica\C\C 3°\Programmi Vari\Max_Più_Valori\obj\Debug\Max_Più_Valori.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C\C 3°\Programmi Vari\Max_Più_Valori\obj\Debug\Max_Più_Valori.csproj.CoreCompileInputs.cache
+D:\Andrea Superiori\Informatica\C\C 3°\Programmi Vari\Max_Più_Valori\obj\Debug\Max_Più_Valori.exe
+D:\Andrea Superiori\Informatica\C\C 3°\Programmi Vari\Max_Più_Valori\obj\Debug\Max_Più_Valori.pdb

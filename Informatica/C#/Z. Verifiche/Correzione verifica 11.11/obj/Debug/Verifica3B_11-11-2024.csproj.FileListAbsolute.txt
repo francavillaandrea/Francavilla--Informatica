@@ -1,0 +1,14 @@
+C:\Users\marco.paschetta\Desktop\3B INF\Verifica3B_11-11-2024\bin\Debug\Verifica3B_11-11-2024.exe.config
+C:\Users\marco.paschetta\Desktop\3B INF\Verifica3B_11-11-2024\bin\Debug\Verifica3B_11-11-2024.exe
+C:\Users\marco.paschetta\Desktop\3B INF\Verifica3B_11-11-2024\bin\Debug\Verifica3B_11-11-2024.pdb
+C:\Users\marco.paschetta\Desktop\3B INF\Verifica3B_11-11-2024\obj\Debug\Verifica3B_11-11-2024.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B INF\Verifica3B_11-11-2024\obj\Debug\Verifica3B_11-11-2024.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B INF\Verifica3B_11-11-2024\obj\Debug\Verifica3B_11-11-2024.exe
+C:\Users\marco.paschetta\Desktop\3B INF\Verifica3B_11-11-2024\obj\Debug\Verifica3B_11-11-2024.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavilla\bin\Debug\Verifica3B_11-11-2024.exe.config
+C:\Users\a.francavilla.3537\Desktop\Francavilla\bin\Debug\Verifica3B_11-11-2024.exe
+C:\Users\a.francavilla.3537\Desktop\Francavilla\bin\Debug\Verifica3B_11-11-2024.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavilla\obj\Debug\Verifica3B_11-11-2024.csproj.AssemblyReference.cache
+C:\Users\a.francavilla.3537\Desktop\Francavilla\obj\Debug\Verifica3B_11-11-2024.csproj.CoreCompileInputs.cache
+C:\Users\a.francavilla.3537\Desktop\Francavilla\obj\Debug\Verifica3B_11-11-2024.exe
+C:\Users\a.francavilla.3537\Desktop\Francavilla\obj\Debug\Verifica3B_11-11-2024.pdb

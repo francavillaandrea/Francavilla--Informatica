@@ -1,0 +1,6 @@
+D:\Andrea Superiori\Informatica\C#\Es 37 Pag 85\bin\Debug\ConsoleApp1.exe.config
+D:\Andrea Superiori\Informatica\C#\Es 37 Pag 85\bin\Debug\ConsoleApp1.exe
+D:\Andrea Superiori\Informatica\C#\Es 37 Pag 85\bin\Debug\ConsoleApp1.pdb
+D:\Andrea Superiori\Informatica\C#\Es 37 Pag 85\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\Es 37 Pag 85\obj\Debug\ConsoleApp1.exe
+D:\Andrea Superiori\Informatica\C#\Es 37 Pag 85\obj\Debug\ConsoleApp1.pdb

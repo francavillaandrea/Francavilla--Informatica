@@ -1,0 +1,7 @@
+D:\Andrea Superiori\Informatica\C#\Tris\Tris\bin\Debug\Tris.exe.config
+D:\Andrea Superiori\Informatica\C#\Tris\Tris\bin\Debug\Tris.exe
+D:\Andrea Superiori\Informatica\C#\Tris\Tris\bin\Debug\Tris.pdb
+D:\Andrea Superiori\Informatica\C#\Tris\Tris\obj\Debug\Tris.exe
+D:\Andrea Superiori\Informatica\C#\Tris\Tris\obj\Debug\Tris.pdb
+D:\Andrea Superiori\Informatica\C#\Tris\Tris\obj\Debug\Tris.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\Tris\Tris\obj\Debug\Tris.csproj.CoreCompileInputs.cache

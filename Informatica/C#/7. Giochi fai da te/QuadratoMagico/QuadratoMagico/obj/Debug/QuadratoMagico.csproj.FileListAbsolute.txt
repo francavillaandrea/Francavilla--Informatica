@@ -1,0 +1,7 @@
+D:\Andrea Superiori\Informatica\C#\QuadratoMagico\QuadratoMagico\bin\Debug\QuadratoMagico.exe.config
+D:\Andrea Superiori\Informatica\C#\QuadratoMagico\QuadratoMagico\bin\Debug\QuadratoMagico.exe
+D:\Andrea Superiori\Informatica\C#\QuadratoMagico\QuadratoMagico\bin\Debug\QuadratoMagico.pdb
+D:\Andrea Superiori\Informatica\C#\QuadratoMagico\QuadratoMagico\obj\Debug\QuadratoMagico.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\QuadratoMagico\QuadratoMagico\obj\Debug\QuadratoMagico.csproj.CoreCompileInputs.cache
+D:\Andrea Superiori\Informatica\C#\QuadratoMagico\QuadratoMagico\obj\Debug\QuadratoMagico.exe
+D:\Andrea Superiori\Informatica\C#\QuadratoMagico\QuadratoMagico\obj\Debug\QuadratoMagico.pdb

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Andrea Superiori\\Informatica\\C#\\Correzione Verifica Barbero\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF17C6FB-5402-4DD3-9C58-5DB3A4926F94}|Correzione Verifica Barbero.csproj|d:\\andrea superiori\\informatica\\c#\\correzione verifica barbero\\correzione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF17C6FB-5402-4DD3-9C58-5DB3A4926F94}|Correzione Verifica Barbero.csproj|solutionrelative:correzione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Correzione.cs",
+              "DocumentMoniker": "D:\\Andrea Superiori\\Informatica\\C#\\Correzione Verifica Barbero\\Correzione.cs",
+              "RelativeDocumentMoniker": "Correzione.cs",
+              "ToolTip": "D:\\Andrea Superiori\\Informatica\\C#\\Correzione Verifica Barbero\\Correzione.cs",
+              "RelativeToolTip": "Correzione.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T09:19:36.241Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+D:\Andrea Superiori\Informatica\C#\Forza 4\Forza 4\bin\Debug\Forza 4.exe.config
+D:\Andrea Superiori\Informatica\C#\Forza 4\Forza 4\bin\Debug\Forza 4.exe
+D:\Andrea Superiori\Informatica\C#\Forza 4\Forza 4\bin\Debug\Forza 4.pdb
+D:\Andrea Superiori\Informatica\C#\Forza 4\Forza 4\obj\Debug\Forza 4.exe
+D:\Andrea Superiori\Informatica\C#\Forza 4\Forza 4\obj\Debug\Forza 4.pdb
+D:\Andrea Superiori\Informatica\C#\Forza 4\Forza 4\obj\Debug\Forza 4.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\Forza 4\Forza 4\obj\Debug\Forza 4.csproj.CoreCompileInputs.cache

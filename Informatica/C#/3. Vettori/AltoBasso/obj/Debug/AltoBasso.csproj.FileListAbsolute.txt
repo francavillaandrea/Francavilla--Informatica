@@ -1,0 +1,14 @@
+C:\Users\marco.paschetta\Desktop\3B INF\AltoBasso\bin\Debug\AltoBasso.exe.config
+C:\Users\marco.paschetta\Desktop\3B INF\AltoBasso\bin\Debug\AltoBasso.exe
+C:\Users\marco.paschetta\Desktop\3B INF\AltoBasso\bin\Debug\AltoBasso.pdb
+C:\Users\marco.paschetta\Desktop\3B INF\AltoBasso\obj\Debug\AltoBasso.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B INF\AltoBasso\obj\Debug\AltoBasso.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B INF\AltoBasso\obj\Debug\AltoBasso.exe
+C:\Users\marco.paschetta\Desktop\3B INF\AltoBasso\obj\Debug\AltoBasso.pdb
+D:\Andrea Superiori\Informatica\C#\AltoBasso\bin\Debug\AltoBasso.exe.config
+D:\Andrea Superiori\Informatica\C#\AltoBasso\bin\Debug\AltoBasso.exe
+D:\Andrea Superiori\Informatica\C#\AltoBasso\bin\Debug\AltoBasso.pdb
+D:\Andrea Superiori\Informatica\C#\AltoBasso\obj\Debug\AltoBasso.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\AltoBasso\obj\Debug\AltoBasso.csproj.CoreCompileInputs.cache
+D:\Andrea Superiori\Informatica\C#\AltoBasso\obj\Debug\AltoBasso.exe
+D:\Andrea Superiori\Informatica\C#\AltoBasso\obj\Debug\AltoBasso.pdb

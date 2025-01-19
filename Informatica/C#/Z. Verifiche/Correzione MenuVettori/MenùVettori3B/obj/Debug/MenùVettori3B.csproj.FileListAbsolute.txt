@@ -1,0 +1,7 @@
+D:\Andrea Superiori\Informatica\C#\MenùVettori3B\bin\Debug\MenùVettori3B.exe.config
+D:\Andrea Superiori\Informatica\C#\MenùVettori3B\bin\Debug\MenùVettori3B.exe
+D:\Andrea Superiori\Informatica\C#\MenùVettori3B\bin\Debug\MenùVettori3B.pdb
+D:\Andrea Superiori\Informatica\C#\MenùVettori3B\obj\Debug\MenùVettori3B.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\MenùVettori3B\obj\Debug\MenùVettori3B.csproj.CoreCompileInputs.cache
+D:\Andrea Superiori\Informatica\C#\MenùVettori3B\obj\Debug\MenùVettori3B.exe
+D:\Andrea Superiori\Informatica\C#\MenùVettori3B\obj\Debug\MenùVettori3B.pdb

@@ -1,0 +1,7 @@
+D:\Andrea Superiori\Informatica\C#\Correzione Verifica Barbero\obj\Debug\Correzione Verifica Barbero.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\Correzione Verifica Barbero\obj\Debug\Correzione Verifica Barbero.csproj.CoreCompileInputs.cache
+D:\Andrea Superiori\Informatica\C#\Correzione Verifica Barbero\bin\Debug\Correzione Verifica Barbero.exe.config
+D:\Andrea Superiori\Informatica\C#\Correzione Verifica Barbero\bin\Debug\Correzione Verifica Barbero.exe
+D:\Andrea Superiori\Informatica\C#\Correzione Verifica Barbero\bin\Debug\Correzione Verifica Barbero.pdb
+D:\Andrea Superiori\Informatica\C#\Correzione Verifica Barbero\obj\Debug\Correzione Verifica Barbero.exe
+D:\Andrea Superiori\Informatica\C#\Correzione Verifica Barbero\obj\Debug\Correzione Verifica Barbero.pdb

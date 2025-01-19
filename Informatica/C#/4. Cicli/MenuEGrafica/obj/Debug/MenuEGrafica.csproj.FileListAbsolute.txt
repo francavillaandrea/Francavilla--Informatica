@@ -1,0 +1,7 @@
+C:\Users\marco.paschetta\Desktop\3B INF\MenuEGrafica\bin\Debug\MenuEGrafica.exe.config
+C:\Users\marco.paschetta\Desktop\3B INF\MenuEGrafica\bin\Debug\MenuEGrafica.exe
+C:\Users\marco.paschetta\Desktop\3B INF\MenuEGrafica\bin\Debug\MenuEGrafica.pdb
+C:\Users\marco.paschetta\Desktop\3B INF\MenuEGrafica\obj\Debug\MenuEGrafica.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B INF\MenuEGrafica\obj\Debug\MenuEGrafica.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B INF\MenuEGrafica\obj\Debug\MenuEGrafica.exe
+C:\Users\marco.paschetta\Desktop\3B INF\MenuEGrafica\obj\Debug\MenuEGrafica.pdb

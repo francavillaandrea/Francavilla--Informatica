@@ -1,0 +1,7 @@
+D:\Andrea Superiori\Informatica\C#\Algoritmi Fondamentalii\bin\Debug\Algoritmi Fondamentalii.exe.config
+D:\Andrea Superiori\Informatica\C#\Algoritmi Fondamentalii\bin\Debug\Algoritmi Fondamentalii.exe
+D:\Andrea Superiori\Informatica\C#\Algoritmi Fondamentalii\bin\Debug\Algoritmi Fondamentalii.pdb
+D:\Andrea Superiori\Informatica\C#\Algoritmi Fondamentalii\obj\Debug\Algoritmi Fondamentalii.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\Algoritmi Fondamentalii\obj\Debug\Algoritmi Fondamentalii.csproj.CoreCompileInputs.cache
+D:\Andrea Superiori\Informatica\C#\Algoritmi Fondamentalii\obj\Debug\Algoritmi Fondamentalii.exe
+D:\Andrea Superiori\Informatica\C#\Algoritmi Fondamentalii\obj\Debug\Algoritmi Fondamentalii.pdb

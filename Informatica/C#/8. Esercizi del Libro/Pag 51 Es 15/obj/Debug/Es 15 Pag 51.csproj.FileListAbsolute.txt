@@ -1,0 +1,7 @@
+C:\Users\paolc\source\repos\Es 15 Pag 51\bin\Debug\Es 15 Pag 51.exe.config
+C:\Users\paolc\source\repos\Es 15 Pag 51\bin\Debug\Es 15 Pag 51.exe
+C:\Users\paolc\source\repos\Es 15 Pag 51\bin\Debug\Es 15 Pag 51.pdb
+C:\Users\paolc\source\repos\Es 15 Pag 51\obj\Debug\Es 15 Pag 51.csproj.AssemblyReference.cache
+C:\Users\paolc\source\repos\Es 15 Pag 51\obj\Debug\Es 15 Pag 51.csproj.CoreCompileInputs.cache
+C:\Users\paolc\source\repos\Es 15 Pag 51\obj\Debug\Es 15 Pag 51.exe
+C:\Users\paolc\source\repos\Es 15 Pag 51\obj\Debug\Es 15 Pag 51.pdb

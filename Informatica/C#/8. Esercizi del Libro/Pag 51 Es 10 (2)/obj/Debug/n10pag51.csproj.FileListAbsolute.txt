@@ -1,0 +1,7 @@
+C:\Users\alberto.barbero\Desktop\n10pag51\bin\Debug\n10pag51.exe.config
+C:\Users\alberto.barbero\Desktop\n10pag51\bin\Debug\n10pag51.exe
+C:\Users\alberto.barbero\Desktop\n10pag51\bin\Debug\n10pag51.pdb
+C:\Users\alberto.barbero\Desktop\n10pag51\obj\Debug\n10pag51.csproj.AssemblyReference.cache
+C:\Users\alberto.barbero\Desktop\n10pag51\obj\Debug\n10pag51.csproj.CoreCompileInputs.cache
+C:\Users\alberto.barbero\Desktop\n10pag51\obj\Debug\n10pag51.exe
+C:\Users\alberto.barbero\Desktop\n10pag51\obj\Debug\n10pag51.pdb

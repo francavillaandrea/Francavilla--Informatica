@@ -1,0 +1,6 @@
+D:\Andrea Superiori\Informatica\C#\Es 38 pag 85\Es 38 pag 85\bin\Debug\Es 38 pag 85.exe.config
+D:\Andrea Superiori\Informatica\C#\Es 38 pag 85\Es 38 pag 85\bin\Debug\Es 38 pag 85.exe
+D:\Andrea Superiori\Informatica\C#\Es 38 pag 85\Es 38 pag 85\bin\Debug\Es 38 pag 85.pdb
+D:\Andrea Superiori\Informatica\C#\Es 38 pag 85\Es 38 pag 85\obj\Debug\Es 38 pag 85.exe
+D:\Andrea Superiori\Informatica\C#\Es 38 pag 85\Es 38 pag 85\obj\Debug\Es 38 pag 85.pdb
+D:\Andrea Superiori\Informatica\C#\Es 38 pag 85\Es 38 pag 85\obj\Debug\Es 38 pag 85.csprojAssemblyReference.cache

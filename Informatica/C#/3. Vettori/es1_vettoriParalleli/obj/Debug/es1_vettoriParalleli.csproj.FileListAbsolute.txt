@@ -1,0 +1,6 @@
+C:\Users\alberto.barbero\Desktop\es1_vettoriParalleli\bin\Debug\es1_vettoriParalleli.exe.config
+C:\Users\alberto.barbero\Desktop\es1_vettoriParalleli\bin\Debug\es1_vettoriParalleli.exe
+C:\Users\alberto.barbero\Desktop\es1_vettoriParalleli\bin\Debug\es1_vettoriParalleli.pdb
+C:\Users\alberto.barbero\Desktop\es1_vettoriParalleli\obj\Debug\es1_vettoriParalleli.exe
+C:\Users\alberto.barbero\Desktop\es1_vettoriParalleli\obj\Debug\es1_vettoriParalleli.pdb
+C:\Users\alberto.barbero\Desktop\es1_vettoriParalleli\obj\Debug\es1_vettoriParalleli.csprojAssemblyReference.cache

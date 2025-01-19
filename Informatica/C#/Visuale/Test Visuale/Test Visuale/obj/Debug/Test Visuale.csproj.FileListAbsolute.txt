@@ -1,0 +1,10 @@
+D:\Andrea Superiori\Informatica\C#\Visuale\Test Visuale\Test Visuale\bin\Debug\Test Visuale.exe.config
+D:\Andrea Superiori\Informatica\C#\Visuale\Test Visuale\Test Visuale\bin\Debug\Test Visuale.exe
+D:\Andrea Superiori\Informatica\C#\Visuale\Test Visuale\Test Visuale\bin\Debug\Test Visuale.pdb
+D:\Andrea Superiori\Informatica\C#\Visuale\Test Visuale\Test Visuale\obj\Debug\Test Visuale.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\Visuale\Test Visuale\Test Visuale\obj\Debug\Test_Visuale.Form1.resources
+D:\Andrea Superiori\Informatica\C#\Visuale\Test Visuale\Test Visuale\obj\Debug\Test_Visuale.Properties.Resources.resources
+D:\Andrea Superiori\Informatica\C#\Visuale\Test Visuale\Test Visuale\obj\Debug\Test Visuale.csproj.GenerateResource.cache
+D:\Andrea Superiori\Informatica\C#\Visuale\Test Visuale\Test Visuale\obj\Debug\Test Visuale.csproj.CoreCompileInputs.cache
+D:\Andrea Superiori\Informatica\C#\Visuale\Test Visuale\Test Visuale\obj\Debug\Test Visuale.exe
+D:\Andrea Superiori\Informatica\C#\Visuale\Test Visuale\Test Visuale\obj\Debug\Test Visuale.pdb

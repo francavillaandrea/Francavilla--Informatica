@@ -1,0 +1,20 @@
+C:\Users\User\OneDrive\Desktop\n 26 p 52\bin\Debug\n 26 p 52.exe.config
+C:\Users\User\OneDrive\Desktop\n 26 p 52\bin\Debug\n 26 p 52.exe
+C:\Users\User\OneDrive\Desktop\n 26 p 52\bin\Debug\n 26 p 52.pdb
+C:\Users\User\OneDrive\Desktop\n 26 p 52\obj\Debug\n 26 p 52.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\n 26 p 52\obj\Debug\n 26 p 52.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\n 26 p 52\obj\Debug\n 26 p 52.exe
+C:\Users\User\OneDrive\Desktop\n 26 p 52\obj\Debug\n 26 p 52.pdb
+D:\Andrea Superiori\Informatica\C#\n 26 p 52\bin\Debug\n 26 p 52.exe.config
+D:\Andrea Superiori\Informatica\C#\n 26 p 52\bin\Debug\n 26 p 52.exe
+D:\Andrea Superiori\Informatica\C#\n 26 p 52\bin\Debug\n 26 p 52.pdb
+D:\Andrea Superiori\Informatica\C#\n 26 p 52\obj\Debug\n 26 p 52.csprojAssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\n 26 p 52\obj\Debug\n 26 p 52.exe
+D:\Andrea Superiori\Informatica\C#\n 26 p 52\obj\Debug\n 26 p 52.pdb
+D:\Andrea Superiori\Informatica\C#\Es 26 Pag 52\bin\Debug\n 26 p 52.exe.config
+D:\Andrea Superiori\Informatica\C#\Es 26 Pag 52\bin\Debug\n 26 p 52.exe
+D:\Andrea Superiori\Informatica\C#\Es 26 Pag 52\bin\Debug\n 26 p 52.pdb
+D:\Andrea Superiori\Informatica\C#\Es 26 Pag 52\obj\Debug\n 26 p 52.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\Es 26 Pag 52\obj\Debug\n 26 p 52.csproj.CoreCompileInputs.cache
+D:\Andrea Superiori\Informatica\C#\Es 26 Pag 52\obj\Debug\n 26 p 52.exe
+D:\Andrea Superiori\Informatica\C#\Es 26 Pag 52\obj\Debug\n 26 p 52.pdb

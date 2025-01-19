@@ -1,0 +1,7 @@
+C:\Users\a.francavilla.3537\Desktop\Francavilla 14.10.24\obj\Debug\Francavilla 14.10.24.csproj.AssemblyReference.cache
+C:\Users\a.francavilla.3537\Desktop\Francavilla 14.10.24\obj\Debug\Francavilla 14.10.24.csproj.CoreCompileInputs.cache
+C:\Users\a.francavilla.3537\Desktop\Francavilla 14.10.24\bin\Debug\Francavilla 14.10.24.exe.config
+C:\Users\a.francavilla.3537\Desktop\Francavilla 14.10.24\bin\Debug\Francavilla 14.10.24.exe
+C:\Users\a.francavilla.3537\Desktop\Francavilla 14.10.24\bin\Debug\Francavilla 14.10.24.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavilla 14.10.24\obj\Debug\Francavilla 14.10.24.exe
+C:\Users\a.francavilla.3537\Desktop\Francavilla 14.10.24\obj\Debug\Francavilla 14.10.24.pdb

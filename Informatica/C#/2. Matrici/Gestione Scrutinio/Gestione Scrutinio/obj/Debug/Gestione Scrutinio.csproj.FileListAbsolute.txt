@@ -1,0 +1,6 @@
+D:\Andrea Superiori\Informatica\C#\Gestione Scrutinio\Gestione Scrutinio\bin\Debug\Gestione Scrutinio.exe.config
+D:\Andrea Superiori\Informatica\C#\Gestione Scrutinio\Gestione Scrutinio\bin\Debug\Gestione Scrutinio.exe
+D:\Andrea Superiori\Informatica\C#\Gestione Scrutinio\Gestione Scrutinio\bin\Debug\Gestione Scrutinio.pdb
+D:\Andrea Superiori\Informatica\C#\Gestione Scrutinio\Gestione Scrutinio\obj\Debug\Gestione Scrutinio.csprojAssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\Gestione Scrutinio\Gestione Scrutinio\obj\Debug\Gestione Scrutinio.exe
+D:\Andrea Superiori\Informatica\C#\Gestione Scrutinio\Gestione Scrutinio\obj\Debug\Gestione Scrutinio.pdb

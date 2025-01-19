@@ -1,0 +1,28 @@
+Stampa Vettore di interi:
+private static void stampaVettore(int[] v, string msg)
+        {
+            Console.WriteLine(msg);
+
+            for (int i = 0; i < v.Length; i++)
+            {
+                Console.Write(v[i] + "  ");
+            }
+
+            Console.WriteLine();
+        }
+Stampa Stringa:
+Vari=metodo(variabile in ingresso);
+Console.WriteLine("Stringa da stampare" + s1 + Vari.ToString());
+
+Stampa Vettore di caratteri:
+private static void stampaVettore(char[] v, string msg)
+        {
+            Console.WriteLine(msg);
+
+            for (int i = 0; i < v.Length; i++)
+            {
+                Console.Write(v[i] + "  ");
+            }
+
+            Console.WriteLine();
+        }

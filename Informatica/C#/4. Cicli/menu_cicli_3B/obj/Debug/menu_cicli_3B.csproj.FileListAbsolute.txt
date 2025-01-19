@@ -1,0 +1,19 @@
+C:\Users\alberto.barbero\Desktop\menu_cicli_3B\bin\Debug\menu_cicli_3B.exe.config
+C:\Users\alberto.barbero\Desktop\menu_cicli_3B\bin\Debug\menu_cicli_3B.exe
+C:\Users\alberto.barbero\Desktop\menu_cicli_3B\bin\Debug\menu_cicli_3B.pdb
+C:\Users\alberto.barbero\Desktop\menu_cicli_3B\obj\Debug\menu_cicli_3B.exe
+C:\Users\alberto.barbero\Desktop\menu_cicli_3B\obj\Debug\menu_cicli_3B.pdb
+C:\Users\alberto.barbero\Desktop\menu_cicli_3B\obj\Debug\menu_cicli_3B.csprojAssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B INF\menu_cicli_3B\bin\Debug\menu_cicli_3B.exe.config
+C:\Users\marco.paschetta\Desktop\3B INF\menu_cicli_3B\bin\Debug\menu_cicli_3B.exe
+C:\Users\marco.paschetta\Desktop\3B INF\menu_cicli_3B\bin\Debug\menu_cicli_3B.pdb
+C:\Users\marco.paschetta\Desktop\3B INF\menu_cicli_3B\obj\Debug\menu_cicli_3B.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B INF\menu_cicli_3B\obj\Debug\menu_cicli_3B.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B INF\menu_cicli_3B\obj\Debug\menu_cicli_3B.exe
+C:\Users\marco.paschetta\Desktop\3B INF\menu_cicli_3B\obj\Debug\menu_cicli_3B.pdb
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\menu_cicli_3B\bin\Debug\menu_cicli_3B.exe.config
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\menu_cicli_3B\bin\Debug\menu_cicli_3B.exe
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\menu_cicli_3B\bin\Debug\menu_cicli_3B.pdb
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\menu_cicli_3B\obj\Debug\menu_cicli_3B.csprojAssemblyReference.cache
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\menu_cicli_3B\obj\Debug\menu_cicli_3B.exe
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\menu_cicli_3B\obj\Debug\menu_cicli_3B.pdb

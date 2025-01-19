@@ -1,0 +1,7 @@
+C:\Users\alberto.barbero\Desktop\n26pag52\bin\Debug\n26pag52.exe.config
+C:\Users\alberto.barbero\Desktop\n26pag52\bin\Debug\n26pag52.exe
+C:\Users\alberto.barbero\Desktop\n26pag52\bin\Debug\n26pag52.pdb
+C:\Users\alberto.barbero\Desktop\n26pag52\obj\Debug\n26pag52.csproj.AssemblyReference.cache
+C:\Users\alberto.barbero\Desktop\n26pag52\obj\Debug\n26pag52.csproj.CoreCompileInputs.cache
+C:\Users\alberto.barbero\Desktop\n26pag52\obj\Debug\n26pag52.exe
+C:\Users\alberto.barbero\Desktop\n26pag52\obj\Debug\n26pag52.pdb

@@ -1,0 +1,8 @@
+E:\Andrea Superiori\Informatica\C#\Es 5 Pag 44\bin\Debug\Es 5 Pag 44.exe.config
+E:\Andrea Superiori\Informatica\C#\Es 5 Pag 44\bin\Debug\Es 5 Pag 44.exe
+E:\Andrea Superiori\Informatica\C#\Es 5 Pag 44\bin\Debug\Es 5 Pag 44.pdb
+E:\Andrea Superiori\Informatica\C#\Es 5 Pag 44\obj\Debug\Es 5 Pag 44.csproj.AssemblyReference.cache
+E:\Andrea Superiori\Informatica\C#\Es 5 Pag 44\obj\Debug\Es 5 Pag 44.csproj.SuggestedBindingRedirects.cache
+E:\Andrea Superiori\Informatica\C#\Es 5 Pag 44\obj\Debug\Es 5 Pag 44.csproj.CoreCompileInputs.cache
+E:\Andrea Superiori\Informatica\C#\Es 5 Pag 44\obj\Debug\Es 5 Pag 44.exe
+E:\Andrea Superiori\Informatica\C#\Es 5 Pag 44\obj\Debug\Es 5 Pag 44.pdb

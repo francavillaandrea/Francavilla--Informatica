@@ -1,0 +1,12 @@
+C:\Users\alberto.barbero\Desktop\Forza4\bin\Debug\Forza4.exe.config
+C:\Users\alberto.barbero\Desktop\Forza4\bin\Debug\Forza4.exe
+C:\Users\alberto.barbero\Desktop\Forza4\bin\Debug\Forza4.pdb
+C:\Users\alberto.barbero\Desktop\Forza4\obj\Debug\Forza4.csprojAssemblyReference.cache
+C:\Users\alberto.barbero\Desktop\Forza4\obj\Debug\Forza4.exe
+C:\Users\alberto.barbero\Desktop\Forza4\obj\Debug\Forza4.pdb
+D:\Andrea Superiori\Informatica\C#\Forza4\bin\Debug\Forza4.exe.config
+D:\Andrea Superiori\Informatica\C#\Forza4\bin\Debug\Forza4.exe
+D:\Andrea Superiori\Informatica\C#\Forza4\bin\Debug\Forza4.pdb
+D:\Andrea Superiori\Informatica\C#\Forza4\obj\Debug\Forza4.exe
+D:\Andrea Superiori\Informatica\C#\Forza4\obj\Debug\Forza4.pdb
+D:\Andrea Superiori\Informatica\C#\Forza4\obj\Debug\Forza4.csprojAssemblyReference.cache

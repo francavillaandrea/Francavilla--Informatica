@@ -1,0 +1,13 @@
+C:\Users\marco.paschetta\Desktop\3B INF\IndovinaCombinazione\bin\Debug\IndovinaCombinazione.exe.config
+C:\Users\marco.paschetta\Desktop\3B INF\IndovinaCombinazione\bin\Debug\IndovinaCombinazione.exe
+C:\Users\marco.paschetta\Desktop\3B INF\IndovinaCombinazione\bin\Debug\IndovinaCombinazione.pdb
+C:\Users\marco.paschetta\Desktop\3B INF\IndovinaCombinazione\obj\Debug\IndovinaCombinazione.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B INF\IndovinaCombinazione\obj\Debug\IndovinaCombinazione.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B INF\IndovinaCombinazione\obj\Debug\IndovinaCombinazione.exe
+C:\Users\marco.paschetta\Desktop\3B INF\IndovinaCombinazione\obj\Debug\IndovinaCombinazione.pdb
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\IndovinaCombinazione\bin\Debug\IndovinaCombinazione.exe.config
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\IndovinaCombinazione\bin\Debug\IndovinaCombinazione.exe
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\IndovinaCombinazione\bin\Debug\IndovinaCombinazione.pdb
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\IndovinaCombinazione\obj\Debug\IndovinaCombinazione.csprojAssemblyReference.cache
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\IndovinaCombinazione\obj\Debug\IndovinaCombinazione.exe
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\IndovinaCombinazione\obj\Debug\IndovinaCombinazione.pdb

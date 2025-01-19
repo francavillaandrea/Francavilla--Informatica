@@ -1,0 +1,6 @@
+D:\Andrea Superiori\Informatica\C#\EseMatrici\EseMatrici\bin\Debug\EseMatrici.exe.config
+D:\Andrea Superiori\Informatica\C#\EseMatrici\EseMatrici\bin\Debug\EseMatrici.exe
+D:\Andrea Superiori\Informatica\C#\EseMatrici\EseMatrici\bin\Debug\EseMatrici.pdb
+D:\Andrea Superiori\Informatica\C#\EseMatrici\EseMatrici\obj\Debug\EseMatrici.csprojAssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\EseMatrici\EseMatrici\obj\Debug\EseMatrici.exe
+D:\Andrea Superiori\Informatica\C#\EseMatrici\EseMatrici\obj\Debug\EseMatrici.pdb

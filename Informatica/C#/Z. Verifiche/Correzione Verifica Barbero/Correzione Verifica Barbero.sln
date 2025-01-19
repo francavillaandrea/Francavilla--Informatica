@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Correzione Verifica Barbero", "Correzione Verifica Barbero.csproj", "{CF17C6FB-5402-4DD3-9C58-5DB3A4926F94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF17C6FB-5402-4DD3-9C58-5DB3A4926F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF17C6FB-5402-4DD3-9C58-5DB3A4926F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF17C6FB-5402-4DD3-9C58-5DB3A4926F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF17C6FB-5402-4DD3-9C58-5DB3A4926F94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F7C30D3-3F80-4758-869C-908715B2C174}
+	EndGlobalSection
+EndGlobal

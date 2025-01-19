@@ -1,0 +1,7 @@
+D:\Andrea Superiori\Informatica\C#\es 21 pag 52 bis\bin\Debug\es 21 pag 52 bis.exe.config
+D:\Andrea Superiori\Informatica\C#\es 21 pag 52 bis\bin\Debug\es 21 pag 52 bis.exe
+D:\Andrea Superiori\Informatica\C#\es 21 pag 52 bis\bin\Debug\es 21 pag 52 bis.pdb
+D:\Andrea Superiori\Informatica\C#\es 21 pag 52 bis\obj\Debug\es 21 pag 52 bis.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\es 21 pag 52 bis\obj\Debug\es 21 pag 52 bis.csproj.CoreCompileInputs.cache
+D:\Andrea Superiori\Informatica\C#\es 21 pag 52 bis\obj\Debug\es 21 pag 52 bis.exe
+D:\Andrea Superiori\Informatica\C#\es 21 pag 52 bis\obj\Debug\es 21 pag 52 bis.pdb

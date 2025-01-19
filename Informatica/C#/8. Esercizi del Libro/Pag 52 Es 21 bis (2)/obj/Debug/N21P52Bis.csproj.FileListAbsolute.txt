@@ -1,0 +1,7 @@
+C:\Users\marco.paschetta\Desktop\3B INF\N21P52Bis\bin\Debug\N21P52Bis.exe.config
+C:\Users\marco.paschetta\Desktop\3B INF\N21P52Bis\bin\Debug\N21P52Bis.exe
+C:\Users\marco.paschetta\Desktop\3B INF\N21P52Bis\bin\Debug\N21P52Bis.pdb
+C:\Users\marco.paschetta\Desktop\3B INF\N21P52Bis\obj\Debug\N21P52Bis.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B INF\N21P52Bis\obj\Debug\N21P52Bis.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B INF\N21P52Bis\obj\Debug\N21P52Bis.exe
+C:\Users\marco.paschetta\Desktop\3B INF\N21P52Bis\obj\Debug\N21P52Bis.pdb

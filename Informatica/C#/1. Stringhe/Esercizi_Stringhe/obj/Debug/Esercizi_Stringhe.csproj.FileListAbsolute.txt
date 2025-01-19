@@ -1,0 +1,7 @@
+C:\Users\marco.paschetta\Desktop\3B INF\Esercizi_Stringhe\bin\Debug\Esercizi_Stringhe.exe.config
+C:\Users\marco.paschetta\Desktop\3B INF\Esercizi_Stringhe\bin\Debug\Esercizi_Stringhe.exe
+C:\Users\marco.paschetta\Desktop\3B INF\Esercizi_Stringhe\bin\Debug\Esercizi_Stringhe.pdb
+C:\Users\marco.paschetta\Desktop\3B INF\Esercizi_Stringhe\obj\Debug\Esercizi_Stringhe.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B INF\Esercizi_Stringhe\obj\Debug\Esercizi_Stringhe.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B INF\Esercizi_Stringhe\obj\Debug\Esercizi_Stringhe.exe
+C:\Users\marco.paschetta\Desktop\3B INF\Esercizi_Stringhe\obj\Debug\Esercizi_Stringhe.pdb

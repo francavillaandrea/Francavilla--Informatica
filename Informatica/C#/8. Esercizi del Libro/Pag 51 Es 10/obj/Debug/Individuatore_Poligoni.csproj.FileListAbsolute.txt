@@ -1,0 +1,8 @@
+E:\Andrea Superiori\Informatica\C#\Individuatore_Poligoni\bin\Debug\Individuatore_Poligoni.exe.config
+E:\Andrea Superiori\Informatica\C#\Individuatore_Poligoni\bin\Debug\Individuatore_Poligoni.exe
+E:\Andrea Superiori\Informatica\C#\Individuatore_Poligoni\bin\Debug\Individuatore_Poligoni.pdb
+E:\Andrea Superiori\Informatica\C#\Individuatore_Poligoni\obj\Debug\Individuatore_Poligoni.csproj.AssemblyReference.cache
+E:\Andrea Superiori\Informatica\C#\Individuatore_Poligoni\obj\Debug\Individuatore_Poligoni.csproj.SuggestedBindingRedirects.cache
+E:\Andrea Superiori\Informatica\C#\Individuatore_Poligoni\obj\Debug\Individuatore_Poligoni.csproj.CoreCompileInputs.cache
+E:\Andrea Superiori\Informatica\C#\Individuatore_Poligoni\obj\Debug\Individuatore_Poligoni.exe
+E:\Andrea Superiori\Informatica\C#\Individuatore_Poligoni\obj\Debug\Individuatore_Poligoni.pdb

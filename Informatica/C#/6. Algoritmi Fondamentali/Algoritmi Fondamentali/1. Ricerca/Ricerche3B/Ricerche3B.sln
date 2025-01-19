@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ricerche3B", "Ricerche3B.csproj", "{1567EB7A-1471-4F83-8A3D-9E8F89DD0286}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1567EB7A-1471-4F83-8A3D-9E8F89DD0286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1567EB7A-1471-4F83-8A3D-9E8F89DD0286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1567EB7A-1471-4F83-8A3D-9E8F89DD0286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1567EB7A-1471-4F83-8A3D-9E8F89DD0286}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A319D55C-EC21-4541-B343-D203BFB1EF24}
+	EndGlobalSection
+EndGlobal

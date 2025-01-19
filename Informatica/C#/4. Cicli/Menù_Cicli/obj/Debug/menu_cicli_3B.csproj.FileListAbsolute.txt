@@ -1,0 +1,27 @@
+C:\Users\alberto.barbero\Desktop\menu_cicli_3B\bin\Debug\menu_cicli_3B.exe.config
+C:\Users\alberto.barbero\Desktop\menu_cicli_3B\bin\Debug\menu_cicli_3B.exe
+C:\Users\alberto.barbero\Desktop\menu_cicli_3B\bin\Debug\menu_cicli_3B.pdb
+C:\Users\alberto.barbero\Desktop\menu_cicli_3B\obj\Debug\menu_cicli_3B.exe
+C:\Users\alberto.barbero\Desktop\menu_cicli_3B\obj\Debug\menu_cicli_3B.pdb
+C:\Users\alberto.barbero\Desktop\menu_cicli_3B\obj\Debug\menu_cicli_3B.csprojAssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B INF\menu_cicli_3B\bin\Debug\menu_cicli_3B.exe.config
+C:\Users\marco.paschetta\Desktop\3B INF\menu_cicli_3B\bin\Debug\menu_cicli_3B.exe
+C:\Users\marco.paschetta\Desktop\3B INF\menu_cicli_3B\bin\Debug\menu_cicli_3B.pdb
+C:\Users\marco.paschetta\Desktop\3B INF\menu_cicli_3B\obj\Debug\menu_cicli_3B.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B INF\menu_cicli_3B\obj\Debug\menu_cicli_3B.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B INF\menu_cicli_3B\obj\Debug\menu_cicli_3B.exe
+C:\Users\marco.paschetta\Desktop\3B INF\menu_cicli_3B\obj\Debug\menu_cicli_3B.pdb
+D:\Andrea Superiori\Informatica\C#\menu_cicli_3B\obj\Debug\menu_cicli_3B.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\menu_cicli_3B\obj\Debug\menu_cicli_3B.csproj.CoreCompileInputs.cache
+D:\Andrea Superiori\Informatica\C#\menu_cicli_3B\obj\Debug\menu_cicli_3B.exe
+D:\Andrea Superiori\Informatica\C#\menu_cicli_3B\obj\Debug\menu_cicli_3B.pdb
+D:\Andrea Superiori\Informatica\C#\menu_cicli_3B\bin\Debug\menu_cicli_3B.exe.config
+D:\Andrea Superiori\Informatica\C#\menu_cicli_3B\bin\Debug\menu_cicli_3B.exe
+D:\Andrea Superiori\Informatica\C#\menu_cicli_3B\bin\Debug\menu_cicli_3B.pdb
+D:\Andrea Superiori\Informatica\C#\Menù_Cicli\bin\Debug\menu_cicli_3B.exe.config
+D:\Andrea Superiori\Informatica\C#\Menù_Cicli\bin\Debug\menu_cicli_3B.exe
+D:\Andrea Superiori\Informatica\C#\Menù_Cicli\bin\Debug\menu_cicli_3B.pdb
+D:\Andrea Superiori\Informatica\C#\Menù_Cicli\obj\Debug\menu_cicli_3B.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\Menù_Cicli\obj\Debug\menu_cicli_3B.csproj.CoreCompileInputs.cache
+D:\Andrea Superiori\Informatica\C#\Menù_Cicli\obj\Debug\menu_cicli_3B.exe
+D:\Andrea Superiori\Informatica\C#\Menù_Cicli\obj\Debug\menu_cicli_3B.pdb

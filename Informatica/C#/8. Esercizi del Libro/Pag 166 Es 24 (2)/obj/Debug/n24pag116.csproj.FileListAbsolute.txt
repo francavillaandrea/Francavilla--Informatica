@@ -1,0 +1,13 @@
+C:\Users\alberto.barbero\Desktop\n24pag116\bin\Debug\n24pag116.exe.config
+C:\Users\alberto.barbero\Desktop\n24pag116\bin\Debug\n24pag116.exe
+C:\Users\alberto.barbero\Desktop\n24pag116\bin\Debug\n24pag116.pdb
+C:\Users\alberto.barbero\Desktop\n24pag116\obj\Debug\n24pag116.csprojAssemblyReference.cache
+C:\Users\alberto.barbero\Desktop\n24pag116\obj\Debug\n24pag116.exe
+C:\Users\alberto.barbero\Desktop\n24pag116\obj\Debug\n24pag116.pdb
+D:\Andrea Superiori\Informatica\C#\n24pag116\bin\Debug\n24pag116.exe.config
+D:\Andrea Superiori\Informatica\C#\n24pag116\bin\Debug\n24pag116.exe
+D:\Andrea Superiori\Informatica\C#\n24pag116\bin\Debug\n24pag116.pdb
+D:\Andrea Superiori\Informatica\C#\n24pag116\obj\Debug\n24pag116.csproj.AssemblyReference.cache
+D:\Andrea Superiori\Informatica\C#\n24pag116\obj\Debug\n24pag116.csproj.CoreCompileInputs.cache
+D:\Andrea Superiori\Informatica\C#\n24pag116\obj\Debug\n24pag116.exe
+D:\Andrea Superiori\Informatica\C#\n24pag116\obj\Debug\n24pag116.pdb

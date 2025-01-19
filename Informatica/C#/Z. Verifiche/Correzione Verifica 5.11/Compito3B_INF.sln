@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compito3B_INF", "Compito3B_INF.csproj", "{3EF4FECE-7250-4365-9365-4FBC1D222F11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EF4FECE-7250-4365-9365-4FBC1D222F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF4FECE-7250-4365-9365-4FBC1D222F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF4FECE-7250-4365-9365-4FBC1D222F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF4FECE-7250-4365-9365-4FBC1D222F11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A313751A-F824-4A0F-9173-545CFDB9B173}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Andrea Superiori\\Informatica\\C#\\2. Matrici\\Preparazione Verifica Matrici\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{640374E0-6711-4791-954F-1A5752AE88F9}|Preparazione Verifica Matrici\\Preparazione Verifica Matrici.csproj|d:\\andrea superiori\\informatica\\c#\\2. matrici\\preparazione verifica matrici\\preparazione verifica matrici\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{640374E0-6711-4791-954F-1A5752AE88F9}|Preparazione Verifica Matrici\\Preparazione Verifica Matrici.csproj|solutionrelative:preparazione verifica matrici\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{640374E0-6711-4791-954F-1A5752AE88F9}|Preparazione Verifica Matrici\\Preparazione Verifica Matrici.csproj|D:\\Andrea Superiori\\Informatica\\C#\\2. Matrici\\Preparazione Verifica Matrici\\preparazione verifica matrici\\clsmatrici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{640374E0-6711-4791-954F-1A5752AE88F9}|Preparazione Verifica Matrici\\Preparazione Verifica Matrici.csproj|solutionrelative:preparazione verifica matrici\\clsmatrici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClsMatrici.cs",
+              "DocumentMoniker": "D:\\Andrea Superiori\\Informatica\\C#\\2. Matrici\\Preparazione Verifica Matrici\\Preparazione Verifica Matrici\\ClsMatrici.cs",
+              "RelativeDocumentMoniker": "Preparazione Verifica Matrici\\ClsMatrici.cs",
+              "ToolTip": "D:\\Andrea Superiori\\Informatica\\C#\\2. Matrici\\Preparazione Verifica Matrici\\Preparazione Verifica Matrici\\ClsMatrici.cs",
+              "RelativeToolTip": "Preparazione Verifica Matrici\\ClsMatrici.cs",
+              "ViewState": "AgIAANkBAAAAAAAAAAAjwO8BAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T15:08:16.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Andrea Superiori\\Informatica\\C#\\2. Matrici\\Preparazione Verifica Matrici\\Preparazione Verifica Matrici\\Program.cs",
+              "RelativeDocumentMoniker": "Preparazione Verifica Matrici\\Program.cs",
+              "ToolTip": "D:\\Andrea Superiori\\Informatica\\C#\\2. Matrici\\Preparazione Verifica Matrici\\Preparazione Verifica Matrici\\Program.cs",
+              "RelativeToolTip": "Preparazione Verifica Matrici\\Program.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAgwHEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T15:04:04.725Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
