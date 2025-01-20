@@ -1,0 +1,10 @@
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\Numero Alto-Basso\Numero Alto-Basso\bin\Debug\Numero Alto-Basso.exe.config
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\Numero Alto-Basso\Numero Alto-Basso\bin\Debug\Numero Alto-Basso.exe
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\Numero Alto-Basso\Numero Alto-Basso\bin\Debug\Numero Alto-Basso.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\Numero Alto-Basso\Numero Alto-Basso\obj\Debug\Numero Alto-Basso.csproj.AssemblyReference.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\Numero Alto-Basso\Numero Alto-Basso\obj\Debug\Numero_Alto_Basso.FrmMain.resources
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\Numero Alto-Basso\Numero Alto-Basso\obj\Debug\Numero_Alto_Basso.Properties.Resources.resources
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\Numero Alto-Basso\Numero Alto-Basso\obj\Debug\Numero Alto-Basso.csproj.GenerateResource.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\Numero Alto-Basso\Numero Alto-Basso\obj\Debug\Numero Alto-Basso.csproj.CoreCompileInputs.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\Numero Alto-Basso\Numero Alto-Basso\obj\Debug\Numero Alto-Basso.exe
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\Numero Alto-Basso\Numero Alto-Basso\obj\Debug\Numero Alto-Basso.pdb

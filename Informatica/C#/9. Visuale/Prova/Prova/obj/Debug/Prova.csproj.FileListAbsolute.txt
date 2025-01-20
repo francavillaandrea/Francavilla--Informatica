@@ -1,0 +1,10 @@
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\Prova\Prova\obj\Debug\Prova.csproj.AssemblyReference.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\Prova\Prova\obj\Debug\Prova.FrmMain.resources
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\Prova\Prova\obj\Debug\Prova.Properties.Resources.resources
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\Prova\Prova\obj\Debug\Prova.csproj.GenerateResource.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\Prova\Prova\obj\Debug\Prova.csproj.CoreCompileInputs.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\Prova\Prova\bin\Debug\Prova.exe.config
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\Prova\Prova\bin\Debug\Prova.exe
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\Prova\Prova\bin\Debug\Prova.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\Prova\Prova\obj\Debug\Prova.exe
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\Prova\Prova\obj\Debug\Prova.pdb

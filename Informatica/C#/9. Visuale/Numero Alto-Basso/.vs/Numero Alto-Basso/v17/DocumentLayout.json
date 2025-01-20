@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\Informatica\\C#\\9. Visuale\\Numero Alto-Basso\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFCF418-BEE4-44E7-A25B-FA873B9590E1}|Numero Alto-Basso\\Numero Alto-Basso.csproj|c:\\users\\a.francavilla.3537\\desktop\\francavillaandrea\\informatica\\c#\\9. visuale\\numero alto-basso\\numero alto-basso\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFCF418-BEE4-44E7-A25B-FA873B9590E1}|Numero Alto-Basso\\Numero Alto-Basso.csproj|solutionrelative:numero alto-basso\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFCF418-BEE4-44E7-A25B-FA873B9590E1}|Numero Alto-Basso\\Numero Alto-Basso.csproj|c:\\users\\a.francavilla.3537\\desktop\\francavillaandrea\\informatica\\c#\\9. visuale\\numero alto-basso\\numero alto-basso\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CCFCF418-BEE4-44E7-A25B-FA873B9590E1}|Numero Alto-Basso\\Numero Alto-Basso.csproj|solutionrelative:numero alto-basso\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFCF418-BEE4-44E7-A25B-FA873B9590E1}|Numero Alto-Basso\\Numero Alto-Basso.csproj|c:\\users\\a.francavilla.3537\\desktop\\francavillaandrea\\informatica\\c#\\9. visuale\\numero alto-basso\\numero alto-basso\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFCF418-BEE4-44E7-A25B-FA873B9590E1}|Numero Alto-Basso\\Numero Alto-Basso.csproj|solutionrelative:numero alto-basso\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmMain.cs",
+              "DocumentMoniker": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\Informatica\\C#\\9. Visuale\\Numero Alto-Basso\\Numero Alto-Basso\\FrmMain.cs",
+              "RelativeDocumentMoniker": "Numero Alto-Basso\\FrmMain.cs",
+              "ToolTip": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\Informatica\\C#\\9. Visuale\\Numero Alto-Basso\\Numero Alto-Basso\\FrmMain.cs",
+              "RelativeToolTip": "Numero Alto-Basso\\FrmMain.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAcwCQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T07:54:35.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmMain.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\Informatica\\C#\\9. Visuale\\Numero Alto-Basso\\Numero Alto-Basso\\FrmMain.Designer.cs",
+              "RelativeDocumentMoniker": "Numero Alto-Basso\\FrmMain.Designer.cs",
+              "ToolTip": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\Informatica\\C#\\9. Visuale\\Numero Alto-Basso\\Numero Alto-Basso\\FrmMain.Designer.cs",
+              "RelativeToolTip": "Numero Alto-Basso\\FrmMain.Designer.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAWwFUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T07:54:03.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmMain.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\Informatica\\C#\\9. Visuale\\Numero Alto-Basso\\Numero Alto-Basso\\FrmMain.cs",
+              "RelativeDocumentMoniker": "Numero Alto-Basso\\FrmMain.cs",
+              "ToolTip": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\Informatica\\C#\\9. Visuale\\Numero Alto-Basso\\Numero Alto-Basso\\FrmMain.cs [Progettazione]",
+              "RelativeToolTip": "Numero Alto-Basso\\FrmMain.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T07:50:07.874Z",
+              "EditorCaption": " [Progettazione]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
