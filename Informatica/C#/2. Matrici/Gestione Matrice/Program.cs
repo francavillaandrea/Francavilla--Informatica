@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace gestioneMatrice3B
 {
@@ -24,10 +28,10 @@ namespace gestioneMatrice3B
             caricaMatrice(b);
             stampaMatrice(b, "Matrice B rettangolare");
             //Console.WriteLine("La media degli elementi della matrice A è: " +
-            //mediaMatrice(a).ToString("F2"));
+            //    mediaMatrice(a).ToString("F2"));
             //Console.ReadKey();
             //Console.WriteLine("La media degli elementi della matrice B è: " +
-            //mediaMatrice(b).ToString("F2"));
+            //    mediaMatrice(b).ToString("F2"));
             //Console.ReadKey();
             //if (mediaMatrice(a) == mediaMatrice(b))
             //    Console.WriteLine("MEDIE ==");
@@ -35,24 +39,24 @@ namespace gestioneMatrice3B
             //    Console.WriteLine("MEDIE !=");
             //Console.ReadKey();
             //Console.WriteLine("L'elemento massimo della matrice è: " +
-            //maxMatrice(b).ToString());
+            //   maxMatrice(b).ToString());
             //Console.ReadKey();
             //Console.WriteLine("La somma della diagonale principale è: " +
-            //sommaDP(a).ToString());
+            //   sommaDP(a).ToString());
             //Console.ReadKey();
             //Console.WriteLine("La somma della diagonale secondaria è: " +
-            //sommaDS(a).ToString());
+            //   sommaDS(a).ToString());
             //Console.ReadKey();
             //Console.WriteLine("La somma della cornice esterna è: " +
-            //sommaCornice(a).ToString());
+            //   sommaCornice(a).ToString());
             //Console.WriteLine("La somma della riga i-esima è: " +
-            //sommaRigaI(b).ToString());
+            //   sommaRigaI(b).ToString());
             //Console.ReadKey();
             //Console.WriteLine("La somma della colonna j-esima è: " +
-            //sommaColonnaJ(b).ToString());
+            //   sommaColonnaJ(b).ToString());
             //Console.ReadKey();
             //Console.WriteLine("Il valore compare: " +
-            //contaX(b).ToString());
+            //   contaX(b).ToString());
             //Console.ReadKey();
             //if (sommaRigaI(a) == sommaColonnaJ(a))
             //    Console.WriteLine("SOMME ==");
@@ -70,31 +74,131 @@ namespace gestioneMatrice3B
             //matriceConCroce(a);
             //matriceConPrimaUltimaRigaDi1(b);
             //sommaElementiSopraDP(a);
+            //Console.ReadKey();
             //sommaElementiSottoDP(a);
+            //Console.ReadKey();
             //ricercaXTriangoloSopraDP(a);
+            //Console.ReadKey();
             //ricercaXTriangoloSottoDP(a);
+            //Console.ReadKey();
             //tuttiUgualiSottoDP(a);
-            //tuttiUgualiSopraDP(a);
+            //Console.ReadKey();
             //sommaElementiSottoDS(a);
+            //Console.ReadKey();
+            //verificareSeSottoDSsolo0(a);
+            //Console.ReadKey();
             //sommaElementiSopraDS(a);
-            //sottoDSsolo0(a);
-            sopraDSsolo0(a);
+            //Console.ReadKey();
+            //verificareSeSopraDSsolo0(a);
+            //Console.ReadKey();
+            //verificareSeSopraDpsolo0(a);
+            //Console.ReadKey();
+            //int[,] d = { {1, 2, 3 },{4, 5, 6 },{7, 8, 9 } };
+            //stampaMatrice(d, "Matrice con sequenza");
+            //verificareSeSottoDPOrdinati(d);
+            //Console.ReadKey();
+            int[,] e = { { 5, 7, 12 }, { 7, 2, 8 }, { 12, 8, 3 } };
+            matriceSimmetrica(e);
+            stampaMatrice(e, "Matrice simmetrica");
             Console.ReadKey();
         }
 
-        private static void sopraDSsolo0(int[,] m)
+        private static void matriceSimmetrica(int[,] m)
         {
+            int i = 1, j = 0;
+            bool esci = false;
+            int r = m.GetLength(0);
 
+            while (!esci && i <= r - 1)
+            {
+                if (m[i, j] != m[j, i])
+                    esci = true;
+                else
+                {
+                    if (j == i - 1)
+                    {
+                        i++;
+                        j = 0;
+                    }
+                    else
+                        j++;
+                }
+            }
+            if (esci)
+                Console.WriteLine("Matrce NON simmetrica");
+            else
+                Console.WriteLine("Matrice simmetrica");
+        }
+
+        private static void verificareSeSottoDPOrdinati(int[,] m)
+        {
+            int i = 1, j = 0;
+            bool esci = false;
+            int r = m.GetLength(0);
+            int prec = m[1, 0];
+
+            while (!esci && i <= r - 1)
+            {
+                if (m[i, j] < prec)
+                    esci = true;
+                else
+                {
+                    prec = m[i, j];
+                    if (j == i - 1)
+                    {
+                        i++;
+                        j = 0;
+                    }
+                    else
+                        j++;
+                }
+            }
+            if (esci)
+                Console.WriteLine("Non ordinati sotto DP");
+            else
+                Console.WriteLine("Tutti ordinati sotto DP");
+        }
+
+        private static void verificareSeSopraDpsolo0(int[,] m)
+        {
+            int i = 0, j = 1;
+            bool esci = false;
+            int r = m.GetLength(0);
+
+            while (!esci && i <= r - 2)
+            {
+                if (m[i, j] != 0)
+                    esci = true;
+                else
+                {
+                    if (j == r - 1)
+                    {
+                        i++;
+                        j = i + 1;
+                    }
+                    else
+                        j++;
+                }
+            }
+            if (esci)
+                Console.WriteLine("Non tutti 0");
+            else
+                Console.WriteLine("Tutti 0");
+        }
+
+        private static void verificareSeSopraDSsolo0(int[,] m)
+        {
+            //verificare se nel triangolo sopra la DS 
+            //ci sono solo 0
             bool esci = false;
             int r = m.GetLength(0);
             int i = 0;
             int j = 0;
+
             while (!esci && i <= r - 2)
             {
                 if (m[i, j] != 0)
-                {
                     esci = true;
-                }
                 else
                 {
                     if (j == r - 2 - i)
@@ -106,97 +210,70 @@ namespace gestioneMatrice3B
                         j++;
                 }
             }
-            if (!esci)
-            {
-                Console.WriteLine("tutti 0");
-            }
+            if (esci)
+                Console.WriteLine("Valori sopra la DS diversi da 0");
             else
-                Console.WriteLine("Elementi != 0");
+                Console.WriteLine("Valori sopra la DS == a 0");
         }
 
         private static void sommaElementiSopraDS(int[,] m)
         {
             int somma = 0;
             int r = m.GetLength(0);
-            for (int i = 0; i < r - 2; i++)
-                for (int j = 0; j < r - 2 - i; j++)
+
+            for (int i = 0; i <= r - 2; i++)
+                for (int j = 0; j <= r - 2 - i; j++)
                     somma += m[i, j];
-            Console.WriteLine("la somma degli elementi " + " sopra la DS è:" + somma.ToString());
+            Console.WriteLine("La somma degli elementi " +
+                "sopra la DS è: " + somma.ToString());
         }
 
-        private static void sottoDSsolo0(int[,] m)
+        private static void verificareSeSottoDSsolo0(int[,] m)
         {
+            //verificare se nel triangolo sotto la DS 
+            //ci sono solo 0
             bool esci = false;
             int r = m.GetLength(0);
             int i = 1;
             int j = r - i;
+
             while (!esci && i <= r - 1)
             {
-                if (m[i,j] != 0)
-                {
+                if (m[i, j] != 0)
                     esci = true;
-                }
                 else
                 {
                     if (j == r - 1)
                     {
                         i++;
-                        j = r - 1;
-                    }
-                    else
-                        j++;
-                }
-            }
-            if(!esci)
-            {
-                Console.WriteLine("tutti 0");
-            }
-            else
-                Console.WriteLine("Elementi != 0");
-
-        }
-
-        private static void sommaElementiSottoDS(int[,] m)
-        {
-            int somma = 0;
-            int r = m.GetLength(0); 
-            for (int i = 0; i < r-1; i++)
-                for(int j = r-i; j < r-1;j++)
-                    somma += m[i,j];
-            Console.WriteLine("la somma degli elementi "+ " sotto la DS è:" + somma.ToString());
-        }
-
-        private static void tuttiUgualiSopraDP(int[,] m)
-        {
-            bool esci = false;
-            int i = 1;
-            int j = 0;
-            int r = m.GetLength(0);
-            int x = m[i, j];
-            while (!esci && i <= r - 2)
-            {
-                if (m[i, j] != x)
-                    esci = true;
-                else
-                {
-                    if (j == i - 1)
-                    {
-                        i++;
-                        j = 1;
+                        j = r - i;
                     }
                     else
                         j++;
                 }
             }
             if (esci)
-                Console.WriteLine("Valore diversi sotto la DP");
+                Console.WriteLine("Valori sotto la DS diversi da 0");
             else
-                Console.WriteLine("Valori uguali sotto la DP");
+                Console.WriteLine("Valori sotto la DS == a 0");
+        }
 
+        private static void sommaElementiSottoDS(int[,] m)
+        {
+            int somma = 0;
+            int r = m.GetLength(0);
+
+            for (int i = 1; i <= r - 1; i++)
+                for (int j = r - i; j <= r - 1; j++)
+                    somma += m[i, j];
+            Console.WriteLine("La somma degli elelemti " +
+                "sotto la DS è: " + somma.ToString());
         }
 
         private static void tuttiUgualiSottoDP(int[,] m)
         {
+            //solo sul triangolo inferiore rispetto alla DP
+            //di una matrice quadrata
             bool esci = false;
             int i = 1;
             int j = 0;
@@ -218,7 +295,7 @@ namespace gestioneMatrice3B
                 }
             }
             if (esci)
-                Console.WriteLine("Valore diversi sotto la DP");
+                Console.WriteLine("Valori diversi sotto la DP");
             else
                 Console.WriteLine("Valori uguali sotto la DP");
         }
@@ -241,7 +318,7 @@ namespace gestioneMatrice3B
                     if (j == i - 1)
                     {
                         i++;
-                        j = i + 1;
+                        j = 0;
                     }
                     else
                         j++;
@@ -295,7 +372,8 @@ namespace gestioneMatrice3B
             for (int i = 1; i <= r - 1; i++)
                 for (int j = 0; j <= i - 1; j++)
                     somma += m[i, j];
-            Console.WriteLine("La somma dei valori sotto DP è: " + somma.ToString());
+            Console.WriteLine("La somma dei valori sotto DP è: "
+                + somma.ToString());
         }
 
         private static void sommaElementiSopraDP(int[,] m)
@@ -308,7 +386,8 @@ namespace gestioneMatrice3B
             for (int i = 0; i <= r - 2; i++)
                 for (int j = i + 1; j <= r - 1; j++)
                     somma += m[i, j];
-            Console.WriteLine("La somma dei valori sopra DP è: " + somma.ToString());
+            Console.WriteLine("La somma dei valori sopra DP è: "
+                + somma.ToString());
         }
 
         private static void matriceConPrimaUltimaRigaDi1(int[,] m)
@@ -491,7 +570,7 @@ namespace gestioneMatrice3B
 
             for (int i = 0; i < m.GetLength(0); i++) //ottengo numero righe
                 for (int j = 0; j < m.GetLength(1); j++) //ottengo numero colonne
-                    m[i, j] = rnd.Next(0, 2);
+                    m[i, j] = rnd.Next(0, 1);
         }
         private static void stampaMatrice(int[,] m, string msg)
         {
@@ -593,5 +672,11 @@ namespace gestioneMatrice3B
                         massimo = m[i, j];
             return massimo;
         }
+
+
+
+
+
+
     }
 }
