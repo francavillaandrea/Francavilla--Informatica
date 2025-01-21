@@ -1,0 +1,10 @@
+git init
+git add .
+git commit -m "commit"
+git remote add origin https://github.com/francavillaandrea/Francavillaandrea.git
+git push -u origin master
+
+
+
+---- In caso si dovesse rimuovere un origin digita 
+git remote rm origin 
