@@ -11,3 +11,10 @@ D:\Andrea Superiori\Informatica\C#\Gestione Matrice\obj\Debug\gestioneMatrice3B.
 D:\Andrea Superiori\Informatica\C#\Gestione Matrice\obj\Debug\gestioneMatrice3B.csproj.CoreCompileInputs.cache
 D:\Andrea Superiori\Informatica\C#\Gestione Matrice\obj\Debug\gestioneMatrice3B.exe
 D:\Andrea Superiori\Informatica\C#\Gestione Matrice\obj\Debug\gestioneMatrice3B.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\2. Matrici\Gestione Matrice\obj\Debug\gestioneMatrice3B.csproj.AssemblyReference.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\2. Matrici\Gestione Matrice\obj\Debug\gestioneMatrice3B.csproj.CoreCompileInputs.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\2. Matrici\Gestione Matrice\obj\Debug\gestioneMatrice3B.exe
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\2. Matrici\Gestione Matrice\obj\Debug\gestioneMatrice3B.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\2. Matrici\Gestione Matrice\bin\Debug\gestioneMatrice3B.exe.config
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\2. Matrici\Gestione Matrice\bin\Debug\gestioneMatrice3B.exe
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\2. Matrici\Gestione Matrice\bin\Debug\gestioneMatrice3B.pdb

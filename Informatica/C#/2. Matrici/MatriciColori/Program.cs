@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MatriciColori
 {
@@ -67,7 +63,7 @@ namespace MatriciColori
                         ClsMatrice.caricaMatrice(m, 1, 99);
                         ClsMatrice.stampaScacchiera(m, "Stampa matrice quadrata e colora a scacchiera");
                         break;
-                    case "k": // Carica matrice quadrata e colora sotto DP
+                    case "i": // Carica matrice quadrata e colora sotto DP
                         r = ClsMatrice.inputDimensioniMatriceQuadrata();
                         m = new int[r, r];
                         ClsMatrice.caricaMatrice(m, 1, 99);
@@ -78,6 +74,12 @@ namespace MatriciColori
                         m = new int[r, r];
                         ClsMatrice.caricaMatrice(m, 1, 99);
                         ClsMatrice.stampaSottoDS(m, "Stampa matrice quadrata e colora sotto DS");
+                        break;
+                    case "k":
+                        r = ClsMatrice.inputDimensioniMatriceQuadrata();
+                        m = new int[r, r];
+                        ClsMatrice.caricaMatrice(m, 1, 99);
+                        ClsMatrice.stampaSopraDS(m, "Stampa matrice quadrata e colora sotto DS");
                         break;
                     case "q":
                         Console.WriteLine("Programma terminato..."); 
@@ -105,8 +107,9 @@ namespace MatriciColori
             Console.WriteLine("f. Carica matrice rettangolare e colora righe alternate"); 
             Console.WriteLine("g. Carica matrice rettangolare e colora colonne alternate"); 
             Console.WriteLine("h. Carica matrice quadrata e colora a scacchiera");
-            Console.WriteLine("k. Carica matrice quadrata e colora sotto la DP");
+            Console.WriteLine("i. Carica matrice quadrata e colora sotto la DP");
             Console.WriteLine("j. Carica matrice quadrata e colora sotto la DS");
+            Console.WriteLine("k. Carica matrice quadrata e colora sotto la DS");
             Console.WriteLine("q. Esci");
             Console.Write("Scelta > ");
             return Console.ReadLine(); 

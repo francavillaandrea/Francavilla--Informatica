@@ -235,5 +235,26 @@ namespace MatriciColori
             }
             Console.ResetColor();
         }
+
+        internal static void stampaSopraDS(int[,] m, string msg)
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(msg);
+            Console.ResetColor();
+
+            for (int i = 0; i < m.GetLength(0); i++)
+            {
+                for (int j = 0; j < m.GetLength(1); j++)
+                {
+                    if (i >= 1 && i <= m.GetLength(0) - 1 && j >= m.GetLength(0) - i && j <= m.GetLength(0) - 1)
+                        Console.ForegroundColor = ConsoleColor.Green;
+                    else
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.Write(m[i, j].ToString().PadRight(3));
+                }
+                Console.WriteLine();
+            }
+            Console.ResetColor();
+        }
     }
 }

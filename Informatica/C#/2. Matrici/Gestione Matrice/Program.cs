@@ -23,8 +23,8 @@ namespace gestioneMatrice3B
             while (!int.TryParse(Console.ReadLine(), out c) || c < 0);
             int[,] a = new int[r, r]; //righe==colonne --> matrice QUADRATA
             int[,] b = new int[r, c]; //righe!=colonne --> matrice RETTANGOLARE
-            caricaMatrice(a);
-            stampaMatrice(a, "Matrice A quadrata");
+            caricaMatrice(b);
+            stampaMatrice(b, "Matrice A quadrata");
             caricaMatrice(b);
             stampaMatrice(b, "Matrice B rettangolare");
             //Console.WriteLine("La media degli elementi della matrice A è: " +
@@ -98,9 +98,45 @@ namespace gestioneMatrice3B
             //verificareSeSottoDPOrdinati(d);
             //Console.ReadKey();
             int[,] e = { { 5, 7, 12 }, { 7, 2, 8 }, { 12, 8, 3 } };
-            matriceSimmetrica(e);
-            stampaMatrice(e, "Matrice simmetrica");
+            //matriceSimmetrica(e);
+            //stampaMatrice(e, "Matrice simmetrica");
+            //matriceTrasposta(b);
+            ricercaSottoMatrice(a);
             Console.ReadKey();
+        }
+
+        private static void ricercaSottoMatrice(int [,] a)
+        {
+            int r = a.GetLength(0);
+            int[,] b = {{0,0},{0,0}};
+            int cont = 0;
+            for (int i = 0; i < r-1; i++)
+            {
+                for (int j = 0; j < r-1; j++)
+                {
+                    if (a[i,j] == b[i,j] && a[i+1,j] == b[i+1,j] && a[i,j+1] == b[i,j+1] && a[i+1,j+1] == b[i+1,j+1])
+                    {
+                        cont++;
+                    }
+
+                }
+
+            }
+        }
+
+        private static void matriceTrasposta(int[,] a)
+        {
+            int r = a.GetLength(0);
+            int c = a.GetLength(1);
+            int[,] b  = new int[c, r];
+            for (int i = 0; i < r; i++)
+            {
+               for (int j = 0; j < c; j++)
+                {
+                    b[j,i] = a[i,j];
+                }
+            }
+            stampaMatrice(b, "Matrice trasposta");
         }
 
         private static void matriceSimmetrica(int[,] m)
@@ -672,11 +708,5 @@ namespace gestioneMatrice3B
                         massimo = m[i, j];
             return massimo;
         }
-
-
-
-
-
-
     }
 }

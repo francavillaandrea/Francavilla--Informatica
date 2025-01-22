@@ -13,3 +13,10 @@ C:\Users\alberto.barbero\Desktop\MatriciColori\obj\Debug\MatriciColori.csproj.Su
 C:\Users\alberto.barbero\Desktop\MatriciColori\obj\Debug\MatriciColori.csproj.CoreCompileInputs.cache
 C:\Users\alberto.barbero\Desktop\MatriciColori\obj\Debug\MatriciColori.exe
 C:\Users\alberto.barbero\Desktop\MatriciColori\obj\Debug\MatriciColori.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\2. Matrici\MatriciColori\bin\Debug\MatriciColori.exe.config
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\2. Matrici\MatriciColori\bin\Debug\MatriciColori.exe
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\2. Matrici\MatriciColori\bin\Debug\MatriciColori.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\2. Matrici\MatriciColori\obj\Debug\MatriciColori.csproj.AssemblyReference.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\2. Matrici\MatriciColori\obj\Debug\MatriciColori.csproj.CoreCompileInputs.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\2. Matrici\MatriciColori\obj\Debug\MatriciColori.exe
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\2. Matrici\MatriciColori\obj\Debug\MatriciColori.pdb
