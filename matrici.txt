@@ -1,0 +1,161 @@
+IMPORTANTI PER VERIFICA SULLE MATRICI:
+
+1. Stampa Matrice:
+private static void stampaMatrice(int[,] m)
+{
+    for (int i = 0; i < m.GetLength(0); i++)
+    {
+        for (int j = 0; j < m.GetLength(1); j++)
+            Console.Write(m[i, j].ToString());
+        Console.WriteLine();
+    }
+}
+---------------------------------------------------------------------------------
+
+2 Carica Matrice 
+private static void caricaMatrice(int[,] m)
+{
+    for (int i = 0; i < m.GetLength(0); i++)
+        for (int j = 0; j < m.GetLength(1); j++)
+            m[i, j] = rnd.Next(0, 1);
+}
+----------------------------------------------------------------------------------
+3. Media di una Matrice 
+ private static double mediaMatrice(int[,] m)
+ {
+     double somma = 0;
+     for (int i = 0; i < m.GetLength(0); i++) //scorro le righe
+         for (int j = 0; j < m.GetLength(1); j++) //per ogni riga, scorro le colonne
+             somma += m[i, j];
+     return somma / (m.GetLength(0) * m.GetLength(1));
+ }
+----------------------------------------------------------------------------------
+4. Massimo in una matrice 
+ private static int maxMatrice(int[,] m)
+ {
+     int massimo = int.MinValue;
+     for (int i = 0; i < m.GetLength(0); i++)
+         for (int j = 0; j < m.GetLength(1); j++)
+             if (m[i, j] > massimo)
+                 massimo = m[i, j];
+     return massimo;
+ }
+------------------------------------------------------------------------------------
+5.  Diagonale Principale
+    private static void DP(int[,] m)
+    {
+        for (int i = 0; i < m.GetLength(0); i++)
+            //Istruzioni necessarie
+    }
+------------------------------------------------------------------------------------
+6. Sopra Diagonale Principale
+
+        private static void SopraDP(int[,] m)
+        {
+            int r = m.GetLength(0);
+
+            for (int i = 0; i <= r - 2; i++)
+                for (int j = i + 1; j <= r - 1; j++)
+                    //Istruzioni necessarie
+        }
+----------------------------------------------------------------------------------------
+7. Sotto Diagonale Principale
+        private static void SottoDP(int[,] m)
+        {
+            int r = m.GetLength(0);
+
+            for (int i = 1; i <= r - 1; i++)
+                for (int j = 0; j <= i - 1; j++)
+                    //Istruzioni necessarie
+        }
+-------------------------------------------------------------------------------------------
+8. Diagonale Secondaria
+    private static void DS(int[,] m)
+    {
+        int j = m.GetLength(0);
+        for (int i = 0; i < m.GetLength(0); i++)
+            //Istruzioni necessarie
+    }
+------------------------------------------------------------------------------------
+9. Sopra Diagonale Secondaria
+    private static void SopraDS(int[,] m)
+        {
+            int r = m.GetLength(0);
+
+            for (int i = 0; i <= r - 2; i++)
+                for (int j = 0; j <= r - 2 - i; j++)
+                        //Istruzioni necessarie
+        }
+----------------------------------------------------------------------------------------
+10. Sotto Diagonale Secondaria
+        private static void SottoDS(int[,] m)
+        {
+            int somma = 0;
+            int r = m.GetLength(0);
+
+            for (int i = 1; i <= r - 1; i++)
+                for (int j = r - i; j <= r - 1; j++)
+                    //Istruzioni necessarie
+        }
+---------------------------------------------------------------------------------------
+11. Cornice
+private static void Cornice(int[,] m)
+{
+
+    for (int j = 0; j < m.GetLength(1); j++)
+    {
+         //Istruzioni necessarie 
+    }
+    for (int i = 1; i < m.GetLength(0) - 1; i++)
+    {
+        //Istruzioni necessarie 
+    }
+}
+-------------------------------------------------------------------------------------
+12. Matrice Simmetrica
+        private static void matriceSimmetrica(int[,] m)
+        {
+            int i = 1, j = 0;
+            bool esci = false;
+            int r = m.GetLength(0);
+
+            while (!esci && i <= r - 1)
+            {
+                if (m[i, j] != m[j, i])
+                    esci = true;
+                else
+                {
+                    if (j == i - 1)
+                    {
+                        i++;
+                        j = 0;
+                    }
+                    else
+                        j++;
+                }
+            }
+            if (esci)
+                Console.WriteLine("Matrce NON simmetrica");
+            else
+                Console.WriteLine("Matrice simmetrica");
+        }
+---------------------------------------------------------------------------------------------
+13. Matrice Trasposta
+        private static void matriceTrasposta(int[,] a)
+        {
+            int r = a.GetLength(0);
+            int c = a.GetLength(1);
+            int[,] b  = new int[c, r];
+            for (int i = 0; i < r; i++)
+            {
+               for (int j = 0; j < c; j++)
+                {
+                    b[j,i] = a[i,j];
+                }
+            }
+            stampaMatrice(b, "Matrice trasposta");
+        }
+-----------------------------------------------------------------------------------------------
+14. Centro di una matrice 
+    if(i == m.getLength(qualsiasi)/2 && i ==j)
+     //condizione
