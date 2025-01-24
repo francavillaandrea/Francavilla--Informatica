@@ -1,0 +1,146 @@
+﻿using System;
+
+namespace Barbero_23_01_25
+{
+    class Program
+    {
+        static Random rnd = new Random();
+        static void Main(string[] args)
+        {
+            //dichiarazione matrice
+            int r, c; //r: numero righe - c: numero colonne
+            do
+                Console.Write("Inserisci il numero di righe: ");
+            while (!int.TryParse(Console.ReadLine(), out r) || r <= 0);
+            do
+                Console.Write("Inserisci il numero di colonne: ");
+            while (!int.TryParse(Console.ReadLine(), out c) || c <= 0);
+            //dichiarazione matrice
+            int[,] b = new int[r, c];
+            int[,] a = new int[r, c];
+            caricaMatrice(a);
+            stampaMatrice(a, "MATRICE A");
+            es1(a, b);
+            Console.ReadKey();
+            es2(a);
+            Console.ReadKey();
+        }
+
+        private static void caricaMatrice(int[,] m)
+        {
+            for (int i = 0; i < m.GetLength(0); i++)
+                for (int j = 0; j < m.GetLength(1); j++)
+                    m[i, j] = rnd.Next(1, 10);
+        }
+        private static void stampaMatrice(int[,] m, string msg)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(msg);
+            Console.ResetColor();
+            for (int i = 0; i < m.GetLength(0); i++)
+            {
+                for (int j = 0; j < m.GetLength(1); j++)
+                    Console.Write(m[i, j].ToString().PadRight(4));
+                Console.WriteLine();
+            }
+        }
+        private static void es1(int[,] a, int[,] b)
+        {
+            //COPIARE GLI ELEMENTI DISPARI DI UNA MATRICE IN UNA 
+            //SECONDA MATRICE SENZA LASCIARE BUCHI, SE NON IN FONDO.
+            //STAMPARE LA NUOVA MATRICE
+            //ES. CON MATRICE A(3 X 4):
+            //4, 5, 2, 7
+            //1, 9, 2, 8
+            //5, 7, 4, 4
+            //SI OTTIENE MATRICE B(3 X 4):
+            //5, 7, 1, 9
+            //5, 7, 0, 0
+            //0, 0, 0, 0
+            int x = 0;
+            int y = 0;
+
+            for (int i = 0; i < a.GetLength(0); i++)
+            {
+                for (int j = 0; j < a.GetLength(1); j++)
+                {
+                    if (a[i, j] % 2 != 0)
+                    {
+                        b[x, y] = a[i, j];
+
+                        if (y == b.GetLength(1) - 1)
+                        {
+                            x++;
+                            y = 0;
+                        }
+                        else
+                        {
+                            y++;
+                        }
+                    }
+                }
+            }
+
+            stampaMatrice(b, "MATRICE B");
+
+        }
+        private static void es2(int[,] a)
+        {
+            //VERIFICARE SE UNA MATRICE QUADRATA E' DIAGONALMENTE
+            //DOMINANTE, CIOE' SE LA SOMMA DEI SUOI VALORI SU 
+            //CIASCUNA RIGA, ESCLUSO L'ELEMENTO SULLA DP, E' 
+            //MINORE DELL'ELEMENTO CORRISPONDENTE SULLA DP
+            //ES. CON MATRICE A(4 X 4):
+            //5, 1, 2, 1
+            //1, 9, 2, 1
+            //1, 1, 4, 1
+            //3, 1, 2, 8
+            //SI OTTIENE MATRICE DIAGONALMENTE DOMINANTE
+            //ES. CON MATRICE A(4 X 4):
+            //5, 1, 2, 1
+            //1, 9, 7, 7
+            //1, 1, 4, 1
+            //3, 1, 2, 8
+            //SI OTTIENE MATRICE NON DIAGONALMENTE DOMINANTE
+
+            int DP;
+            int Rc = 0;
+            bool esci = false;
+            int i = 0;
+
+            while (!esci && i < a.GetLength(0))
+            {
+                DP = a[i, i];
+                for (int k = 0; k < a.GetLength(1); k++)
+                {
+                    Rc += a[i, k];
+                }
+                Rc -= DP;
+
+                if (Rc < DP)
+                {
+                    i++;
+                    Rc = 0;
+
+                }
+                else
+                {
+                    esci = true;
+                }
+            }
+
+            if (!esci)
+            {
+                Console.WriteLine("La matrice è dd.");
+
+            }
+            else
+            {
+                Console.WriteLine("La matrice non è dd.");
+            }
+        }
+
+
+    }
+}
+

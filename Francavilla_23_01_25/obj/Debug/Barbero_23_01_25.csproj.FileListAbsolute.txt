@@ -1,0 +1,13 @@
+C:\Users\alberto.barbero\Desktop\Barbero_23_01_25\bin\Debug\Barbero_23_01_25.exe.config
+C:\Users\alberto.barbero\Desktop\Barbero_23_01_25\bin\Debug\Barbero_23_01_25.exe
+C:\Users\alberto.barbero\Desktop\Barbero_23_01_25\bin\Debug\Barbero_23_01_25.pdb
+C:\Users\alberto.barbero\Desktop\Barbero_23_01_25\obj\Debug\Barbero_23_01_25.csprojAssemblyReference.cache
+C:\Users\alberto.barbero\Desktop\Barbero_23_01_25\obj\Debug\Barbero_23_01_25.exe
+C:\Users\alberto.barbero\Desktop\Barbero_23_01_25\obj\Debug\Barbero_23_01_25.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavilla_23_01_25\bin\Debug\Barbero_23_01_25.exe.config
+C:\Users\a.francavilla.3537\Desktop\Francavilla_23_01_25\bin\Debug\Barbero_23_01_25.exe
+C:\Users\a.francavilla.3537\Desktop\Francavilla_23_01_25\bin\Debug\Barbero_23_01_25.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavilla_23_01_25\obj\Debug\Barbero_23_01_25.csproj.AssemblyReference.cache
+C:\Users\a.francavilla.3537\Desktop\Francavilla_23_01_25\obj\Debug\Barbero_23_01_25.csproj.CoreCompileInputs.cache
+C:\Users\a.francavilla.3537\Desktop\Francavilla_23_01_25\obj\Debug\Barbero_23_01_25.exe
+C:\Users\a.francavilla.3537\Desktop\Francavilla_23_01_25\obj\Debug\Barbero_23_01_25.pdb
