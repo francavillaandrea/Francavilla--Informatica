@@ -1,1 +1,0 @@
-Excel Fammi un operazione, se il contenuto dellas cella b5 > o = a 6 ALLORA scrivi nella cella Promosso altrimenti scrivi nella cella non promosso.

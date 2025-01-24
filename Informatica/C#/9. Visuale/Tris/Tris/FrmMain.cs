@@ -96,5 +96,10 @@ namespace Tris
             giocatore = (giocatore == "X") ? "O" : "X";
             btn9.Enabled = false;
         }
+
+        private void FrmMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
