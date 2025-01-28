@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    line-height: 16pt;
+    background-image: url(./img/sky.jpg);
+    background-size:cover;
+    background-position: center;
+
+
+}
+#wrapper{
+    width: 990px;
+    height: inherit;
+    margin: 10px auto;
+    background-image: linear-gradient(to bottom, #eeeeff 30%, #27f 90%);
+}
+#content{
+    display: flex;
+    gap: 40px      ;
+}
+@font-face {
+	font-family: waltograph;  
+    src: local(waltograph),  
+		 url(./font/waltograph.ttf)  format('truetype'),
+		 url(./font/waltograph.svg)  format('svg'),
+	 	 url(./font/waltograph.woff) format('woff'); 
+}
+#wrapper header{
+    border: 1px solid #bbf;
+    border-radius: 40px;
+    font-family: waltograph;
+    margin: 10px 5px;
+    box-shadow: 3px 3px 2px #009;
+    height: 150px;
+}
+#wrapper header h1{
+    line-height: 16px;
+    font-size: 30pt;
+    text-align: center;
+    color: #00f;
+}
+#wrapper header, nav, section, aside, fieldset{
+    box-shadow: 3px 3px 2px #009;
+    border: 1px solid #bbf;
+    border-radius: 15px;
+    margin: 0px 10px;
+}
+#wrapper nav{
+    width: 160px;
+    background-color: #369;
+}   
+#wrapper nav ul li{
+    width: 130px;
+    height: 45px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 2px #009;
+    border: 1px solid #bbf;
+    list-style: none;
+    line-height: 16pt;
+    background-image: radial-gradient(ellipse, #F33 25%, #3ff 75%);
+    transition: width 0.7s, background-color 0.5s;
+}
+#wrapper nav ul li:hover{
+    transform: scale(1.1);
+    background-color: #04a;
+    color: yellow;
+    text-decoration: underline;
+
+    cursor: pointer;
+
+}
+#wrapper nav ul li a{
+    text-decoration: none;
+    color: #ccf;
+
+}
+#wrapper nav h3{
+    color: #ccccff;
+    font-weight: bold;
+}
+#wrapper section{
+    width: 540px;
+    font-size: 8pt;
+    background-color: rgb(227, 113, 255);  
+}
+#wrapper section h1{
+    text-align: center;
+    font-size: 20pt;
+    padding: 15px;
+}
+#wrapper aside{
+    width:160px;
+    float: right;
+}
+#wrapepr aside h2{
+    margin: 10px 0px;
+    font-size: 10pt;
+    font-weight: bold;
+}
+#wrapper aside #img{
+    width: 140px;
+    height: 220px;
+    background-origin: content-box;
+    background-color: #0af;
+    background-image: url(./img/booking.png);
+    padding: 3px;
+}
+#wrapper aside #img:hover{
+    background-origin: content-box;
+    cursor: pointer;
+    background-image: url(./img/booking2.png);
+}
+#wrapper aside #news{
+    height: 150px;
+    overflow:auto;
+}
+@media screen and (max-width:990px), screen and (max-device-width:990px){
+    #wrapper{
+        width: 100%;
+    }
+    aside{
+        display: none;
+    }
+}
+@media screen and (max-width:810px), screen and (max-device-width:810px){
+    #wrapper{
+        width: 100%;
+    }
+    #wrapper aside{
+        display: none;
+    }
+    #content{
+        display: inline-block;
+    }
+    #wrapper nav{
+        width: 990px;
+        display: inline-block;
+    }
+    #wrapper nav h3{
+        display: none;
+    }
+    #wrapper nav progress{
+        display: none;
+    }
+
+}
