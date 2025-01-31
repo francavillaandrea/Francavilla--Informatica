@@ -81,9 +81,21 @@
     </div>
 
     <fieldset>
-      <!-- inserire qui il contenuto del fieldset -->
-      
-
+      Valutazioni e contatti
+      <form action="./index.html">
+        <label for="txtVoto">Esprimi un voto da 1 a 10: </label>
+        <input type="number" name="txtVoto" max="10" min="1">
+        <label for="lstPrefe"> Che cosa ti è piaciuto di più? </label>
+        <select name="lstPrefe" id="lstPrefe">
+          <option value="HTML"> HTML </option>
+          <option value="CSS"> CSS </option>
+          <option value="JS"> JavaScript </option>
+          <option value="BOOSTRAP"> BOOSTRAP </option>
+        </select>
+        <button>
+          invia
+        </button>
+      </form>
     </fieldset>
 
   </div>
