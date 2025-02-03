@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.dgv = new System.Windows.Forms.DataGridView();
+            this.cmb1 = new System.Windows.Forms.ComboBox();
+            this.btnMedia = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.SuspendLayout();
             // 
@@ -40,14 +42,35 @@
             this.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv.Location = new System.Drawing.Point(12, 12);
             this.dgv.Name = "dgv";
-            this.dgv.Size = new System.Drawing.Size(820, 705);
+            this.dgv.Size = new System.Drawing.Size(1164, 705);
             this.dgv.TabIndex = 0;
+            // 
+            // cmb1
+            // 
+            this.cmb1.FormattingEnabled = true;
+            this.cmb1.Location = new System.Drawing.Point(1226, 12);
+            this.cmb1.Name = "cmb1";
+            this.cmb1.Size = new System.Drawing.Size(198, 32);
+            this.cmb1.TabIndex = 1;
+            // 
+            // btnMedia
+            // 
+            this.btnMedia.BackColor = System.Drawing.Color.Transparent;
+            this.btnMedia.Location = new System.Drawing.Point(1226, 64);
+            this.btnMedia.Name = "btnMedia";
+            this.btnMedia.Size = new System.Drawing.Size(198, 67);
+            this.btnMedia.TabIndex = 3;
+            this.btnMedia.Text = "Calcola media della materia";
+            this.btnMedia.UseVisualStyleBackColor = false;
+            this.btnMedia.Click += new System.EventHandler(this.btnMedia_Click);
             // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1012, 729);
+            this.ClientSize = new System.Drawing.Size(1436, 729);
+            this.Controls.Add(this.btnMedia);
+            this.Controls.Add(this.cmb1);
             this.Controls.Add(this.dgv);
             this.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -55,7 +78,7 @@
             this.MaximizeBox = false;
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "REGISTRO ELETTRONICO";
+            this.Text = "Registro Elettronico";
             this.Load += new System.EventHandler(this.FrmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             this.ResumeLayout(false);
@@ -65,6 +88,8 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgv;
+        private System.Windows.Forms.ComboBox cmb1;
+        private System.Windows.Forms.Button btnMedia;
     }
 }
 
