@@ -3,7 +3,8 @@
 -- Vsc Animations 
 -- Prettier 
 -- Git Lens
--- Tabnine
 -- Auto Rename Tag
 -- Error Lens
+-- ESLint
+-- Bracket Pair Colorizer
 -- Tema Monokai Pro 
