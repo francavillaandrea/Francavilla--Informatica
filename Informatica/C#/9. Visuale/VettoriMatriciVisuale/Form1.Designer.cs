@@ -39,21 +39,30 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnPrimi3 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.dgv1Addendo = new System.Windows.Forms.DataGridView();
-            this.dgv2Addendo = new System.Windows.Forms.DataGridView();
-            this.dgvSomma = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.btnSomma = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dgvSomma = new System.Windows.Forms.DataGridView();
+            this.dgv2Addendo = new System.Windows.Forms.DataGridView();
+            this.dgv1Addendo = new System.Windows.Forms.DataGridView();
+            this.dgvB = new System.Windows.Forms.DataGridView();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.btnIntersezione = new System.Windows.Forms.Button();
+            this.dgvIntersezione = new System.Windows.Forms.DataGridView();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvA)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv3)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv1Addendo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv2Addendo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSomma)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv2Addendo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv1Addendo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvB)).BeginInit();
+            this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvIntersezione)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvA
@@ -67,7 +76,7 @@
             // 
             // btnMaxVettore
             // 
-            this.btnMaxVettore.Location = new System.Drawing.Point(38, 134);
+            this.btnMaxVettore.Location = new System.Drawing.Point(24, 239);
             this.btnMaxVettore.Name = "btnMaxVettore";
             this.btnMaxVettore.Size = new System.Drawing.Size(75, 53);
             this.btnMaxVettore.TabIndex = 1;
@@ -77,7 +86,7 @@
             // 
             // btnCalcolaMediaVettore
             // 
-            this.btnCalcolaMediaVettore.Location = new System.Drawing.Point(119, 134);
+            this.btnCalcolaMediaVettore.Location = new System.Drawing.Point(105, 239);
             this.btnCalcolaMediaVettore.Name = "btnCalcolaMediaVettore";
             this.btnCalcolaMediaVettore.Size = new System.Drawing.Size(75, 53);
             this.btnCalcolaMediaVettore.TabIndex = 2;
@@ -99,7 +108,7 @@
             // 
             this.groupBox1.Controls.Add(this.txtNumero);
             this.groupBox1.Controls.Add(this.btnCercaElementoVettore);
-            this.groupBox1.Location = new System.Drawing.Point(200, 134);
+            this.groupBox1.Location = new System.Drawing.Point(186, 239);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(150, 75);
             this.groupBox1.TabIndex = 5;
@@ -114,7 +123,7 @@
             // 
             // btnSpeulare
             // 
-            this.btnSpeulare.Location = new System.Drawing.Point(356, 134);
+            this.btnSpeulare.Location = new System.Drawing.Point(342, 239);
             this.btnSpeulare.Name = "btnSpeulare";
             this.btnSpeulare.Size = new System.Drawing.Size(89, 53);
             this.btnSpeulare.TabIndex = 6;
@@ -134,7 +143,7 @@
             // 
             this.groupBox2.Controls.Add(this.btnPrimi3);
             this.groupBox2.Controls.Add(this.dgv3);
-            this.groupBox2.Location = new System.Drawing.Point(465, 134);
+            this.groupBox2.Location = new System.Drawing.Point(451, 239);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(184, 97);
             this.groupBox2.TabIndex = 8;
@@ -160,81 +169,142 @@
             this.groupBox3.Controls.Add(this.dgvSomma);
             this.groupBox3.Controls.Add(this.dgv2Addendo);
             this.groupBox3.Controls.Add(this.dgv1Addendo);
-            this.groupBox3.Location = new System.Drawing.Point(668, 39);
+            this.groupBox3.Location = new System.Drawing.Point(655, 39);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(184, 192);
+            this.groupBox3.Size = new System.Drawing.Size(208, 192);
             this.groupBox3.TabIndex = 9;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "SOMMA VETTORI";
             // 
-            // dgv1Addendo
-            // 
-            this.dgv1Addendo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv1Addendo.Location = new System.Drawing.Point(17, 26);
-            this.dgv1Addendo.Name = "dgv1Addendo";
-            this.dgv1Addendo.Size = new System.Drawing.Size(81, 34);
-            this.dgv1Addendo.TabIndex = 8;
-            // 
-            // dgv2Addendo
-            // 
-            this.dgv2Addendo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv2Addendo.Location = new System.Drawing.Point(17, 77);
-            this.dgv2Addendo.Name = "dgv2Addendo";
-            this.dgv2Addendo.Size = new System.Drawing.Size(81, 34);
-            this.dgv2Addendo.TabIndex = 9;
-            // 
-            // dgvSomma
-            // 
-            this.dgvSomma.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvSomma.Location = new System.Drawing.Point(17, 136);
-            this.dgvSomma.Name = "dgvSomma";
-            this.dgvSomma.Size = new System.Drawing.Size(81, 34);
-            this.dgvSomma.TabIndex = 10;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(104, 36);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(22, 24);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "+";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(101, 87);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(22, 24);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "=";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(13, 111);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 24);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "-----------";
-            // 
             // btnSomma
             // 
-            this.btnSomma.Location = new System.Drawing.Point(106, 111);
+            this.btnSomma.Location = new System.Drawing.Point(127, 111);
             this.btnSomma.Name = "btnSomma";
             this.btnSomma.Size = new System.Drawing.Size(75, 63);
             this.btnSomma.TabIndex = 14;
             this.btnSomma.Text = "SOMMA Vettori";
             this.btnSomma.UseVisualStyleBackColor = true;
+            this.btnSomma.Click += new System.EventHandler(this.btnSomma_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(27, 111);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(87, 24);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "-----------";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(115, 87);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(22, 24);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "=";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(118, 36);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(22, 24);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "+";
+            // 
+            // dgvSomma
+            // 
+            this.dgvSomma.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvSomma.Location = new System.Drawing.Point(16, 136);
+            this.dgvSomma.Name = "dgvSomma";
+            this.dgvSomma.Size = new System.Drawing.Size(96, 34);
+            this.dgvSomma.TabIndex = 10;
+            // 
+            // dgv2Addendo
+            // 
+            this.dgv2Addendo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv2Addendo.Location = new System.Drawing.Point(31, 77);
+            this.dgv2Addendo.Name = "dgv2Addendo";
+            this.dgv2Addendo.Size = new System.Drawing.Size(81, 34);
+            this.dgv2Addendo.TabIndex = 9;
+            // 
+            // dgv1Addendo
+            // 
+            this.dgv1Addendo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv1Addendo.Location = new System.Drawing.Point(31, 26);
+            this.dgv1Addendo.Name = "dgv1Addendo";
+            this.dgv1Addendo.Size = new System.Drawing.Size(81, 34);
+            this.dgv1Addendo.TabIndex = 8;
+            // 
+            // dgvB
+            // 
+            this.dgvB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvB.Location = new System.Drawing.Point(38, 116);
+            this.dgvB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.dgvB.Name = "dgvB";
+            this.dgvB.Size = new System.Drawing.Size(426, 60);
+            this.dgvB.TabIndex = 10;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.dgvIntersezione);
+            this.groupBox4.Controls.Add(this.btnIntersezione);
+            this.groupBox4.Location = new System.Drawing.Point(664, 239);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(337, 208);
+            this.groupBox4.TabIndex = 11;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Insiemistica";
+            // 
+            // btnIntersezione
+            // 
+            this.btnIntersezione.Location = new System.Drawing.Point(7, 16);
+            this.btnIntersezione.Name = "btnIntersezione";
+            this.btnIntersezione.Size = new System.Drawing.Size(69, 53);
+            this.btnIntersezione.TabIndex = 15;
+            this.btnIntersezione.Text = "Interseca";
+            this.btnIntersezione.UseVisualStyleBackColor = true;
+            this.btnIntersezione.Click += new System.EventHandler(this.btnIntersezione_Click);
+            // 
+            // dgvIntersezione
+            // 
+            this.dgvIntersezione.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvIntersezione.Location = new System.Drawing.Point(90, 16);
+            this.dgvIntersezione.Name = "dgvIntersezione";
+            this.dgvIntersezione.Size = new System.Drawing.Size(222, 53);
+            this.dgvIntersezione.TabIndex = 16;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(12, 39);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(15, 13);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "A";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(12, 116);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(15, 13);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "B";
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1017, 265);
+            this.ClientSize = new System.Drawing.Size(1017, 467);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.dgvB);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.btnSpeulare);
@@ -254,10 +324,14 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv1Addendo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv2Addendo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSomma)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv2Addendo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv1Addendo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvB)).EndInit();
+            this.groupBox4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvIntersezione)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -281,6 +355,12 @@
         private System.Windows.Forms.DataGridView dgv2Addendo;
         private System.Windows.Forms.DataGridView dgv1Addendo;
         private System.Windows.Forms.Button btnSomma;
+        private System.Windows.Forms.DataGridView dgvB;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.DataGridView dgvIntersezione;
+        private System.Windows.Forms.Button btnIntersezione;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
 

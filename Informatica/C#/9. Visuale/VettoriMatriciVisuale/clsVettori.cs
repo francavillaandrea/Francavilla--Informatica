@@ -76,6 +76,43 @@ namespace VettoriMatriciVisuale
             dgv.Rows[0].Cells[2].Value = t;
         }
 
+        internal static void intersezione(int[] a, int[] b, DataGridView dgvIntersezione)
+        {
+            int j;
+            int k = 0; //indice datagridview
+            for (int i = 0;i <a.Length; i++)
+            {
+                j = 0;
+                while (b[j] != a[i] && j != b.Length - 1)
+                    j++;
+                if (b[j] == a[i])
+                        dgvIntersezione.Rows[0].Cells[k++].Value = a[i].ToString();
+            }
+        }
+
+        internal static void sommaVettori(int[] a, int[] b, DataGridView dgv)
+        {
+            int riporto = 0;
+            int somma;
+            for (int i = a.Length - 1; i >= 0; i--)
+            {
+                somma = a[i] + b[i] + riporto;
+                if(somma > 9)
+                {
+                    riporto = 1;
+                    dgv.Rows[0].Cells[i+1].Value = (somma - 10).ToString();
+                }
+                else
+                {
+                    riporto = 0;
+                    dgv.Rows[0].Cells[i+1].Value = somma.ToString();
+                }
+            }
+            dgv.Rows[0].Cells[0].Value = riporto.ToString();
+
+
+        }
+
         internal static void verificaVettoreSpeculare(int[] v)
         {
             int i = 0;
