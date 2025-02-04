@@ -6,3 +6,4 @@
 -- Tabnine
 -- Auto Rename Tag
 -- Error Lens
+-- Tema Monokai Pro 
