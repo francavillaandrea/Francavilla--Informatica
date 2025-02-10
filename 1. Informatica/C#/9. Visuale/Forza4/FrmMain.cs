@@ -162,9 +162,11 @@ namespace Forza4
         {
             DataGridViewImageCell dgvImg = new DataGridViewImageCell();
             Image img = Image.FromFile(@"img\" + giocatore.ToString() + ".png");
-            dgvImg.Value = img;
-            dgvImg.ImageLayout = DataGridViewImageCellLayout.Stretch;
             int i = RIGHE - 1;
+            // Associo file immagine a DataGridViewImageCell (gestore immagini celle) 
+            dgvImg.Value = img;
+            // Adatta immagine a dimensione cella
+            dgvImg.ImageLayout = DataGridViewImageCellLayout.Stretch; 
 
             while (i >= 0 && m[i, j] != 0)
                 i--;
@@ -173,6 +175,8 @@ namespace Forza4
             {
                 m[i, j] = giocatore;
 
+                //dgv.Rows[i].Cells[j].Style.BackColor = 
+                //            (giocatore == 1) ? Color.Red : Color.Yellow;
                 dgv.Rows[i].Cells[j] = dgvImg;
                 dgv.ClearSelection();
                 /*
@@ -200,11 +204,18 @@ namespace Forza4
 
         private void resetDgv()
         {
-           for(int i=0; i<RIGHE; i++)
+            DataGridViewImageCell dgvImg = new DataGridViewImageCell();
+            Image img = Image.FromFile(@"img\0.png");
+            
+
+            for (int i=0; i<RIGHE; i++)
             {
                 for(int j=0; j< COLONNE; j++)
                 {
-                    dgv.Rows[i].Cells[j].Style.BackColor = Color.White; 
+                    dgvImg = new DataGridViewImageCell();
+                    dgvImg.Value = img;
+                    //dgv.Rows[i].Cells[j].Style.BackColor = Color.White; 
+                    dgv.Rows[i].Cells[j] = dgvImg; 
                 }
             }
         }
