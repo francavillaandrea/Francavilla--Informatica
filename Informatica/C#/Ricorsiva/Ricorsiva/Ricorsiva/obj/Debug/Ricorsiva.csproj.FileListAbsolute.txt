@@ -1,7 +1,0 @@
-D:\Andrea Superiori\Informatica\C#\Ricorsiva\Ricorsiva\Ricorsiva\bin\Debug\Ricorsiva.exe.config
-D:\Andrea Superiori\Informatica\C#\Ricorsiva\Ricorsiva\Ricorsiva\bin\Debug\Ricorsiva.exe
-D:\Andrea Superiori\Informatica\C#\Ricorsiva\Ricorsiva\Ricorsiva\bin\Debug\Ricorsiva.pdb
-D:\Andrea Superiori\Informatica\C#\Ricorsiva\Ricorsiva\Ricorsiva\obj\Debug\Ricorsiva.csproj.AssemblyReference.cache
-D:\Andrea Superiori\Informatica\C#\Ricorsiva\Ricorsiva\Ricorsiva\obj\Debug\Ricorsiva.csproj.CoreCompileInputs.cache
-D:\Andrea Superiori\Informatica\C#\Ricorsiva\Ricorsiva\Ricorsiva\obj\Debug\Ricorsiva.exe
-D:\Andrea Superiori\Informatica\C#\Ricorsiva\Ricorsiva\Ricorsiva\obj\Debug\Ricorsiva.pdb

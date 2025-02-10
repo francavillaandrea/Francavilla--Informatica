@@ -1,0 +1,20 @@
+C:\Users\marco.paschetta\Desktop\3B\RegistroElettronico\bin\Debug\RegistroElettronico.exe.config
+C:\Users\marco.paschetta\Desktop\3B\RegistroElettronico\bin\Debug\RegistroElettronico.exe
+C:\Users\marco.paschetta\Desktop\3B\RegistroElettronico\bin\Debug\RegistroElettronico.pdb
+C:\Users\marco.paschetta\Desktop\3B\RegistroElettronico\obj\Debug\RegistroElettronico.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B\RegistroElettronico\obj\Debug\RegistroElettronico.FrmMain.resources
+C:\Users\marco.paschetta\Desktop\3B\RegistroElettronico\obj\Debug\RegistroElettronico.Properties.Resources.resources
+C:\Users\marco.paschetta\Desktop\3B\RegistroElettronico\obj\Debug\RegistroElettronico.csproj.GenerateResource.cache
+C:\Users\marco.paschetta\Desktop\3B\RegistroElettronico\obj\Debug\RegistroElettronico.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B\RegistroElettronico\obj\Debug\RegistroElettronico.exe
+C:\Users\marco.paschetta\Desktop\3B\RegistroElettronico\obj\Debug\RegistroElettronico.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\RegistroElettronico\bin\Debug\RegistroElettronico.exe.config
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\RegistroElettronico\bin\Debug\RegistroElettronico.exe
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\RegistroElettronico\bin\Debug\RegistroElettronico.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\RegistroElettronico\obj\Debug\RegistroElettronico.csproj.AssemblyReference.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\RegistroElettronico\obj\Debug\RegistroElettronico.FrmMain.resources
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\RegistroElettronico\obj\Debug\RegistroElettronico.Properties.Resources.resources
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\RegistroElettronico\obj\Debug\RegistroElettronico.csproj.GenerateResource.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\RegistroElettronico\obj\Debug\RegistroElettronico.csproj.CoreCompileInputs.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\RegistroElettronico\obj\Debug\RegistroElettronico.exe
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\9. Visuale\RegistroElettronico\obj\Debug\RegistroElettronico.pdb
