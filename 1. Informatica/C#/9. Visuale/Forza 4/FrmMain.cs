@@ -41,14 +41,23 @@ namespace Forza4
                 // - Controllo vittoria
                 if(controlloVittoria(m, i, j, giocatore))
                 {
-
+                    MessageBox.Show("Vince Giocatore " + giocatore.ToString());
                 }
                 // - Controllo patta
-                // - Cambio giocatore
+                else if(controllaPatta(m))
+                {
+                    MessageBox.Show("Pareggio");
 
-                giocatore = (giocatore == 1) ? 2 : 1;
-                lblGiocatore.Text = "TOCCA AL GIOCATORE " + giocatore.ToString();
-                lblGiocatore.BackColor = (giocatore == 1) ? Color.Red : Color.Yellow;
+                }
+                else
+                {
+                    // - Cambio giocatore
+
+                    giocatore = (giocatore == 1) ? 2 : 1;
+                    lblGiocatore.Text = "TOCCA AL GIOCATORE " + giocatore.ToString();
+                    lblGiocatore.BackColor = (giocatore == 1) ? Color.Red : Color.Yellow;
+                }
+                
             }
             else
                 dgv.ClearSelection();
