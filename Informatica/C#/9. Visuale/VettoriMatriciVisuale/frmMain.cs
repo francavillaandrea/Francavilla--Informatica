@@ -15,8 +15,6 @@ namespace VettoriMatriciVisuale
     public partial class frmMain : Form
     {
         int[] a;
-        int[] b;
-        int[,] m;
         int[] addendo1;
         int[] addendo2;
         int[] somma;
@@ -28,32 +26,31 @@ namespace VettoriMatriciVisuale
         private void frmMain_Load(object sender, EventArgs e)
         {
             
-            int n = Convert.ToInt32(Interaction.InputBox("Inserisci la lunghezza del vettore A"));
-            settaDGV(dgvA, 1, n);
+            int n = Convert.ToInt32(Interaction.InputBox("Inserisci la lunghezza del vettore"));
+            settaDGV(dgvA, n);
             a = new int[n];
-            clsVettori.caricaVettore(a, 1, 50);
+            clsVettori.caricaVettore(a, 1, 100);
             clsVettori.visualizzaVettore(a, dgvA);
-            settaDGV(dgv3, 1, 3);
-            settaDGV(dgv1Addendo, 1, 3);
+            settaDGV(dgv3, 3);
+            settaDGV(dgv1Addendo, 3);
             addendo1 = new int[3];
             clsVettori.caricaVettore(addendo1, 1, 9);
             clsVettori.visualizzaVettore(addendo1, dgv1Addendo);
-            settaDGV(dgv2Addendo, 1, 3);
+            settaDGV(dgv2Addendo, 3);
             addendo2 = new int[3];
             clsVettori.caricaVettore(addendo2,1,9);
             clsVettori.visualizzaVettore(addendo2, dgv2Addendo);
-            settaDGV(dgvSomma, 1, 4);
+            settaDGV(dgvSomma, 4);
             somma = new int[3];
             clsVettori.caricaVettore(somma, 0, 0);
             clsVettori.visualizzaVettore(somma, dgvSomma);
-
         }
 
-        private void settaDGV(DataGridView dgv, int r, int c)
+        private void settaDGV(DataGridView dgv, int n)
         {
             //vettore riga
             dgv.RowCount = 1;
-            dgv.ColumnCount = c;
+            dgv.ColumnCount = n;
             dgv.RowHeadersVisible = false;
             dgv.ColumnHeadersVisible = false;
             dgv.AutoResizeColumns();
@@ -93,39 +90,6 @@ namespace VettoriMatriciVisuale
         private void btnSomma_Click(object sender, EventArgs e)
         {
             clsVettori.sommaVettori(addendo1, addendo2, dgvSomma);
-        }
-
-        private void btnIntersezione_Click(object sender, EventArgs e)
-        {
-            int m= Convert.ToInt32(Interaction.InputBox("Inserisci la lunghezza del vettore B"));
-            settaDGV(dgvB, 1, m);
-            b = new int[m];
-            settaDGV(dgvIntersezione,1, m);
-            clsVettori.caricaVettore(b , 1, 50);
-            clsVettori.visualizzaVettore(b, dgvB);
-            clsVettori.intersezione(a, b, dgvIntersezione);
-
-        }
-
-        private void btnUnione_Click(object sender, EventArgs e)
-        {
-            int m = Convert.ToInt32(Interaction.InputBox("Inserisci la lunghezza del vettore B"));
-            settaDGV(dgvB, 1, m);
-            b = new int[m];
-            settaDGV(dgvUnione, 1, m + a.Length);
-            clsVettori.caricaVettore(b, 1, 50);
-            clsVettori.visualizzaVettore(b, dgvB);
-            clsVettori.Unione(a, b, dgvUnione);
-        }
-
-        private void btnCaricaMatrice_Click(object sender, EventArgs e)     
-        {
-            int r = Convert.ToInt32(Interaction.InputBox("Inserisci il numero di righe della matrice C"));
-            int c = Convert.ToInt32(Interaction.InputBox("Inserisci il numero di colonne della matrice C"));
-            m = new int[r, c];
-            settaDGV(dgvC, r, c);
-            clsMatrici.caricaMatrice(m);
-            clsMatrici.visualizzaMatrice(m,dgvC);
         }
     }
 }
