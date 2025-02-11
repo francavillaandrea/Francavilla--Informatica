@@ -19,7 +19,7 @@ Domande Verifica Chiavax:
    - Tutti i dati devono essere memorizzati in sequenza  
    - ✅ I dati usati di recente saranno probabilmente riutilizzati  
    - Dati casuali vengono memorizzati per aumentare la probabilità di successo  
-   - ✅ Dati vicini a quelli usati di recente saranno probabilmente usati presto  
+   - Dati vicini a quelli usati di recente saranno probabilmente usati presto  
 
 4)  Qual è la principale differenza tra SRAM e DRAM ?  
    - La SRAM è utilizzata solo per archiviazione a lungo termine  
