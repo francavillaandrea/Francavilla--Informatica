@@ -56,8 +56,15 @@ namespace Cruciverba
         private void visualDgv()
         {
             for (int i = 0; i < a.GetLength(0); i++)
-                for (int j = 0; j < a.GetLength(1); j++)
-                    dgv.Rows[i].Cells[j].Value = a[i,j].ToString();
+                for (int j = 1; j < a.GetLength(1)-1; j++)
+                {
+                    if (a[i, j] == -1)
+                        dgv.Rows[i].Cells[j].Style.BackColor = Color.Black;
+                    else if (a[i,j] == 0)
+                            dgv.Rows[i].Cells[j].Style.BackColor = Color.White;
+                        else
+                            dgv.Rows[i].Cells[j].Value = a[i,j].ToString();
+                }
             dgv.AutoResizeRows();
             dgv.AutoResizeColumns();
         }
