@@ -186,6 +186,7 @@ namespace Algoritmi_Fondamentalii
                     Console.WriteLine("cognome non trovato");
             }
         }
+
         internal static void stampaVettore(string msg, string[] v)
         {
             Console.ForegroundColor = ConsoleColor.Red;
@@ -194,6 +195,7 @@ namespace Algoritmi_Fondamentalii
             for (int i = 0; i < v.Length; i++)
                 Console.WriteLine(v[i]);
         }
+
         internal static void quickSort(int[] array, int leftIndex, int rightIndex)
         {
             var i = leftIndex;
