@@ -1,0 +1,7 @@
+C:\Users\a.francavilla.3537\Desktop\Francavilla_Recupero_Trimestre\Francavilla_Recupero_Trimestre\obj\Debug\Francavilla_Recupero_Trimestre.csproj.AssemblyReference.cache
+C:\Users\a.francavilla.3537\Desktop\Francavilla_Recupero_Trimestre\Francavilla_Recupero_Trimestre\obj\Debug\Francavilla_Recupero_Trimestre.csproj.CoreCompileInputs.cache
+C:\Users\a.francavilla.3537\Desktop\Francavilla_Recupero_Trimestre\Francavilla_Recupero_Trimestre\bin\Debug\Francavilla_Recupero_Trimestre.exe.config
+C:\Users\a.francavilla.3537\Desktop\Francavilla_Recupero_Trimestre\Francavilla_Recupero_Trimestre\bin\Debug\Francavilla_Recupero_Trimestre.exe
+C:\Users\a.francavilla.3537\Desktop\Francavilla_Recupero_Trimestre\Francavilla_Recupero_Trimestre\bin\Debug\Francavilla_Recupero_Trimestre.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavilla_Recupero_Trimestre\Francavilla_Recupero_Trimestre\obj\Debug\Francavilla_Recupero_Trimestre.exe
+C:\Users\a.francavilla.3537\Desktop\Francavilla_Recupero_Trimestre\Francavilla_Recupero_Trimestre\obj\Debug\Francavilla_Recupero_Trimestre.pdb
