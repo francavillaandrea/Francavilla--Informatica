@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Prato_Fiorit\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F7435CD4-1860-4EBD-BCE9-79BDDF99A884}|Prato_Fiorit.csproj|c:\\users\\paolc\\desktop\\francavillaandrea\\1. informatica\\c#\\9. visuale\\prato_fiorit\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7435CD4-1860-4EBD-BCE9-79BDDF99A884}|Prato_Fiorit.csproj|solutionrelative:frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F7435CD4-1860-4EBD-BCE9-79BDDF99A884}|Prato_Fiorit.csproj|c:\\users\\paolc\\desktop\\francavillaandrea\\1. informatica\\c#\\9. visuale\\prato_fiorit\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F7435CD4-1860-4EBD-BCE9-79BDDF99A884}|Prato_Fiorit.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FrmMain.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Prato_Fiorit\\FrmMain.Designer.cs",
+              "RelativeDocumentMoniker": "FrmMain.Designer.cs",
+              "ToolTip": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Prato_Fiorit\\FrmMain.Designer.cs",
+              "RelativeToolTip": "FrmMain.Designer.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAQwFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T09:04:34.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FrmMain.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Prato_Fiorit\\FrmMain.cs",
               "RelativeDocumentMoniker": "FrmMain.cs",
