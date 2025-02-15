@@ -81,5 +81,9 @@
         private System.Windows.Forms.Label lblGameStatus;
         private System.Windows.Forms.DataGridView dgvGameBoard;
         private System.Windows.Forms.Button btnNewGame;
+
+        private System.Windows.Forms.Label lblGameStatus;
+        private System.Windows.Forms.DataGridView dgvGameBoard;
+        private System.Windows.Forms.Button btnNewGame;
     }
 }
