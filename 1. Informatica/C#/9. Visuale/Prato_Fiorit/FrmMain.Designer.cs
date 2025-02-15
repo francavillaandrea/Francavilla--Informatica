@@ -30,11 +30,56 @@
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(400, 500);
+            this.Controls.Add(this.lblGameStatus);
+            this.Controls.Add(this.dgvGameBoard);
+            this.Controls.Add(this.btnNewGame);
+            this.Text = "Minesweeper";
         }
 
+            // 
+            // lblGameStatus
+            // 
+            this.lblGameStatus = new System.Windows.Forms.Label();
+            this.lblGameStatus.AutoSize = true;
+            this.lblGameStatus.Location = new System.Drawing.Point(20, 20);
+            this.lblGameStatus.Name = "lblGameStatus";
+            this.lblGameStatus.Size = new System.Drawing.Size(100, 20);
+            this.lblGameStatus.TabIndex = 0;
+            this.lblGameStatus.Text = "Game Status";
+
+            // 
+            // dgvGameBoard
+            // 
+            this.dgvGameBoard = new System.Windows.Forms.DataGridView();
+            this.dgvGameBoard.AllowUserToAddRows = false;
+            this.dgvGameBoard.AllowUserToDeleteRows = false;
+            this.dgvGameBoard.AllowUserToResizeColumns = false;
+            this.dgvGameBoard.AllowUserToResizeRows = false;
+            this.dgvGameBoard.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvGameBoard.ColumnHeadersVisible = false;
+            this.dgvGameBoard.Location = new System.Drawing.Point(20, 50);
+            this.dgvGameBoard.Name = "dgvGameBoard";
+            this.dgvGameBoard.RowHeadersVisible = false;
+            this.dgvGameBoard.RowTemplate.Height = 25;
+            this.dgvGameBoard.Size = new System.Drawing.Size(360, 360);
+            this.dgvGameBoard.TabIndex = 1;
+
+            // 
+            // btnNewGame
+            // 
+            this.btnNewGame = new System.Windows.Forms.Button();
+            this.btnNewGame.Location = new System.Drawing.Point(150, 430);
+            this.btnNewGame.Name = "btnNewGame";
+            this.btnNewGame.Size = new System.Drawing.Size(100, 30);
+            this.btnNewGame.TabIndex = 2;
+            this.btnNewGame.Text = "New Game";
+            this.btnNewGame.UseVisualStyleBackColor = true;
+
         #endregion
+
+        private System.Windows.Forms.Label lblGameStatus;
+        private System.Windows.Forms.DataGridView dgvGameBoard;
+        private System.Windows.Forms.Button btnNewGame;
     }
 }
-
