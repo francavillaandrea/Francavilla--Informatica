@@ -1,35 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+using System;
 
 namespace Prato_Fiorit
 {
-    public partial class FrmMain : Form
+    public class ClsMinesweeper
     {
         private const int GridSize = 8;
         private const int BombCount = 10;
         private int[,] gameBoard;
         private bool[,] revealedCells;
         private bool[,] flaggedCells;
+        private bool gameOver;
 
-        public FrmMain()
+        public ClsMinesweeper()
         {
-            InitializeComponent();
             InitializeGame();
         }
-        private void InitializeGame()
+
+        public void InitializeGame()
         {
             gameBoard = new int[GridSize, GridSize];
             revealedCells = new bool[GridSize, GridSize];
             flaggedCells = new bool[GridSize, GridSize];
+            gameOver = false;
             InitializeGameBoard();
-            UpdateUI();
         }
 
         private void InitializeGameBoard()
@@ -65,32 +58,17 @@ namespace Prato_Fiorit
             }
         }
 
-        private void dgvGameBoard_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        public bool RevealCell(int row, int col)
         {
-            if (e.RowIndex < 0 || e.ColumnIndex < 0) return;
-
-            if (e.Button == MouseButtons.Left)
-            {
-                RevealCell(e.RowIndex, e.ColumnIndex);
-            }
-            else if (e.Button == MouseButtons.Right)
-            {
-                FlagCell(e.RowIndex, e.ColumnIndex);
-            }
-        }
-
-        private void RevealCell(int row, int col)
-        {
-            if (revealedCells[row, col] || flaggedCells[row, col]) return;
+            if (gameOver || revealedCells[row, col] || flaggedCells[row, col])
+                return false;
 
             revealedCells[row, col] = true;
 
             if (gameBoard[row, col] == -1)
             {
-                lblGameStatus.Text = "Game Over!";
-                RevealAllBombs();
-                dgvGameBoard.Enabled = false;
-                return;
+                gameOver = true;
+                return true; // Bomb revealed
             }
 
             if (gameBoard[row, col] == 0)
@@ -111,38 +89,18 @@ namespace Prato_Fiorit
                 }
             }
 
-            UpdateUI();
-
-            if (CheckWinCondition())
-            {
-                lblGameStatus.Text = "You Win!";
-                dgvGameBoard.Enabled = false;
-            }
+            return false;
         }
 
-        private void FlagCell(int row, int col)
+        public void FlagCell(int row, int col)
         {
-            if (revealedCells[row, col]) return;
+            if (gameOver || revealedCells[row, col])
+                return;
 
             flaggedCells[row, col] = !flaggedCells[row, col];
-            UpdateUI();
         }
 
-        private void RevealAllBombs()
-        {
-            for (int i = 0; i < GridSize; i++)
-            {
-                for (int j = 0; j < GridSize; j++)
-                {
-                    if (gameBoard[i, j] == -1)
-                    {
-                        dgvGameBoard.Rows[i].Cells[j].Value = "💣";
-                    }
-                }
-            }
-        }
-
-        private bool CheckWinCondition()
+        public bool CheckWinCondition()
         {
             for (int i = 0; i < GridSize; i++)
             {
@@ -157,33 +115,23 @@ namespace Prato_Fiorit
             return true;
         }
 
-        private void UpdateUI()
+        public bool IsGameOver()
         {
-            for (int i = 0; i < GridSize; i++)
-            {
-                for (int j = 0; j < GridSize; j++)
-                {
-                    if (revealedCells[i, j])
-                    {
-                        dgvGameBoard.Rows[i].Cells[j].Value = gameBoard[i, j] == 0 ? "" : gameBoard[i, j].ToString();
-                    }
-                    else if (flaggedCells[i, j])
-                    {
-                        dgvGameBoard.Rows[i].Cells[j].Value = "🚩";
-                    }
-                    else
-                    {
-                        dgvGameBoard.Rows[i].Cells[j].Value = "";
-                    }
-                }
-            }
+            return gameOver;
         }
 
-        private void btnNewGame_Click(object sender, EventArgs e)
+        public string GetCellState(int row, int col)
         {
-            InitializeGame();
-            lblGameStatus.Text = "Game in Progress";
-            dgvGameBoard.Enabled = true;
+            if (flaggedCells[row, col])
+                return "Flagged";
+
+            if (!revealedCells[row, col])
+                return "Hidden";
+
+            if (gameBoard[row, col] == -1)
+                return "Bomb";
+
+            return gameBoard[row, col] == 0 ? "Empty" : gameBoard[row, col].ToString();
         }
     }
 }
