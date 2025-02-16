@@ -1,0 +1,5 @@
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Prato_Fiorito\obj\Debug\Prato_Fiorito.csproj.AssemblyReference.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Prato_Fiorito\obj\Debug\Prato_Fiorito.Properties.Resources.resources
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Prato_Fiorito\obj\Debug\Prato_Fiorito.csproj.GenerateResource.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Prato_Fiorito\obj\Debug\Prato_Fiorito.csproj.CoreCompileInputs.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Prato_Fiorito\obj\Debug\Prato_Fiorito.FrmMain.resources
