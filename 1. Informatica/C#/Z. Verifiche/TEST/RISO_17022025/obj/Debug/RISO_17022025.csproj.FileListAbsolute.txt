@@ -1,0 +1,10 @@
+C:\Users\c.riso.3684\Desktop\RISO_17022025\RISO_17022025\bin\Debug\RISO_17022025.exe.config
+C:\Users\c.riso.3684\Desktop\RISO_17022025\RISO_17022025\bin\Debug\RISO_17022025.exe
+C:\Users\c.riso.3684\Desktop\RISO_17022025\RISO_17022025\bin\Debug\RISO_17022025.pdb
+C:\Users\c.riso.3684\Desktop\RISO_17022025\RISO_17022025\obj\Debug\RISO_17022025.csproj.AssemblyReference.cache
+C:\Users\c.riso.3684\Desktop\RISO_17022025\RISO_17022025\obj\Debug\RISO_17022025.FrmRiso.resources
+C:\Users\c.riso.3684\Desktop\RISO_17022025\RISO_17022025\obj\Debug\RISO_17022025.Properties.Resources.resources
+C:\Users\c.riso.3684\Desktop\RISO_17022025\RISO_17022025\obj\Debug\RISO_17022025.csproj.GenerateResource.cache
+C:\Users\c.riso.3684\Desktop\RISO_17022025\RISO_17022025\obj\Debug\RISO_17022025.csproj.CoreCompileInputs.cache
+C:\Users\c.riso.3684\Desktop\RISO_17022025\RISO_17022025\obj\Debug\RISO_17022025.exe
+C:\Users\c.riso.3684\Desktop\RISO_17022025\RISO_17022025\obj\Debug\RISO_17022025.pdb
