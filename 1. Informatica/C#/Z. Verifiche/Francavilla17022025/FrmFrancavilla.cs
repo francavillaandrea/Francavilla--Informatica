@@ -239,5 +239,10 @@ namespace Francavilla17022025
             btnVerifica.Enabled = false;
             dgv1.ClearSelection();
         }
+
+        private void lblTitolo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     }

@@ -42,36 +42,44 @@
             // lblTitolo
             // 
             this.lblTitolo.AutoSize = true;
-            this.lblTitolo.Location = new System.Drawing.Point(12, 9);
+            this.lblTitolo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitolo.Location = new System.Drawing.Point(161, 24);
+            this.lblTitolo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitolo.Name = "lblTitolo";
-            this.lblTitolo.Size = new System.Drawing.Size(80, 13);
+            this.lblTitolo.Size = new System.Drawing.Size(191, 29);
             this.lblTitolo.TabIndex = 0;
-            this.lblTitolo.Text = "MASTERMIND";
+            this.lblTitolo.Text = "MASTERMIND:";
+            this.lblTitolo.Click += new System.EventHandler(this.lblTitolo_Click);
             // 
             // dgv1
             // 
             this.dgv1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv1.Location = new System.Drawing.Point(12, 57);
+            this.dgv1.Location = new System.Drawing.Point(166, 73);
+            this.dgv1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgv1.Name = "dgv1";
-            this.dgv1.Size = new System.Drawing.Size(210, 260);
+            this.dgv1.RowHeadersWidth = 51;
+            this.dgv1.Size = new System.Drawing.Size(280, 320);
             this.dgv1.TabIndex = 1;
             // 
             // btnGioca
             // 
+            this.btnGioca.BackColor = System.Drawing.Color.Transparent;
             this.btnGioca.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGioca.Location = new System.Drawing.Point(354, 9);
+            this.btnGioca.Location = new System.Drawing.Point(346, 13);
+            this.btnGioca.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGioca.Name = "btnGioca";
-            this.btnGioca.Size = new System.Drawing.Size(85, 42);
+            this.btnGioca.Size = new System.Drawing.Size(100, 52);
             this.btnGioca.TabIndex = 2;
             this.btnGioca.Text = "GIOCA";
-            this.btnGioca.UseVisualStyleBackColor = true;
+            this.btnGioca.UseVisualStyleBackColor = false;
             this.btnGioca.Click += new System.EventHandler(this.btnGioca_Click);
             // 
             // btn1
             // 
-            this.btn1.Location = new System.Drawing.Point(15, 386);
+            this.btn1.Location = new System.Drawing.Point(100, 401);
+            this.btn1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(75, 23);
+            this.btn1.Size = new System.Drawing.Size(100, 28);
             this.btn1.TabIndex = 3;
             this.btn1.Text = "0";
             this.btn1.UseVisualStyleBackColor = true;
@@ -79,9 +87,10 @@
             // 
             // btn2
             // 
-            this.btn2.Location = new System.Drawing.Point(183, 386);
+            this.btn2.Location = new System.Drawing.Point(208, 401);
+            this.btn2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(75, 23);
+            this.btn2.Size = new System.Drawing.Size(100, 28);
             this.btn2.TabIndex = 4;
             this.btn2.Text = "0";
             this.btn2.UseVisualStyleBackColor = true;
@@ -89,9 +98,10 @@
             // 
             // btn3
             // 
-            this.btn3.Location = new System.Drawing.Point(283, 386);
+            this.btn3.Location = new System.Drawing.Point(316, 401);
+            this.btn3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(75, 23);
+            this.btn3.Size = new System.Drawing.Size(100, 28);
             this.btn3.TabIndex = 5;
             this.btn3.Text = "0";
             this.btn3.UseVisualStyleBackColor = true;
@@ -99,9 +109,10 @@
             // 
             // btn4
             // 
-            this.btn4.Location = new System.Drawing.Point(364, 386);
+            this.btn4.Location = new System.Drawing.Point(424, 401);
+            this.btn4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(75, 23);
+            this.btn4.Size = new System.Drawing.Size(100, 28);
             this.btn4.TabIndex = 6;
             this.btn4.Text = "0";
             this.btn4.UseVisualStyleBackColor = true;
@@ -109,9 +120,11 @@
             // 
             // btnVerifica
             // 
-            this.btnVerifica.Location = new System.Drawing.Point(183, 415);
+            this.btnVerifica.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerifica.Location = new System.Drawing.Point(250, 437);
+            this.btnVerifica.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnVerifica.Name = "btnVerifica";
-            this.btnVerifica.Size = new System.Drawing.Size(75, 23);
+            this.btnVerifica.Size = new System.Drawing.Size(123, 40);
             this.btnVerifica.TabIndex = 7;
             this.btnVerifica.Text = "Verifica";
             this.btnVerifica.UseVisualStyleBackColor = true;
@@ -119,9 +132,9 @@
             // 
             // FrmFrancavilla
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(465, 494);
+            this.ClientSize = new System.Drawing.Size(620, 512);
             this.Controls.Add(this.btnVerifica);
             this.Controls.Add(this.btn4);
             this.Controls.Add(this.btn3);
@@ -130,6 +143,7 @@
             this.Controls.Add(this.btnGioca);
             this.Controls.Add(this.dgv1);
             this.Controls.Add(this.lblTitolo);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmFrancavilla";
             this.Text = "Francavilla";
             ((System.ComponentModel.ISupportInitialize)(this.dgv1)).EndInit();

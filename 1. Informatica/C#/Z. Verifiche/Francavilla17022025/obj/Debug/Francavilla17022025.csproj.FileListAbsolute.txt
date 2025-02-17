@@ -8,3 +8,12 @@ C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verif
 C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla17022025\obj\Debug\Francavilla17022025.exe
 C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla17022025\obj\Debug\Francavilla17022025.pdb
 C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla17022025\obj\Debug\Francavilla17022025.FrmFrancavilla.resources
+C:\Users\manun\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla17022025\obj\Debug\Francavilla17022025.csproj.AssemblyReference.cache
+C:\Users\manun\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla17022025\obj\Debug\Francavilla17022025.FrmFrancavilla.resources
+C:\Users\manun\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla17022025\obj\Debug\Francavilla17022025.csproj.GenerateResource.cache
+C:\Users\manun\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla17022025\obj\Debug\Francavilla17022025.exe
+C:\Users\manun\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla17022025\obj\Debug\Francavilla17022025.pdb
+C:\Users\manun\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla17022025\bin\Debug\Francavilla17022025.exe.config
+C:\Users\manun\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla17022025\bin\Debug\Francavilla17022025.exe
+C:\Users\manun\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla17022025\obj\Debug\Francavilla17022025.Properties.Resources.resources
+C:\Users\manun\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla17022025\obj\Debug\Francavilla17022025.csproj.CoreCompileInputs.cache

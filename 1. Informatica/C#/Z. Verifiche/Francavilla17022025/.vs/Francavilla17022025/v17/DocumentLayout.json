@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\manun\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\Z. Verifiche\\Francavilla17022025\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37E399CB-4CFF-4F51-B180-2099EC872ABD}|Francavilla17022025.csproj|c:\\users\\manun\\desktop\\francavillaandrea\\1. informatica\\c#\\z. verifiche\\francavilla17022025\\frmfrancavilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{37E399CB-4CFF-4F51-B180-2099EC872ABD}|Francavilla17022025.csproj|solutionrelative:frmfrancavilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E399CB-4CFF-4F51-B180-2099EC872ABD}|Francavilla17022025.csproj|C:\\Users\\manun\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\Z. Verifiche\\Francavilla17022025\\frmfrancavilla.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E399CB-4CFF-4F51-B180-2099EC872ABD}|Francavilla17022025.csproj|solutionrelative:frmfrancavilla.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmFrancavilla.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\manun\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\Z. Verifiche\\Francavilla17022025\\FrmFrancavilla.cs",
+              "RelativeDocumentMoniker": "FrmFrancavilla.cs",
+              "ToolTip": "C:\\Users\\manun\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\Z. Verifiche\\Francavilla17022025\\FrmFrancavilla.cs [Progettazione]",
+              "RelativeToolTip": "FrmFrancavilla.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T15:05:42.127Z",
+              "EditorCaption": " [Progettazione]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmFrancavilla.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\manun\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\Z. Verifiche\\Francavilla17022025\\FrmFrancavilla.Designer.cs",
+              "RelativeDocumentMoniker": "FrmFrancavilla.Designer.cs",
+              "ToolTip": "C:\\Users\\manun\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\Z. Verifiche\\Francavilla17022025\\FrmFrancavilla.Designer.cs",
+              "RelativeToolTip": "FrmFrancavilla.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:44:35.07Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Francavilla_09122024\\",
+  "WorkspaceRootPath": "C:\\Users\\manun\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\Z. Verifiche\\Francavilla_09122024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BC3F0F2-62FA-4260-A4D8-3AE0285ABA00}|Verifica_09122024.csproj|D:\\Francavilla_09122024\\clsfrancavilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BC3F0F2-62FA-4260-A4D8-3AE0285ABA00}|Verifica_09122024.csproj|c:\\users\\manun\\desktop\\francavillaandrea\\1. informatica\\c#\\z. verifiche\\francavilla_09122024\\clsfrancavilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BC3F0F2-62FA-4260-A4D8-3AE0285ABA00}|Verifica_09122024.csproj|solutionrelative:clsfrancavilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BC3F0F2-62FA-4260-A4D8-3AE0285ABA00}|Verifica_09122024.csproj|d:\\francavilla_09122024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BC3F0F2-62FA-4260-A4D8-3AE0285ABA00}|Verifica_09122024.csproj|C:\\Users\\manun\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\Z. Verifiche\\Francavilla_09122024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BC3F0F2-62FA-4260-A4D8-3AE0285ABA00}|Verifica_09122024.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ClsFrancavilla.cs",
-              "DocumentMoniker": "D:\\Francavilla_09122024\\ClsFrancavilla.cs",
+              "DocumentMoniker": "C:\\Users\\manun\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\Z. Verifiche\\Francavilla_09122024\\ClsFrancavilla.cs",
               "RelativeDocumentMoniker": "ClsFrancavilla.cs",
-              "ToolTip": "D:\\Francavilla_09122024\\ClsFrancavilla.cs",
+              "ToolTip": "C:\\Users\\manun\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\Z. Verifiche\\Francavilla_09122024\\ClsFrancavilla.cs",
               "RelativeToolTip": "ClsFrancavilla.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAQwCYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -37,14 +37,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Francavilla_09122024\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\manun\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\Z. Verifiche\\Francavilla_09122024\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Francavilla_09122024\\Program.cs",
+              "ToolTip": "C:\\Users\\manun\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\Z. Verifiche\\Francavilla_09122024\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T09:13:53.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T09:13:53.786Z"
             }
           ]
         }
