@@ -5,7 +5,7 @@ let _divMsg = document.getElementById("divMessaggio");
 let _btnGioca = document.getElementById("btnGioca");
 let _btnReset = document.getElementById("btnReset");
 let cntTent = 0;
-_btnReset.style
+_btnReset.style.display = "none";
 function generaNumero(min,max){
     /*formula per generare un numero 
     casuale compreso tra min e max max escluso */
@@ -54,6 +54,14 @@ function terminaGioco()
 {
     _txtNumero.disabled = true;
     _btnGioca.disabled = true;
-    _btnReset
+    _btnReset.style.display = "block";
+}
+
+function gestisciEnter(event)
+{
+    if(event.key == "Enter")
+    {
+        gioca();
+    }
 }
 
