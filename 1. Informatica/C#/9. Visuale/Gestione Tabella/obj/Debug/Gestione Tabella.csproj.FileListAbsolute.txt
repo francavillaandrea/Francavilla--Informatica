@@ -1,0 +1,10 @@
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Gestione Tabella\bin\Debug\Gestione Tabella.exe.config
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Gestione Tabella\bin\Debug\Gestione Tabella.exe
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Gestione Tabella\bin\Debug\Gestione Tabella.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Gestione Tabella\obj\Debug\Gestione Tabella.csproj.AssemblyReference.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Gestione Tabella\obj\Debug\Gestione_Tabella.FrmMain.resources
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Gestione Tabella\obj\Debug\Gestione_Tabella.Properties.Resources.resources
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Gestione Tabella\obj\Debug\Gestione Tabella.csproj.GenerateResource.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Gestione Tabella\obj\Debug\Gestione Tabella.csproj.CoreCompileInputs.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Gestione Tabella\obj\Debug\Gestione Tabella.exe
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Gestione Tabella\obj\Debug\Gestione Tabella.pdb
