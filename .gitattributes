@@ -1,6 +1,0 @@
-* text=auto
-*.cs text diff=csharp
-*.resx text
-*.csproj text
-*.sln text
-*.png binary
