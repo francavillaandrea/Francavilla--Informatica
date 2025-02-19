@@ -66,7 +66,7 @@ void handleParity()
     {
         transmitBit(1);
     }
-
+    
 }
 
 void handleStop()
