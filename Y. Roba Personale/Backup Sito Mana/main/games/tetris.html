@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pong</title>
+    <title>Tetris</title>
     <link rel="stylesheet" href="../common.css">
-    <link rel="stylesheet" href="pong.css">
+    <link rel="stylesheet" href="tetris.css">
 </head>
 <body>
     <div id="gameContainer">
-        <div id="score">0 - 0</div>
-        <canvas id="pongCanvas" width="800" height="400"></canvas>
+        <div id="score">Score: 0</div>
+        <canvas id="game" width="320" height="640"></canvas>
         <button id="startButton" class="game-button">Gioca</button>
         <div id="instructions">
-            Giocatore 1: W/S | Giocatore 2: ↑/↓
+            W : Ruota | A/D : Muovi | S : Veloce
         </div>
     </div>
     <script src="../common.js"></script>
-    <script src="pong.js"></script>
+    <script src="tetris.js"></script>
 </body>
-</html>  
+</html> 
