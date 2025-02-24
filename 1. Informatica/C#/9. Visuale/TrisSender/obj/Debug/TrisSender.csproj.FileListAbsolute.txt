@@ -1,0 +1,10 @@
+C:\Users\marco.paschetta\Desktop\3B\TrisSender\bin\Debug\TrisSender.exe.config
+C:\Users\marco.paschetta\Desktop\3B\TrisSender\bin\Debug\TrisSender.exe
+C:\Users\marco.paschetta\Desktop\3B\TrisSender\bin\Debug\TrisSender.pdb
+C:\Users\marco.paschetta\Desktop\3B\TrisSender\obj\Debug\TrisSender.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B\TrisSender\obj\Debug\TrisSender.FrmMain.resources
+C:\Users\marco.paschetta\Desktop\3B\TrisSender\obj\Debug\TrisSender.Properties.Resources.resources
+C:\Users\marco.paschetta\Desktop\3B\TrisSender\obj\Debug\TrisSender.csproj.GenerateResource.cache
+C:\Users\marco.paschetta\Desktop\3B\TrisSender\obj\Debug\TrisSender.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B\TrisSender\obj\Debug\TrisSender.exe
+C:\Users\marco.paschetta\Desktop\3B\TrisSender\obj\Debug\TrisSender.pdb

@@ -1,5 +1,0 @@
-C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\7. Giochi fai da te\Snake\Snake\obj\Debug\Snake.csproj.AssemblyReference.cache
-C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\7. Giochi fai da te\Snake\Snake\obj\Debug\SnakeGame.Form1.resources
-C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\7. Giochi fai da te\Snake\Snake\obj\Debug\Snake.Properties.Resources.resources
-C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\7. Giochi fai da te\Snake\Snake\obj\Debug\Snake.csproj.GenerateResource.cache
-C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\Informatica\C#\7. Giochi fai da te\Snake\Snake\obj\Debug\Snake.csproj.CoreCompileInputs.cache

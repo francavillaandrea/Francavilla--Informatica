@@ -1,0 +1,13 @@
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Battaglia_Navale\obj\Debug\Battaglia_Navale.csproj.AssemblyReference.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Battaglia_Navale\obj\Debug\Battaglia_Navale.Properties.Resources.resources
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Battaglia_Navale\obj\Debug\Battaglia_Navale.csproj.GenerateResource.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Battaglia_Navale\obj\Debug\Battaglia_Navale.csproj.CoreCompileInputs.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Battaglia_Navale\bin\Debug\Battaglia_Navale.exe.config
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Battaglia_Navale\bin\Debug\Battaglia_Navale.exe
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Battaglia_Navale\bin\Debug\Battaglia_Navale.pdb
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Battaglia_Navale\obj\Debug\BattagliaNavale.FrmMain.resources
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Battaglia_Navale\obj\Debug\Battaglia_Navale.exe
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Battaglia_Navale\obj\Debug\Battaglia_Navale.pdb
+C:\Users\manun\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Battaglia_Navale\obj\Debug\Battaglia_Navale.csproj.AssemblyReference.cache
+C:\Users\manun\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Battaglia_Navale\obj\Debug\Battaglia_Navale.exe
+C:\Users\manun\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Battaglia_Navale\obj\Debug\Battaglia_Navale.pdb

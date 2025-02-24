@@ -1,0 +1,10 @@
+C:\Users\marco.paschetta\Desktop\3B\TrisDinamico\bin\Debug\TrisDinamico.exe.config
+C:\Users\marco.paschetta\Desktop\3B\TrisDinamico\bin\Debug\TrisDinamico.exe
+C:\Users\marco.paschetta\Desktop\3B\TrisDinamico\bin\Debug\TrisDinamico.pdb
+C:\Users\marco.paschetta\Desktop\3B\TrisDinamico\obj\Debug\TrisDinamico.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B\TrisDinamico\obj\Debug\TrisDinamico.FrmMain.resources
+C:\Users\marco.paschetta\Desktop\3B\TrisDinamico\obj\Debug\TrisDinamico.Properties.Resources.resources
+C:\Users\marco.paschetta\Desktop\3B\TrisDinamico\obj\Debug\TrisDinamico.csproj.GenerateResource.cache
+C:\Users\marco.paschetta\Desktop\3B\TrisDinamico\obj\Debug\TrisDinamico.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B\TrisDinamico\obj\Debug\TrisDinamico.exe
+C:\Users\marco.paschetta\Desktop\3B\TrisDinamico\obj\Debug\TrisDinamico.pdb

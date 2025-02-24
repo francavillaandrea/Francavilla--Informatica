@@ -1,0 +1,20 @@
+C:\Users\alberto.barbero\Desktop\Cruciverba\bin\Debug\Cruciverba.exe.config
+C:\Users\alberto.barbero\Desktop\Cruciverba\bin\Debug\Cruciverba.exe
+C:\Users\alberto.barbero\Desktop\Cruciverba\bin\Debug\Cruciverba.pdb
+C:\Users\alberto.barbero\Desktop\Cruciverba\obj\Debug\Cruciverba.csproj.AssemblyReference.cache
+C:\Users\alberto.barbero\Desktop\Cruciverba\obj\Debug\Cruciverba.frmMain.resources
+C:\Users\alberto.barbero\Desktop\Cruciverba\obj\Debug\Cruciverba.Properties.Resources.resources
+C:\Users\alberto.barbero\Desktop\Cruciverba\obj\Debug\Cruciverba.csproj.GenerateResource.cache
+C:\Users\alberto.barbero\Desktop\Cruciverba\obj\Debug\Cruciverba.csproj.CoreCompileInputs.cache
+C:\Users\alberto.barbero\Desktop\Cruciverba\obj\Debug\Cruciverba.exe
+C:\Users\alberto.barbero\Desktop\Cruciverba\obj\Debug\Cruciverba.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Cruciverba\obj\Debug\Cruciverba.csproj.AssemblyReference.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Cruciverba\obj\Debug\Cruciverba.frmMain.resources
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Cruciverba\obj\Debug\Cruciverba.Properties.Resources.resources
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Cruciverba\obj\Debug\Cruciverba.csproj.GenerateResource.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Cruciverba\obj\Debug\Cruciverba.csproj.CoreCompileInputs.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Cruciverba\obj\Debug\Cruciverba.exe
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Cruciverba\obj\Debug\Cruciverba.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Cruciverba\bin\Debug\Cruciverba.exe.config
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Cruciverba\bin\Debug\Cruciverba.exe
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Cruciverba\bin\Debug\Cruciverba.pdb

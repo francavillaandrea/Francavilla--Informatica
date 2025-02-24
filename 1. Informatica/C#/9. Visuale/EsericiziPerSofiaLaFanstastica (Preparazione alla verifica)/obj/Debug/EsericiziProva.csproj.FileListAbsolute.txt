@@ -1,0 +1,10 @@
+C:\Users\manun\Desktop\Scuola PC\Manunta Gabriele Informatica\C# Visuale\Giochi\EsericiziProva\bin\Debug\EsericiziProva.exe.config
+C:\Users\manun\Desktop\Scuola PC\Manunta Gabriele Informatica\C# Visuale\Giochi\EsericiziProva\bin\Debug\EsericiziProva.exe
+C:\Users\manun\Desktop\Scuola PC\Manunta Gabriele Informatica\C# Visuale\Giochi\EsericiziProva\bin\Debug\EsericiziProva.pdb
+C:\Users\manun\Desktop\Scuola PC\Manunta Gabriele Informatica\C# Visuale\Giochi\EsericiziProva\obj\Debug\EsericiziProva.csproj.AssemblyReference.cache
+C:\Users\manun\Desktop\Scuola PC\Manunta Gabriele Informatica\C# Visuale\Giochi\EsericiziProva\obj\Debug\EsericiziProva.Form1.resources
+C:\Users\manun\Desktop\Scuola PC\Manunta Gabriele Informatica\C# Visuale\Giochi\EsericiziProva\obj\Debug\EsericiziProva.Properties.Resources.resources
+C:\Users\manun\Desktop\Scuola PC\Manunta Gabriele Informatica\C# Visuale\Giochi\EsericiziProva\obj\Debug\EsericiziProva.csproj.GenerateResource.cache
+C:\Users\manun\Desktop\Scuola PC\Manunta Gabriele Informatica\C# Visuale\Giochi\EsericiziProva\obj\Debug\EsericiziProva.csproj.CoreCompileInputs.cache
+C:\Users\manun\Desktop\Scuola PC\Manunta Gabriele Informatica\C# Visuale\Giochi\EsericiziProva\obj\Debug\EsericiziProva.exe
+C:\Users\manun\Desktop\Scuola PC\Manunta Gabriele Informatica\C# Visuale\Giochi\EsericiziProva\obj\Debug\EsericiziProva.pdb

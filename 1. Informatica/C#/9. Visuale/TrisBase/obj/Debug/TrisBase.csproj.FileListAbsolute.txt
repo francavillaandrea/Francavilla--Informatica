@@ -1,0 +1,19 @@
+C:\Users\marco.paschetta\Desktop\3B INF\TrisBase\bin\Debug\TrisBase.exe.config
+C:\Users\marco.paschetta\Desktop\3B INF\TrisBase\bin\Debug\TrisBase.exe
+C:\Users\marco.paschetta\Desktop\3B INF\TrisBase\bin\Debug\TrisBase.pdb
+C:\Users\marco.paschetta\Desktop\3B INF\TrisBase\obj\Debug\TrisBase.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B INF\TrisBase\obj\Debug\TrisBase.FrmMain.resources
+C:\Users\marco.paschetta\Desktop\3B INF\TrisBase\obj\Debug\TrisBase.Properties.Resources.resources
+C:\Users\marco.paschetta\Desktop\3B INF\TrisBase\obj\Debug\TrisBase.csproj.GenerateResource.cache
+C:\Users\marco.paschetta\Desktop\3B INF\TrisBase\obj\Debug\TrisBase.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B INF\TrisBase\obj\Debug\TrisBase.exe
+C:\Users\marco.paschetta\Desktop\3B INF\TrisBase\obj\Debug\TrisBase.pdb
+C:\Users\alberto.barbero\Desktop\TrisBase\bin\Debug\TrisBase.exe.config
+C:\Users\alberto.barbero\Desktop\TrisBase\bin\Debug\TrisBase.exe
+C:\Users\alberto.barbero\Desktop\TrisBase\bin\Debug\TrisBase.pdb
+C:\Users\alberto.barbero\Desktop\TrisBase\obj\Debug\TrisBase.csprojAssemblyReference.cache
+C:\Users\alberto.barbero\Desktop\TrisBase\obj\Debug\TrisBase.FrmMain.resources
+C:\Users\alberto.barbero\Desktop\TrisBase\obj\Debug\TrisBase.Properties.Resources.resources
+C:\Users\alberto.barbero\Desktop\TrisBase\obj\Debug\TrisBase.csproj.GenerateResource.cache
+C:\Users\alberto.barbero\Desktop\TrisBase\obj\Debug\TrisBase.exe
+C:\Users\alberto.barbero\Desktop\TrisBase\obj\Debug\TrisBase.pdb
