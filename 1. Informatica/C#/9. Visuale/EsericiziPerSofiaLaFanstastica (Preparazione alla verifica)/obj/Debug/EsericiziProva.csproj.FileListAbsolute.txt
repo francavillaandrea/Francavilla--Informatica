@@ -19,3 +19,13 @@ C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visua
 C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\obj\Debug\EsericiziProva.csproj.CoreCompileInputs.cache
 C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\obj\Debug\EsericiziProva.exe
 C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\obj\Debug\EsericiziProva.pdb
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\bin\Debug\EsericiziProva.exe.config
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\bin\Debug\EsericiziProva.exe
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\bin\Debug\EsericiziProva.pdb
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\obj\Debug\EsericiziProva.csproj.AssemblyReference.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\obj\Debug\EsericiziProva.Form1.resources
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\obj\Debug\EsericiziProva.Properties.Resources.resources
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\obj\Debug\EsericiziProva.csproj.GenerateResource.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\obj\Debug\EsericiziProva.csproj.CoreCompileInputs.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\obj\Debug\EsericiziProva.exe
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\obj\Debug\EsericiziProva.pdb

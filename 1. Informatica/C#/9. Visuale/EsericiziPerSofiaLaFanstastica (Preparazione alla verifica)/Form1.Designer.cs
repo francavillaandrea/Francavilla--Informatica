@@ -40,9 +40,16 @@
             this.btnCaricaMatrice = new System.Windows.Forms.Button();
             this.dgvMatrice = new System.Windows.Forms.DataGridView();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.btnSommaDi2Vettori = new System.Windows.Forms.Button();
+            this.DgvRis = new System.Windows.Forms.DataGridView();
+            this.Dgv2 = new System.Windows.Forms.DataGridView();
+            this.Dgv1 = new System.Windows.Forms.DataGridView();
             this.btnRicerca = new System.Windows.Forms.Button();
             this.btnMediaDi2Vettori = new System.Windows.Forms.Button();
-            this.btnSommaDi2Vettori = new System.Windows.Forms.Button();
             this.btnCopiaVettore = new System.Windows.Forms.Button();
             this.btnOrdina = new System.Windows.Forms.Button();
             this.btnSomma = new System.Windows.Forms.Button();
@@ -74,12 +81,17 @@
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.btnRicaricaMatrice = new System.Windows.Forms.Button();
             this.btnRicaricaVettore = new System.Windows.Forms.Button();
+            this.btnPrimi3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVettoreAusiliario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVettore)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMatrice)).BeginInit();
             this.groupBox3.SuspendLayout();
+            this.groupBox7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvRis)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Dgv2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Dgv1)).BeginInit();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.SuspendLayout();
@@ -124,6 +136,7 @@
             this.btnCaricaSolo1Vettore.TabIndex = 4;
             this.btnCaricaSolo1Vettore.Text = "Carica e Visualizza solo 1";
             this.btnCaricaSolo1Vettore.UseVisualStyleBackColor = true;
+            this.btnCaricaSolo1Vettore.Click += new System.EventHandler(this.btnCaricaSolo1Vettore_Click);
             // 
             // btnCaricaVettore
             // 
@@ -182,6 +195,7 @@
             this.btnCaricaMatrice.TabIndex = 1;
             this.btnCaricaMatrice.Text = "Carica e Visualizza Matrice";
             this.btnCaricaMatrice.UseVisualStyleBackColor = true;
+            this.btnCaricaMatrice.Click += new System.EventHandler(this.btnCaricaMatrice_Click);
             // 
             // dgvMatrice
             // 
@@ -193,9 +207,10 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.btnPrimi3);
+            this.groupBox3.Controls.Add(this.groupBox7);
             this.groupBox3.Controls.Add(this.btnRicerca);
             this.groupBox3.Controls.Add(this.btnMediaDi2Vettori);
-            this.groupBox3.Controls.Add(this.btnSommaDi2Vettori);
             this.groupBox3.Controls.Add(this.btnCopiaVettore);
             this.groupBox3.Controls.Add(this.btnOrdina);
             this.groupBox3.Controls.Add(this.btnSomma);
@@ -209,6 +224,86 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "OperazioniVettore";
             // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.label5);
+            this.groupBox7.Controls.Add(this.label6);
+            this.groupBox7.Controls.Add(this.label7);
+            this.groupBox7.Controls.Add(this.btnSommaDi2Vettori);
+            this.groupBox7.Controls.Add(this.DgvRis);
+            this.groupBox7.Controls.Add(this.Dgv2);
+            this.groupBox7.Controls.Add(this.Dgv1);
+            this.groupBox7.Location = new System.Drawing.Point(18, 164);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(227, 192);
+            this.groupBox7.TabIndex = 10;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "SOMMA VETTORI";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(27, 111);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(87, 24);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "-----------";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(115, 87);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(22, 24);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "=";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(118, 36);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(22, 24);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "+";
+            // 
+            // btnSommaDi2Vettori
+            // 
+            this.btnSommaDi2Vettori.Location = new System.Drawing.Point(125, 130);
+            this.btnSommaDi2Vettori.Name = "btnSommaDi2Vettori";
+            this.btnSommaDi2Vettori.Size = new System.Drawing.Size(83, 42);
+            this.btnSommaDi2Vettori.TabIndex = 6;
+            this.btnSommaDi2Vettori.Text = "Somma Di 2 Vettori";
+            this.btnSommaDi2Vettori.UseVisualStyleBackColor = true;
+            this.btnSommaDi2Vettori.Click += new System.EventHandler(this.btnSommaDi2Vettori_Click);
+            // 
+            // DgvRis
+            // 
+            this.DgvRis.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DgvRis.Location = new System.Drawing.Point(18, 138);
+            this.DgvRis.Name = "DgvRis";
+            this.DgvRis.Size = new System.Drawing.Size(96, 34);
+            this.DgvRis.TabIndex = 10;
+            // 
+            // Dgv2
+            // 
+            this.Dgv2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Dgv2.Location = new System.Drawing.Point(31, 77);
+            this.Dgv2.Name = "Dgv2";
+            this.Dgv2.Size = new System.Drawing.Size(81, 34);
+            this.Dgv2.TabIndex = 9;
+            // 
+            // Dgv1
+            // 
+            this.Dgv1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Dgv1.Location = new System.Drawing.Point(31, 26);
+            this.Dgv1.Name = "Dgv1";
+            this.Dgv1.Size = new System.Drawing.Size(81, 34);
+            this.Dgv1.TabIndex = 8;
+            // 
             // btnRicerca
             // 
             this.btnRicerca.Location = new System.Drawing.Point(18, 68);
@@ -217,24 +312,17 @@
             this.btnRicerca.TabIndex = 8;
             this.btnRicerca.Text = "Ricerca Vettore";
             this.btnRicerca.UseVisualStyleBackColor = true;
+            this.btnRicerca.Click += new System.EventHandler(this.btnRicerca_Click);
             // 
             // btnMediaDi2Vettori
             // 
-            this.btnMediaDi2Vettori.Location = new System.Drawing.Point(285, 68);
+            this.btnMediaDi2Vettori.Location = new System.Drawing.Point(289, 68);
             this.btnMediaDi2Vettori.Name = "btnMediaDi2Vettori";
             this.btnMediaDi2Vettori.Size = new System.Drawing.Size(83, 42);
             this.btnMediaDi2Vettori.TabIndex = 7;
             this.btnMediaDi2Vettori.Text = "Media Di 2 Vettori";
             this.btnMediaDi2Vettori.UseVisualStyleBackColor = true;
-            // 
-            // btnSommaDi2Vettori
-            // 
-            this.btnSommaDi2Vettori.Location = new System.Drawing.Point(18, 116);
-            this.btnSommaDi2Vettori.Name = "btnSommaDi2Vettori";
-            this.btnSommaDi2Vettori.Size = new System.Drawing.Size(83, 42);
-            this.btnSommaDi2Vettori.TabIndex = 6;
-            this.btnSommaDi2Vettori.Text = "Somma Di 2 Vettori";
-            this.btnSommaDi2Vettori.UseVisualStyleBackColor = true;
+            this.btnMediaDi2Vettori.Click += new System.EventHandler(this.btnMediaDi2Vettori_Click);
             // 
             // btnCopiaVettore
             // 
@@ -244,6 +332,7 @@
             this.btnCopiaVettore.TabIndex = 5;
             this.btnCopiaVettore.Text = "Copia Del Vettore";
             this.btnCopiaVettore.UseVisualStyleBackColor = true;
+            this.btnCopiaVettore.Click += new System.EventHandler(this.btnCopiaVettore_Click);
             // 
             // btnOrdina
             // 
@@ -253,6 +342,7 @@
             this.btnOrdina.TabIndex = 4;
             this.btnOrdina.Text = "Ordina Vettore";
             this.btnOrdina.UseVisualStyleBackColor = true;
+            this.btnOrdina.Click += new System.EventHandler(this.btnOrdina_Click);
             // 
             // btnSomma
             // 
@@ -262,6 +352,7 @@
             this.btnSomma.TabIndex = 3;
             this.btnSomma.Text = "Somma";
             this.btnSomma.UseVisualStyleBackColor = true;
+            this.btnSomma.Click += new System.EventHandler(this.btnSomma_Click);
             // 
             // btnSpeculare
             // 
@@ -271,6 +362,7 @@
             this.btnSpeculare.TabIndex = 2;
             this.btnSpeculare.Text = "Speculare";
             this.btnSpeculare.UseVisualStyleBackColor = true;
+            this.btnSpeculare.Click += new System.EventHandler(this.btnSpeculare_Click);
             // 
             // btnMax
             // 
@@ -280,6 +372,7 @@
             this.btnMax.TabIndex = 1;
             this.btnMax.Text = "Valore Max";
             this.btnMax.UseVisualStyleBackColor = true;
+            this.btnMax.Click += new System.EventHandler(this.btnMax_Click);
             // 
             // btnMedia
             // 
@@ -289,6 +382,7 @@
             this.btnMedia.TabIndex = 0;
             this.btnMedia.Text = "Media";
             this.btnMedia.UseVisualStyleBackColor = true;
+            this.btnMedia.Click += new System.EventHandler(this.btnMedia_Click);
             // 
             // groupBox4
             // 
@@ -538,6 +632,16 @@
             this.btnRicaricaVettore.Text = "Ricarica Vettore";
             this.btnRicaricaVettore.UseVisualStyleBackColor = true;
             // 
+            // btnPrimi3
+            // 
+            this.btnPrimi3.Location = new System.Drawing.Point(18, 116);
+            this.btnPrimi3.Name = "btnPrimi3";
+            this.btnPrimi3.Size = new System.Drawing.Size(95, 42);
+            this.btnPrimi3.TabIndex = 11;
+            this.btnPrimi3.Text = "Cerca i primi 3 valori di un Array";
+            this.btnPrimi3.UseVisualStyleBackColor = true;
+            this.btnPrimi3.Click += new System.EventHandler(this.btnPrimi3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -550,6 +654,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "VettoriMatrici";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVettoreAusiliario)).EndInit();
@@ -557,6 +662,11 @@
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMatrice)).EndInit();
             this.groupBox3.ResumeLayout(false);
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvRis)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Dgv2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Dgv1)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -611,6 +721,14 @@
         private System.Windows.Forms.Button btnMediaSottoDP;
         private System.Windows.Forms.Button btnSommaSottoDP;
         private System.Windows.Forms.Button btnColoraSopraDS;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.DataGridView DgvRis;
+        private System.Windows.Forms.DataGridView Dgv2;
+        private System.Windows.Forms.DataGridView Dgv1;
+        private System.Windows.Forms.Button btnPrimi3;
     }
 }
 

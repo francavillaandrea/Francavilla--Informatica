@@ -1,0 +1,44 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\TrisBase\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7027BEA7-7215-4746-98AF-CDE8DB683CFC}|TrisBase.csproj|c:\\users\\paolc\\desktop\\francavillaandrea\\1. informatica\\c#\\9. visuale\\trisbase\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7027BEA7-7215-4746-98AF-CDE8DB683CFC}|TrisBase.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmMain.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\TrisBase\\FrmMain.cs",
+              "RelativeDocumentMoniker": "FrmMain.cs",
+              "ToolTip": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\TrisBase\\FrmMain.cs [Progettazione]",
+              "RelativeToolTip": "FrmMain.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T14:04:10.825Z",
+              "EditorCaption": " [Progettazione]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

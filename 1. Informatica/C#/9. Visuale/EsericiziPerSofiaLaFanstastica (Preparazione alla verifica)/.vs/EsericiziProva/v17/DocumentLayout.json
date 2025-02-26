@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\manun\\Desktop\\EsericiziPerSofiaLaFanstastica\\",
+  "WorkspaceRootPath": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0310B1C-745A-4628-BC7F-0C6CFDE419E2}|EsericiziProva.csproj|c:\\users\\manun\\desktop\\esericizipersofialafanstastica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F0310B1C-745A-4628-BC7F-0C6CFDE419E2}|EsericiziProva.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0310B1C-745A-4628-BC7F-0C6CFDE419E2}|EsericiziProva.csproj|C:\\Users\\manun\\Desktop\\EsericiziPerSofiaLaFanstastica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F0310B1C-745A-4628-BC7F-0C6CFDE419E2}|EsericiziProva.csproj|C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0310B1C-745A-4628-BC7F-0C6CFDE419E2}|EsericiziProva.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0310B1C-745A-4628-BC7F-0C6CFDE419E2}|EsericiziProva.csproj|C:\\Users\\manun\\Desktop\\EsericiziPerSofiaLaFanstastica\\clsvettori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0310B1C-745A-4628-BC7F-0C6CFDE419E2}|EsericiziProva.csproj|solutionrelative:clsvettori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0310B1C-745A-4628-BC7F-0C6CFDE419E2}|EsericiziProva.csproj|c:\\users\\paolc\\desktop\\francavillaandrea\\1. informatica\\c#\\9. visuale\\esericizipersofialafanstastica (preparazione alla verifica)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F0310B1C-745A-4628-BC7F-0C6CFDE419E2}|EsericiziProva.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0310B1C-745A-4628-BC7F-0C6CFDE419E2}|EsericiziProva.csproj|C:\\Users\\manun\\Desktop\\EsericiziPerSofiaLaFanstastica\\clsmatrice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0310B1C-745A-4628-BC7F-0C6CFDE419E2}|EsericiziProva.csproj|solutionrelative:clsmatrice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0310B1C-745A-4628-BC7F-0C6CFDE419E2}|EsericiziProva.csproj|C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\\clsvettori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0310B1C-745A-4628-BC7F-0C6CFDE419E2}|EsericiziProva.csproj|solutionrelative:clsvettori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,15 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\manun\\Desktop\\EsericiziPerSofiaLaFanstastica\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\manun\\Desktop\\EsericiziPerSofiaLaFanstastica\\Form1.cs [Progettazione]",
+              "ToolTip": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\\Form1.cs [Progettazione]",
               "RelativeToolTip": "Form1.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T18:13:04.936Z",
@@ -43,27 +39,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\manun\\Desktop\\EsericiziPerSofiaLaFanstastica\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\manun\\Desktop\\EsericiziPerSofiaLaFanstastica\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T18:13:48.075Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ClsVettori.cs",
-              "DocumentMoniker": "C:\\Users\\manun\\Desktop\\EsericiziPerSofiaLaFanstastica\\ClsVettori.cs",
+              "DocumentMoniker": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\\ClsVettori.cs",
               "RelativeDocumentMoniker": "ClsVettori.cs",
-              "ToolTip": "C:\\Users\\manun\\Desktop\\EsericiziPerSofiaLaFanstastica\\ClsVettori.cs",
+              "ToolTip": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\\ClsVettori.cs",
               "RelativeToolTip": "ClsVettori.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAJcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T18:17:55.29Z",
               "IsPinned": true,
@@ -71,16 +53,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClsMatrice.cs",
-              "DocumentMoniker": "C:\\Users\\manun\\Desktop\\EsericiziPerSofiaLaFanstastica\\ClsMatrice.cs",
-              "RelativeDocumentMoniker": "ClsMatrice.cs",
-              "ToolTip": "C:\\Users\\manun\\Desktop\\EsericiziPerSofiaLaFanstastica\\ClsMatrice.cs",
-              "RelativeToolTip": "ClsMatrice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\EsericiziPerSofiaLaFanstastica (Preparazione alla verifica)\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAAAJEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T18:19:19.754Z",
-              "IsPinned": true
+              "WhenOpened": "2025-02-23T18:13:48.075Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }

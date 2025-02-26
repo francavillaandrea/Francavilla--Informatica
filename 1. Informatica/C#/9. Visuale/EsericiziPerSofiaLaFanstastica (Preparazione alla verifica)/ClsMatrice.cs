@@ -9,5 +9,9 @@ namespace EsericiziProva
 {
     internal class ClsMatrice
     {
+        internal static void caricaMatrice(int[,] m)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

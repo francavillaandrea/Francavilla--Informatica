@@ -8,3 +8,13 @@ C:\Users\alberto.barbero\Desktop\VettoriMatriciVisuale\obj\Debug\VettoriMatriciV
 C:\Users\alberto.barbero\Desktop\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.exe
 C:\Users\alberto.barbero\Desktop\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.pdb
 C:\Users\alberto.barbero\Desktop\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.frmMain.resources
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\VettoriMatriciVisuale\bin\Debug\VettoriMatriciVisuale.exe.config
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\VettoriMatriciVisuale\bin\Debug\VettoriMatriciVisuale.exe
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\VettoriMatriciVisuale\bin\Debug\VettoriMatriciVisuale.pdb
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.csproj.AssemblyReference.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.frmMain.resources
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.Properties.Resources.resources
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.csproj.GenerateResource.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.csproj.CoreCompileInputs.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.exe
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.pdb

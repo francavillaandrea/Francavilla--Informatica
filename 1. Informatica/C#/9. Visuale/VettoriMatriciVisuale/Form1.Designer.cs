@@ -160,7 +160,7 @@
             this.groupBox3.Controls.Add(this.dgvSomma);
             this.groupBox3.Controls.Add(this.dgv2Addendo);
             this.groupBox3.Controls.Add(this.dgv1Addendo);
-            this.groupBox3.Location = new System.Drawing.Point(655, 39);
+            this.groupBox3.Location = new System.Drawing.Point(713, 39);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(208, 192);
             this.groupBox3.TabIndex = 9;
@@ -186,6 +186,7 @@
             this.label3.Size = new System.Drawing.Size(87, 24);
             this.label3.TabIndex = 13;
             this.label3.Text = "-----------";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -196,6 +197,7 @@
             this.label2.Size = new System.Drawing.Size(22, 24);
             this.label2.TabIndex = 12;
             this.label2.Text = "=";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -206,6 +208,7 @@
             this.label1.Size = new System.Drawing.Size(22, 24);
             this.label1.TabIndex = 11;
             this.label1.Text = "+";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // dgvSomma
             // 
@@ -214,6 +217,7 @@
             this.dgvSomma.Name = "dgvSomma";
             this.dgvSomma.Size = new System.Drawing.Size(96, 34);
             this.dgvSomma.TabIndex = 10;
+            this.dgvSomma.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSomma_CellContentClick);
             // 
             // dgv2Addendo
             // 
@@ -222,6 +226,7 @@
             this.dgv2Addendo.Name = "dgv2Addendo";
             this.dgv2Addendo.Size = new System.Drawing.Size(81, 34);
             this.dgv2Addendo.TabIndex = 9;
+            this.dgv2Addendo.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv2Addendo_CellContentClick);
             // 
             // dgv1Addendo
             // 
@@ -230,6 +235,7 @@
             this.dgv1Addendo.Name = "dgv1Addendo";
             this.dgv1Addendo.Size = new System.Drawing.Size(81, 34);
             this.dgv1Addendo.TabIndex = 8;
+            this.dgv1Addendo.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv1Addendo_CellContentClick);
             // 
             // frmMain
             // 

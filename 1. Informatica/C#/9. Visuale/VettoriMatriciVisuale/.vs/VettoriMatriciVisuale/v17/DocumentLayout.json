@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\",
+  "WorkspaceRootPath": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|c:\\users\\a.francavilla.3537\\desktop\\francavillaandrea\\informatica\\c#\\9. visuale\\vettorimatricivisuale\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|c:\\users\\paolc\\desktop\\francavillaandrea\\1. informatica\\c#\\9. visuale\\vettorimatricivisuale\\clsmatrici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|solutionrelative:clsmatrici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|c:\\users\\paolc\\desktop\\francavillaandrea\\1. informatica\\c#\\9. visuale\\vettorimatricivisuale\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\clsvettori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\clsvettori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|solutionrelative:clsvettori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,29 +30,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\Form1.Designer.cs",
-              "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAiwHgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:17:34.75Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "clsMatrici.cs",
+              "DocumentMoniker": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\clsMatrici.cs",
+              "RelativeDocumentMoniker": "clsMatrici.cs",
+              "ToolTip": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\clsMatrici.cs",
+              "RelativeToolTip": "clsMatrici.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T16:01:09.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T10:17:34.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "frmMain.cs",
-              "DocumentMoniker": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\frmMain.cs",
               "RelativeDocumentMoniker": "frmMain.cs",
-              "ToolTip": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\frmMain.cs",
+              "ToolTip": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\frmMain.cs",
               "RelativeToolTip": "frmMain.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAUwHgAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T10:15:05.129Z",
               "EditorCaption": ""
@@ -57,24 +83,26 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "frmMain.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\frmMain.cs",
               "RelativeDocumentMoniker": "frmMain.cs",
-              "ToolTip": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\frmMain.cs [Progettazione]",
+              "ToolTip": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\frmMain.cs [Progettazione]",
               "RelativeToolTip": "frmMain.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:14:46.956Z"
+              "WhenOpened": "2025-02-04T10:14:46.956Z",
+              "EditorCaption": " [Progettazione]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "clsVettori.cs",
-              "DocumentMoniker": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\clsVettori.cs",
+              "DocumentMoniker": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\clsVettori.cs",
               "RelativeDocumentMoniker": "clsVettori.cs",
-              "ToolTip": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\clsVettori.cs",
+              "ToolTip": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\VettoriMatriciVisuale\\clsVettori.cs",
               "RelativeToolTip": "clsVettori.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAmwIwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:14:34.719Z"
+              "WhenOpened": "2025-02-04T10:14:34.719Z",
+              "EditorCaption": ""
             }
           ]
         }
