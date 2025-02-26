@@ -133,6 +133,7 @@
             this.btnCaricaVettore.TabIndex = 2;
             this.btnCaricaVettore.Text = "Carica e Visualizza Vettore";
             this.btnCaricaVettore.UseVisualStyleBackColor = true;
+            this.btnCaricaVettore.Click += new System.EventHandler(this.btnCaricaVettore_Click);
             // 
             // dgvVettore
             // 

@@ -13,9 +13,19 @@ namespace EsericiziProva
 {
     public partial class Form1 : Form
     {
+        int[] v;
+        int n;
+        static Random rnd = new Random();
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void btnCaricaVettore_Click(object sender, EventArgs e)
+        {
+            ClsVettori.CaricaVett(v, n);
+            ClsVettori.StampaVett(v, n);
+            
         }
     }
 }
