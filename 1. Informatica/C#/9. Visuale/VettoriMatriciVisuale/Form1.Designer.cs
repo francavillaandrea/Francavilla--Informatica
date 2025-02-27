@@ -46,6 +46,26 @@
             this.dgvSomma = new System.Windows.Forms.DataGridView();
             this.dgv2Addendo = new System.Windows.Forms.DataGridView();
             this.dgv1Addendo = new System.Windows.Forms.DataGridView();
+            this.dgvB = new System.Windows.Forms.DataGridView();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.dgvUnione = new System.Windows.Forms.DataGridView();
+            this.btnUnione = new System.Windows.Forms.Button();
+            this.dgvIntersezione = new System.Windows.Forms.DataGridView();
+            this.btnIntersezione = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.dgvC = new System.Windows.Forms.DataGridView();
+            this.btnCaricaMatrice = new System.Windows.Forms.Button();
+            this.btnTuttiUguali = new System.Windows.Forms.Button();
+            this.btnColoraDP = new System.Windows.Forms.Button();
+            this.btnSommaSottoDP = new System.Windows.Forms.Button();
+            this.btnCaricaVettore = new System.Windows.Forms.Button();
+            this.btnColoraTriangoliDP = new System.Windows.Forms.Button();
+            this.btnColoraTriangoliDS = new System.Windows.Forms.Button();
+            this.btnColoraRighe = new System.Windows.Forms.Button();
+            this.btnColoraColonne = new System.Windows.Forms.Button();
+            this.btnColoraRigheSopraDP = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvA)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv3)).BeginInit();
@@ -54,6 +74,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvSomma)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv2Addendo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv1Addendo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvB)).BeginInit();
+            this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvUnione)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvIntersezione)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvC)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvA
@@ -67,7 +92,7 @@
             // 
             // btnMaxVettore
             // 
-            this.btnMaxVettore.Location = new System.Drawing.Point(38, 134);
+            this.btnMaxVettore.Location = new System.Drawing.Point(24, 239);
             this.btnMaxVettore.Name = "btnMaxVettore";
             this.btnMaxVettore.Size = new System.Drawing.Size(75, 53);
             this.btnMaxVettore.TabIndex = 1;
@@ -77,7 +102,7 @@
             // 
             // btnCalcolaMediaVettore
             // 
-            this.btnCalcolaMediaVettore.Location = new System.Drawing.Point(119, 134);
+            this.btnCalcolaMediaVettore.Location = new System.Drawing.Point(105, 239);
             this.btnCalcolaMediaVettore.Name = "btnCalcolaMediaVettore";
             this.btnCalcolaMediaVettore.Size = new System.Drawing.Size(75, 53);
             this.btnCalcolaMediaVettore.TabIndex = 2;
@@ -99,7 +124,7 @@
             // 
             this.groupBox1.Controls.Add(this.txtNumero);
             this.groupBox1.Controls.Add(this.btnCercaElementoVettore);
-            this.groupBox1.Location = new System.Drawing.Point(200, 134);
+            this.groupBox1.Location = new System.Drawing.Point(186, 239);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(150, 75);
             this.groupBox1.TabIndex = 5;
@@ -114,7 +139,7 @@
             // 
             // btnSpeulare
             // 
-            this.btnSpeulare.Location = new System.Drawing.Point(356, 134);
+            this.btnSpeulare.Location = new System.Drawing.Point(342, 239);
             this.btnSpeulare.Name = "btnSpeulare";
             this.btnSpeulare.Size = new System.Drawing.Size(89, 53);
             this.btnSpeulare.TabIndex = 6;
@@ -134,7 +159,7 @@
             // 
             this.groupBox2.Controls.Add(this.btnPrimi3);
             this.groupBox2.Controls.Add(this.dgv3);
-            this.groupBox2.Location = new System.Drawing.Point(465, 134);
+            this.groupBox2.Location = new System.Drawing.Point(451, 239);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(184, 97);
             this.groupBox2.TabIndex = 8;
@@ -160,7 +185,7 @@
             this.groupBox3.Controls.Add(this.dgvSomma);
             this.groupBox3.Controls.Add(this.dgv2Addendo);
             this.groupBox3.Controls.Add(this.dgv1Addendo);
-            this.groupBox3.Location = new System.Drawing.Point(713, 39);
+            this.groupBox3.Location = new System.Drawing.Point(494, 39);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(208, 192);
             this.groupBox3.TabIndex = 9;
@@ -186,7 +211,6 @@
             this.label3.Size = new System.Drawing.Size(87, 24);
             this.label3.TabIndex = 13;
             this.label3.Text = "-----------";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -197,7 +221,6 @@
             this.label2.Size = new System.Drawing.Size(22, 24);
             this.label2.TabIndex = 12;
             this.label2.Text = "=";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -208,7 +231,6 @@
             this.label1.Size = new System.Drawing.Size(22, 24);
             this.label1.TabIndex = 11;
             this.label1.Text = "+";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // dgvSomma
             // 
@@ -217,7 +239,6 @@
             this.dgvSomma.Name = "dgvSomma";
             this.dgvSomma.Size = new System.Drawing.Size(96, 34);
             this.dgvSomma.TabIndex = 10;
-            this.dgvSomma.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSomma_CellContentClick);
             // 
             // dgv2Addendo
             // 
@@ -226,7 +247,6 @@
             this.dgv2Addendo.Name = "dgv2Addendo";
             this.dgv2Addendo.Size = new System.Drawing.Size(81, 34);
             this.dgv2Addendo.TabIndex = 9;
-            this.dgv2Addendo.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv2Addendo_CellContentClick);
             // 
             // dgv1Addendo
             // 
@@ -235,13 +255,221 @@
             this.dgv1Addendo.Name = "dgv1Addendo";
             this.dgv1Addendo.Size = new System.Drawing.Size(81, 34);
             this.dgv1Addendo.TabIndex = 8;
-            this.dgv1Addendo.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv1Addendo_CellContentClick);
+            // 
+            // dgvB
+            // 
+            this.dgvB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvB.Location = new System.Drawing.Point(38, 139);
+            this.dgvB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.dgvB.Name = "dgvB";
+            this.dgvB.Size = new System.Drawing.Size(426, 60);
+            this.dgvB.TabIndex = 10;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.dgvUnione);
+            this.groupBox4.Controls.Add(this.btnUnione);
+            this.groupBox4.Controls.Add(this.dgvIntersezione);
+            this.groupBox4.Controls.Add(this.btnIntersezione);
+            this.groupBox4.Location = new System.Drawing.Point(664, 239);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(337, 142);
+            this.groupBox4.TabIndex = 11;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Insiemistica";
+            // 
+            // dgvUnione
+            // 
+            this.dgvUnione.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvUnione.Location = new System.Drawing.Point(90, 75);
+            this.dgvUnione.Name = "dgvUnione";
+            this.dgvUnione.Size = new System.Drawing.Size(222, 53);
+            this.dgvUnione.TabIndex = 18;
+            // 
+            // btnUnione
+            // 
+            this.btnUnione.Location = new System.Drawing.Point(7, 75);
+            this.btnUnione.Name = "btnUnione";
+            this.btnUnione.Size = new System.Drawing.Size(69, 53);
+            this.btnUnione.TabIndex = 17;
+            this.btnUnione.Text = "Unione";
+            this.btnUnione.UseVisualStyleBackColor = true;
+            this.btnUnione.Click += new System.EventHandler(this.btnUnione_Click);
+            // 
+            // dgvIntersezione
+            // 
+            this.dgvIntersezione.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvIntersezione.Location = new System.Drawing.Point(90, 16);
+            this.dgvIntersezione.Name = "dgvIntersezione";
+            this.dgvIntersezione.Size = new System.Drawing.Size(222, 53);
+            this.dgvIntersezione.TabIndex = 16;
+            // 
+            // btnIntersezione
+            // 
+            this.btnIntersezione.Location = new System.Drawing.Point(7, 16);
+            this.btnIntersezione.Name = "btnIntersezione";
+            this.btnIntersezione.Size = new System.Drawing.Size(69, 53);
+            this.btnIntersezione.TabIndex = 15;
+            this.btnIntersezione.Text = "Interseca";
+            this.btnIntersezione.UseVisualStyleBackColor = true;
+            this.btnIntersezione.Click += new System.EventHandler(this.btnIntersezione_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(12, 39);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(15, 13);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "A";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(12, 137);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(15, 13);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "B";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(751, 49);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(15, 13);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "C";
+            // 
+            // dgvC
+            // 
+            this.dgvC.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvC.Location = new System.Drawing.Point(773, 49);
+            this.dgvC.Name = "dgvC";
+            this.dgvC.Size = new System.Drawing.Size(240, 150);
+            this.dgvC.TabIndex = 15;
+            // 
+            // btnCaricaMatrice
+            // 
+            this.btnCaricaMatrice.Location = new System.Drawing.Point(773, 207);
+            this.btnCaricaMatrice.Name = "btnCaricaMatrice";
+            this.btnCaricaMatrice.Size = new System.Drawing.Size(240, 23);
+            this.btnCaricaMatrice.TabIndex = 16;
+            this.btnCaricaMatrice.Text = "Carica Matrice";
+            this.btnCaricaMatrice.UseVisualStyleBackColor = true;
+            this.btnCaricaMatrice.Click += new System.EventHandler(this.btnCaricaMatrice_Click);
+            // 
+            // btnTuttiUguali
+            // 
+            this.btnTuttiUguali.Location = new System.Drawing.Point(1063, 49);
+            this.btnTuttiUguali.Name = "btnTuttiUguali";
+            this.btnTuttiUguali.Size = new System.Drawing.Size(75, 63);
+            this.btnTuttiUguali.TabIndex = 17;
+            this.btnTuttiUguali.Text = "Tutti uguali";
+            this.btnTuttiUguali.UseVisualStyleBackColor = true;
+            this.btnTuttiUguali.Click += new System.EventHandler(this.btnTuttiUguali_Click);
+            // 
+            // btnColoraDP
+            // 
+            this.btnColoraDP.Location = new System.Drawing.Point(1063, 187);
+            this.btnColoraDP.Name = "btnColoraDP";
+            this.btnColoraDP.Size = new System.Drawing.Size(75, 63);
+            this.btnColoraDP.TabIndex = 18;
+            this.btnColoraDP.Text = "Colora DP";
+            this.btnColoraDP.UseVisualStyleBackColor = true;
+            this.btnColoraDP.Click += new System.EventHandler(this.btnColoraDP_Click);
+            // 
+            // btnSommaSottoDP
+            // 
+            this.btnSommaSottoDP.Location = new System.Drawing.Point(1063, 118);
+            this.btnSommaSottoDP.Name = "btnSommaSottoDP";
+            this.btnSommaSottoDP.Size = new System.Drawing.Size(75, 63);
+            this.btnSommaSottoDP.TabIndex = 19;
+            this.btnSommaSottoDP.Text = "Somma Sotto DP";
+            this.btnSommaSottoDP.UseVisualStyleBackColor = true;
+            this.btnSommaSottoDP.Click += new System.EventHandler(this.btnSommaSottoDP_Click);
+            // 
+            // btnCaricaVettore
+            // 
+            this.btnCaricaVettore.Location = new System.Drawing.Point(38, 110);
+            this.btnCaricaVettore.Name = "btnCaricaVettore";
+            this.btnCaricaVettore.Size = new System.Drawing.Size(426, 23);
+            this.btnCaricaVettore.TabIndex = 20;
+            this.btnCaricaVettore.Text = "Carica Vettore A";
+            this.btnCaricaVettore.UseVisualStyleBackColor = true;
+            this.btnCaricaVettore.Click += new System.EventHandler(this.btnCaricaVettore_Click);
+            // 
+            // btnColoraTriangoliDP
+            // 
+            this.btnColoraTriangoliDP.Location = new System.Drawing.Point(1063, 258);
+            this.btnColoraTriangoliDP.Name = "btnColoraTriangoliDP";
+            this.btnColoraTriangoliDP.Size = new System.Drawing.Size(75, 63);
+            this.btnColoraTriangoliDP.TabIndex = 21;
+            this.btnColoraTriangoliDP.Text = "Colora Triangoli DP";
+            this.btnColoraTriangoliDP.UseVisualStyleBackColor = true;
+            this.btnColoraTriangoliDP.Click += new System.EventHandler(this.btnColoraTriangoliDP_Click);
+            // 
+            // btnColoraTriangoliDS
+            // 
+            this.btnColoraTriangoliDS.Location = new System.Drawing.Point(1063, 327);
+            this.btnColoraTriangoliDS.Name = "btnColoraTriangoliDS";
+            this.btnColoraTriangoliDS.Size = new System.Drawing.Size(75, 63);
+            this.btnColoraTriangoliDS.TabIndex = 22;
+            this.btnColoraTriangoliDS.Text = "Colora Triangoli DS";
+            this.btnColoraTriangoliDS.UseVisualStyleBackColor = true;
+            this.btnColoraTriangoliDS.Click += new System.EventHandler(this.btnColoraTriangoliDS_Click);
+            // 
+            // btnColoraRighe
+            // 
+            this.btnColoraRighe.Location = new System.Drawing.Point(1167, 49);
+            this.btnColoraRighe.Name = "btnColoraRighe";
+            this.btnColoraRighe.Size = new System.Drawing.Size(75, 63);
+            this.btnColoraRighe.TabIndex = 23;
+            this.btnColoraRighe.Text = "Colora Righe";
+            this.btnColoraRighe.UseVisualStyleBackColor = true;
+            this.btnColoraRighe.Click += new System.EventHandler(this.btnColoraRighe_Click);
+            // 
+            // btnColoraColonne
+            // 
+            this.btnColoraColonne.Location = new System.Drawing.Point(1167, 126);
+            this.btnColoraColonne.Name = "btnColoraColonne";
+            this.btnColoraColonne.Size = new System.Drawing.Size(75, 63);
+            this.btnColoraColonne.TabIndex = 24;
+            this.btnColoraColonne.Text = "Colora Colonne";
+            this.btnColoraColonne.UseVisualStyleBackColor = true;
+            this.btnColoraColonne.Click += new System.EventHandler(this.btnColoraColonne_Click);
+            // 
+            // btnColoraRigheSopraDP
+            // 
+            this.btnColoraRigheSopraDP.Location = new System.Drawing.Point(1167, 195);
+            this.btnColoraRigheSopraDP.Name = "btnColoraRigheSopraDP";
+            this.btnColoraRigheSopraDP.Size = new System.Drawing.Size(75, 63);
+            this.btnColoraRigheSopraDP.TabIndex = 25;
+            this.btnColoraRigheSopraDP.Text = "Colora Righe Sopra DP";
+            this.btnColoraRigheSopraDP.UseVisualStyleBackColor = true;
+            this.btnColoraRigheSopraDP.Click += new System.EventHandler(this.btnColoraRigheSopraDP_Click);
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1017, 360);
+            this.ClientSize = new System.Drawing.Size(1409, 467);
+            this.Controls.Add(this.btnColoraRigheSopraDP);
+            this.Controls.Add(this.btnColoraColonne);
+            this.Controls.Add(this.btnColoraRighe);
+            this.Controls.Add(this.btnColoraTriangoliDS);
+            this.Controls.Add(this.btnColoraTriangoliDP);
+            this.Controls.Add(this.btnCaricaVettore);
+            this.Controls.Add(this.btnSommaSottoDP);
+            this.Controls.Add(this.btnColoraDP);
+            this.Controls.Add(this.btnTuttiUguali);
+            this.Controls.Add(this.btnCaricaMatrice);
+            this.Controls.Add(this.dgvC);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.dgvB);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.btnSpeulare);
@@ -252,7 +480,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "frmMain";
-            this.Text = "z";
+            this.Text = "Vettori e Matrici in Visuale";
             this.Load += new System.EventHandler(this.frmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvA)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -264,7 +492,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvSomma)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv2Addendo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv1Addendo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvB)).EndInit();
+            this.groupBox4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvUnione)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvIntersezione)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvC)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -288,6 +522,26 @@
         private System.Windows.Forms.DataGridView dgv2Addendo;
         private System.Windows.Forms.DataGridView dgv1Addendo;
         private System.Windows.Forms.Button btnSomma;
+        private System.Windows.Forms.DataGridView dgvB;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.DataGridView dgvIntersezione;
+        private System.Windows.Forms.Button btnIntersezione;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.DataGridView dgvUnione;
+        private System.Windows.Forms.Button btnUnione;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.DataGridView dgvC;
+        private System.Windows.Forms.Button btnCaricaMatrice;
+        private System.Windows.Forms.Button btnTuttiUguali;
+        private System.Windows.Forms.Button btnColoraDP;
+        private System.Windows.Forms.Button btnSommaSottoDP;
+        private System.Windows.Forms.Button btnCaricaVettore;
+        private System.Windows.Forms.Button btnColoraTriangoliDP;
+        private System.Windows.Forms.Button btnColoraTriangoliDS;
+        private System.Windows.Forms.Button btnColoraRighe;
+        private System.Windows.Forms.Button btnColoraColonne;
+        private System.Windows.Forms.Button btnColoraRigheSopraDP;
     }
 }
 

@@ -80,13 +80,17 @@ namespace VettoriMatriciVisuale
         {
             int j;
             int k = 0; //indice datagridview
-            for (int i = 0;i <a.Length; i++)
+            for (int i = 0;i < a.Length; i++)
             {
                 j = 0;
                 while (b[j] != a[i] && j != b.Length - 1)
                     j++;
                 if (b[j] == a[i])
-                    dgvIntersezione.Rows[0].Cells[k++].Value = a[i].ToString();
+                {
+                    dgvIntersezione.Rows[0].Cells[k].Value = a[i].ToString();
+                    k++;
+                }
+                    
             }
         }
 
@@ -111,6 +115,24 @@ namespace VettoriMatriciVisuale
             dgv.Rows[0].Cells[0].Value = riporto.ToString();
 
 
+        }
+
+        internal static void Unione(int[] a, int[] b, DataGridView dgv)
+        {
+            int i;
+            for (i = 0; i < a.Length; i++)
+                dgv.Rows[0].Cells[i].Value = a[i].ToString();
+            int pos = i;
+            
+            for (int j = 0; j < b.Length; j++)
+            {
+                i = 0;
+                while (b[j] != a[i] && i != a.Length - 1)
+                    i++;
+                if (b[j] != a[i])
+                    dgv.Rows[0].Cells[pos++].Value = b[j].ToString();
+            }
+            dgv.AutoResizeColumns();
         }
 
         internal static void verificaVettoreSpeculare(int[] v)

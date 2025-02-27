@@ -195,7 +195,6 @@
             this.btnCaricaMatrice.TabIndex = 1;
             this.btnCaricaMatrice.Text = "Carica e Visualizza Matrice";
             this.btnCaricaMatrice.UseVisualStyleBackColor = true;
-            this.btnCaricaMatrice.Click += new System.EventHandler(this.btnCaricaMatrice_Click);
             // 
             // dgvMatrice
             // 
@@ -278,7 +277,6 @@
             this.btnSommaDi2Vettori.TabIndex = 6;
             this.btnSommaDi2Vettori.Text = "Somma Di 2 Vettori";
             this.btnSommaDi2Vettori.UseVisualStyleBackColor = true;
-            this.btnSommaDi2Vettori.Click += new System.EventHandler(this.btnSommaDi2Vettori_Click);
             // 
             // DgvRis
             // 
@@ -312,7 +310,6 @@
             this.btnRicerca.TabIndex = 8;
             this.btnRicerca.Text = "Ricerca Vettore";
             this.btnRicerca.UseVisualStyleBackColor = true;
-            this.btnRicerca.Click += new System.EventHandler(this.btnRicerca_Click);
             // 
             // btnMediaDi2Vettori
             // 
@@ -332,7 +329,6 @@
             this.btnCopiaVettore.TabIndex = 5;
             this.btnCopiaVettore.Text = "Copia Del Vettore";
             this.btnCopiaVettore.UseVisualStyleBackColor = true;
-            this.btnCopiaVettore.Click += new System.EventHandler(this.btnCopiaVettore_Click);
             // 
             // btnOrdina
             // 
