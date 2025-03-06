@@ -45,6 +45,8 @@
             this.btnCaricaValutazioni = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btnCalcolaMediaStudente = new System.Windows.Forms.Button();
+            this.btnCalcolaMediaStudenteCombo = new System.Windows.Forms.Button();
+            this.cmbMatricole = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudenti)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -221,10 +223,12 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.cmbMatricole);
+            this.groupBox3.Controls.Add(this.btnCalcolaMediaStudenteCombo);
             this.groupBox3.Controls.Add(this.btnCalcolaMediaStudente);
             this.groupBox3.Location = new System.Drawing.Point(1033, 224);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(277, 198);
+            this.groupBox3.Size = new System.Drawing.Size(283, 198);
             this.groupBox3.TabIndex = 7;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Query comuni";
@@ -232,13 +236,31 @@
             // btnCalcolaMediaStudente
             // 
             this.btnCalcolaMediaStudente.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcolaMediaStudente.Location = new System.Drawing.Point(108, 19);
+            this.btnCalcolaMediaStudente.Location = new System.Drawing.Point(114, 19);
             this.btnCalcolaMediaStudente.Name = "btnCalcolaMediaStudente";
             this.btnCalcolaMediaStudente.Size = new System.Drawing.Size(163, 42);
             this.btnCalcolaMediaStudente.TabIndex = 5;
             this.btnCalcolaMediaStudente.Text = "CALCOLA MEDIA STUDENTE";
             this.btnCalcolaMediaStudente.UseVisualStyleBackColor = true;
             this.btnCalcolaMediaStudente.Click += new System.EventHandler(this.btnCalcolaMediaStudente_Click);
+            // 
+            // btnCalcolaMediaStudenteCombo
+            // 
+            this.btnCalcolaMediaStudenteCombo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcolaMediaStudenteCombo.Location = new System.Drawing.Point(114, 67);
+            this.btnCalcolaMediaStudenteCombo.Name = "btnCalcolaMediaStudenteCombo";
+            this.btnCalcolaMediaStudenteCombo.Size = new System.Drawing.Size(163, 42);
+            this.btnCalcolaMediaStudenteCombo.TabIndex = 6;
+            this.btnCalcolaMediaStudenteCombo.Text = "CALCOLA MEDIA STUDENTE";
+            this.btnCalcolaMediaStudenteCombo.UseVisualStyleBackColor = true;
+            // 
+            // cmbMatricole
+            // 
+            this.cmbMatricole.FormattingEnabled = true;
+            this.cmbMatricole.Location = new System.Drawing.Point(0, 67);
+            this.cmbMatricole.Name = "cmbMatricole";
+            this.cmbMatricole.Size = new System.Drawing.Size(108, 21);
+            this.cmbMatricole.TabIndex = 8;
             // 
             // frmMain
             // 
@@ -254,6 +276,7 @@
             this.Controls.Add(this.btnCaricaTabellaStudenti);
             this.Name = "frmMain";
             this.Text = "Gestione Tabella";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudenti)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
@@ -282,6 +305,8 @@
         private System.Windows.Forms.ComboBox cmbMaterieDinamica;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button btnCalcolaMediaStudente;
+        private System.Windows.Forms.ComboBox cmbMatricole;
+        private System.Windows.Forms.Button btnCalcolaMediaStudenteCombo;
     }
 }
 

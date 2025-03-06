@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -57,11 +58,11 @@ namespace GetioneTabella3B
             "ING 13/10/25","STO 14/10/25",
             "INF 14/10/25","INF 14/10/25",
             "ITA 15/10/25","STO 15/10/25",
-            "INF 16/10/25","ITA 17/10/25",
+            "INF 16/10/25","STO 17/10/25",
             "ING 17/10/25","STO 17/10/25",
             "INF 17/10/25","INF 17/10/25",
             "ITA 18/10/25","STO 18/10/25",
-            "INF 18/10/25","ITA 18/10/25",
+            "INF 18/10/25","STO 18/10/25",
             "ING 20/10/25","STO 20/10/25",
             "INF 21/10/25","INF 21/10/25",
             "ITA 21/10/25","STO 21/10/25",
@@ -336,6 +337,23 @@ namespace GetioneTabella3B
             settaDgv(dgvValutazioni, nv, 4, "MATERIA,VOTO,DATA,MATRICOLA");
             caricaTabellaValutazioni(valutazioni, datiValutazioni);
             popolaCmbMaterieDinamica(valutazioni, cmbMaterieDinamica);
+            popolaCmbMatricoleDinamica(valutazioni, cmbMatricole);
+        }
+
+        private void popolaCmbMatricoleDinamica(valutazione[] valutazioni, ComboBox cmbMatricole)
+        {
+            ordinaValutazioniMatricola(valutazioni);
+            popolaCmbMatricole(valutazioni, cmbMatricole);
+        }
+
+        private void popolaCmbMatricole(valutazione[] valutazioni, ComboBox cmb)
+        {
+            //popolo dinamicamente la combobox!!!
+            cmb.Items.Clear();
+            for (int i = 0; i < valutazioni.Length - 1; i++)
+                if (valutazioni[i].matricola != valutazioni[i + 1].matricola)
+                    cmb.Items.Add(valutazioni[i].matricola);
+            cmb.Items.Add(valutazioni[valutazioni.Length - 1].matricola);
         }
 
         private void popolaCmbMaterieDinamica(valutazione[] valutazioni, ComboBox cmbMaterieDinamica)
@@ -487,12 +505,138 @@ namespace GetioneTabella3B
 
         private void btnCercaMateriaPiùVoti_Click(object sender, EventArgs e)
         {
+            ordinaValutazioniMaterie(valutazioni);
+            //visualTabellaValutazioni(valutazioni,dgvValutazioni);
+            cercaMateriaPiùVoti(valutazioni);
+        }
 
+        private void cercaMateriaPiùVoti(valutazione[] valutazioni)
+        {
+            int cont = 1;
+            int max = int.MinValue;
+            string maxMateria = "";
+
+            for (int i = 0; i < valutazioni.Length-1; i++)
+            {
+                if (valutazioni[i].materia == valutazioni[i + 1].materia)
+                    cont++;
+                else //rotta la chiave
+                {
+                    if(cont>max)
+                    {
+                        max = cont;
+                        maxMateria = valutazioni[i].materia;
+                    }
+                    else
+                    {
+                        if (cont == max)
+                            maxMateria += " " + valutazioni[i].materia;
+                    }
+                    cont = 1;
+                }
+            }
+            if (cont > max)
+            {
+                max = cont;
+                maxMateria = valutazioni[valutazioni.Length-1].materia;
+            }
+            else
+            {
+                if (cont == max)
+                    maxMateria += " " + valutazioni[valutazioni.Length - 1].materia;
+            }
+            MessageBox.Show($"La materia {maxMateria} ha {max} valutazioni");
         }
 
         private void btnCalcolaMediaStudente_Click(object sender, EventArgs e)
         {
+            string cognome = Interaction.InputBox("Inserisci il cognome dello studente", "INPUT");
+            string nome = Interaction.InputBox("Inserisci il nome dello studente", "INPUT");
+            int matricola = cercaMatricola(studenti, cognome, nome);
+            if (matricola == 0)
+                MessageBox.Show("Studente non trovato", "ERRORE");
+            else
+                calcolaMediaVoti(valutazioni, matricola);
+        }
 
+        private void calcolaMediaVoti(valutazione[] valutazioni, int matricola)
+        {
+            ordinaValutazioniMatricola(valutazioni);
+            //visualTabellaValutazioni(valutazioni, dgvValutazioni);
+            double media=calcolaMedia(valutazioni, matricola);
+            if (media == 0)
+                MessageBox.Show("Lo studente non ha valutazioni");
+            else
+                MessageBox.Show("La media dei voti è: "+ media.ToString("F2"));
+        }
+
+        private double calcolaMedia(valutazione[] valutazioni, int matricola)
+        {
+            int i = 0;
+            bool superato = false;
+            int cont = 0;
+            double somma = 0;
+            while (!superato && i <= valutazioni.Length - 1)
+            {
+                if (valutazioni[i].matricola == matricola)
+                {
+                    somma += valutazioni[i].voto;
+                    cont++;
+                    i++;
+                }
+                else
+                {
+                    if (valutazioni[i].matricola > matricola)
+                        superato = true;
+                    else
+                        i++;
+                }
+            }
+            if (cont == 0)
+                return 0;
+            else
+                return somma / cont;
+        }
+
+        private void ordinaValutazioniMatricola(valutazione[] valutazioni)
+        {
+            //ordinamento per selezione
+            int posmin;
+            int n = valutazioni.Length;
+
+            for (int i = 0; i <= n - 2; i++)
+            {
+                posmin = i;
+                for (int j = i + 1; j <= n - 1; j++)
+                {
+                    if (valutazioni[posmin].matricola > valutazioni[j].matricola)
+                        posmin = j;
+                }
+                if (i != posmin)
+                    scambioRecordValutazioni(ref valutazioni[i], ref valutazioni[posmin]);
+            }
+        }
+
+        private int cercaMatricola(studente[] studenti, string cognome, string nome)
+        {
+            //suppongo no omonimie
+            int i=0;
+
+            while (studenti[i].cognome != cognome &&
+                studenti[i].nome != nome &&
+                i != studenti.Length - 1)
+                i++;
+            if (studenti[i].cognome == cognome &&
+                studenti[i].nome == nome)
+                return studenti[i].matricola;
+            else
+                return 0;
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            btnCaricaTabellaStudenti_Click(sender, e);
+            btnCaricaValutazioni_Click(sender, e);
         }
     }
 }
