@@ -44,14 +44,24 @@
             this.dgvValutazioni = new System.Windows.Forms.DataGridView();
             this.btnCaricaValutazioni = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.btnCalcolaMediaStudente = new System.Windows.Forms.Button();
-            this.btnCalcolaMediaStudenteCombo = new System.Windows.Forms.Button();
+            this.btnCalcolaMediaStudenteClic = new System.Windows.Forms.Button();
             this.cmbMatricole = new System.Windows.Forms.ComboBox();
+            this.btnCalcolaMediaStudenteCombo = new System.Windows.Forms.Button();
+            this.btnCalcolaMediaStudente = new System.Windows.Forms.Button();
+            this.btnInserisciStudente = new System.Windows.Forms.Button();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.cmbClassi = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtNomeStudente = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtCognomeStudente = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudenti)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvValutazioni)).BeginInit();
             this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnCaricaTabellaStudenti
@@ -74,6 +84,7 @@
             this.dgvStudenti.Name = "dgvStudenti";
             this.dgvStudenti.Size = new System.Drawing.Size(367, 150);
             this.dgvStudenti.TabIndex = 1;
+            this.dgvStudenti.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvStudenti_CellClick);
             // 
             // btnOrdinaStudentiCognomeNome
             // 
@@ -223,6 +234,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.btnCalcolaMediaStudenteClic);
             this.groupBox3.Controls.Add(this.cmbMatricole);
             this.groupBox3.Controls.Add(this.btnCalcolaMediaStudenteCombo);
             this.groupBox3.Controls.Add(this.btnCalcolaMediaStudente);
@@ -232,6 +244,36 @@
             this.groupBox3.TabIndex = 7;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Query comuni";
+            // 
+            // btnCalcolaMediaStudenteClic
+            // 
+            this.btnCalcolaMediaStudenteClic.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcolaMediaStudenteClic.Location = new System.Drawing.Point(114, 115);
+            this.btnCalcolaMediaStudenteClic.Name = "btnCalcolaMediaStudenteClic";
+            this.btnCalcolaMediaStudenteClic.Size = new System.Drawing.Size(163, 42);
+            this.btnCalcolaMediaStudenteClic.TabIndex = 9;
+            this.btnCalcolaMediaStudenteClic.Text = "CALCOLA MEDIA STUDENTE CLIC";
+            this.btnCalcolaMediaStudenteClic.UseVisualStyleBackColor = true;
+            this.btnCalcolaMediaStudenteClic.Click += new System.EventHandler(this.btnCalcolaMediaStudenteClic_Click);
+            // 
+            // cmbMatricole
+            // 
+            this.cmbMatricole.FormattingEnabled = true;
+            this.cmbMatricole.Location = new System.Drawing.Point(0, 67);
+            this.cmbMatricole.Name = "cmbMatricole";
+            this.cmbMatricole.Size = new System.Drawing.Size(108, 21);
+            this.cmbMatricole.TabIndex = 8;
+            // 
+            // btnCalcolaMediaStudenteCombo
+            // 
+            this.btnCalcolaMediaStudenteCombo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcolaMediaStudenteCombo.Location = new System.Drawing.Point(114, 67);
+            this.btnCalcolaMediaStudenteCombo.Name = "btnCalcolaMediaStudenteCombo";
+            this.btnCalcolaMediaStudenteCombo.Size = new System.Drawing.Size(163, 42);
+            this.btnCalcolaMediaStudenteCombo.TabIndex = 6;
+            this.btnCalcolaMediaStudenteCombo.Text = "CALCOLA MEDIA STUDENTE COMBO";
+            this.btnCalcolaMediaStudenteCombo.UseVisualStyleBackColor = true;
+            this.btnCalcolaMediaStudenteCombo.Click += new System.EventHandler(this.btnCalcolaMediaStudenteCombo_Click);
             // 
             // btnCalcolaMediaStudente
             // 
@@ -244,29 +286,89 @@
             this.btnCalcolaMediaStudente.UseVisualStyleBackColor = true;
             this.btnCalcolaMediaStudente.Click += new System.EventHandler(this.btnCalcolaMediaStudente_Click);
             // 
-            // btnCalcolaMediaStudenteCombo
+            // btnInserisciStudente
             // 
-            this.btnCalcolaMediaStudenteCombo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcolaMediaStudenteCombo.Location = new System.Drawing.Point(114, 67);
-            this.btnCalcolaMediaStudenteCombo.Name = "btnCalcolaMediaStudenteCombo";
-            this.btnCalcolaMediaStudenteCombo.Size = new System.Drawing.Size(163, 42);
-            this.btnCalcolaMediaStudenteCombo.TabIndex = 6;
-            this.btnCalcolaMediaStudenteCombo.Text = "CALCOLA MEDIA STUDENTE";
-            this.btnCalcolaMediaStudenteCombo.UseVisualStyleBackColor = true;
+            this.btnInserisciStudente.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInserisciStudente.Location = new System.Drawing.Point(18, 113);
+            this.btnInserisciStudente.Name = "btnInserisciStudente";
+            this.btnInserisciStudente.Size = new System.Drawing.Size(166, 42);
+            this.btnInserisciStudente.TabIndex = 8;
+            this.btnInserisciStudente.Text = "INSERISCI STUDENTE";
+            this.btnInserisciStudente.UseVisualStyleBackColor = true;
+            this.btnInserisciStudente.Click += new System.EventHandler(this.btnInserisciStudente_Click);
             // 
-            // cmbMatricole
+            // groupBox4
             // 
-            this.cmbMatricole.FormattingEnabled = true;
-            this.cmbMatricole.Location = new System.Drawing.Point(0, 67);
-            this.cmbMatricole.Name = "cmbMatricole";
-            this.cmbMatricole.Size = new System.Drawing.Size(108, 21);
-            this.cmbMatricole.TabIndex = 8;
+            this.groupBox4.Controls.Add(this.cmbClassi);
+            this.groupBox4.Controls.Add(this.label3);
+            this.groupBox4.Controls.Add(this.txtNomeStudente);
+            this.groupBox4.Controls.Add(this.label2);
+            this.groupBox4.Controls.Add(this.txtCognomeStudente);
+            this.groupBox4.Controls.Add(this.label1);
+            this.groupBox4.Controls.Add(this.btnInserisciStudente);
+            this.groupBox4.Location = new System.Drawing.Point(12, 270);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(200, 173);
+            this.groupBox4.TabIndex = 9;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Info Studente";
+            // 
+            // cmbClassi
+            // 
+            this.cmbClassi.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbClassi.FormattingEnabled = true;
+            this.cmbClassi.Location = new System.Drawing.Point(84, 86);
+            this.cmbClassi.Name = "cmbClassi";
+            this.cmbClassi.Size = new System.Drawing.Size(100, 21);
+            this.cmbClassi.TabIndex = 14;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(16, 86);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(48, 13);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "CLASSE";
+            // 
+            // txtNomeStudente
+            // 
+            this.txtNomeStudente.Location = new System.Drawing.Point(84, 53);
+            this.txtNomeStudente.Name = "txtNomeStudente";
+            this.txtNomeStudente.Size = new System.Drawing.Size(100, 20);
+            this.txtNomeStudente.TabIndex = 12;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(15, 60);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(39, 13);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "NOME";
+            // 
+            // txtCognomeStudente
+            // 
+            this.txtCognomeStudente.Location = new System.Drawing.Point(84, 21);
+            this.txtCognomeStudente.Name = "txtCognomeStudente";
+            this.txtCognomeStudente.Size = new System.Drawing.Size(100, 20);
+            this.txtCognomeStudente.TabIndex = 10;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(15, 28);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(62, 13);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "COGNOME";
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1419, 450);
+            this.ClientSize = new System.Drawing.Size(1419, 510);
+            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.dgvValutazioni);
@@ -282,6 +384,8 @@
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvValutazioni)).EndInit();
             this.groupBox3.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -307,6 +411,15 @@
         private System.Windows.Forms.Button btnCalcolaMediaStudente;
         private System.Windows.Forms.ComboBox cmbMatricole;
         private System.Windows.Forms.Button btnCalcolaMediaStudenteCombo;
+        private System.Windows.Forms.Button btnCalcolaMediaStudenteClic;
+        private System.Windows.Forms.Button btnInserisciStudente;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.ComboBox cmbClassi;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtNomeStudente;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtCognomeStudente;
+        private System.Windows.Forms.Label label1;
     }
 }
 

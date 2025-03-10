@@ -71,13 +71,14 @@ namespace GetioneTabella3B
             "INF 26/10/25","INF 27/10/25",
         };
         int nv; //numero valutazioni
+        int rigaStudente=-1;
         public frmMain()
         {
             InitializeComponent();
         }
         private void btnCaricaTabellaStudenti_Click(object sender, EventArgs e)
         {
-            if (!(int.TryParse(Interaction.InputBox("Inserisci il numero di studenti:","INPUT","20"), out ns) && ns > 0))
+            if (!(int.TryParse(Interaction.InputBox("Inserisci il numero di studenti:","INPUT","30"), out ns) && ns > 0))
                 MessageBox.Show("Devi inserire un valore positivo");
             studenti = new studente[ns];
             settaDgv(dgvStudenti, ns, 4, "MATRICOLA,COGNOME,NOME,CLASSE");
@@ -331,7 +332,7 @@ namespace GetioneTabella3B
 
         private void btnCaricaValutazioni_Click(object sender, EventArgs e)
         {
-            if (!(int.TryParse(Interaction.InputBox("Inserisci il numero di valutazioni:","INPUT","30"), out nv) && nv > 0))
+            if (!(int.TryParse(Interaction.InputBox("Inserisci il numero di valutazioni:","INPUT","32"), out nv) && nv > 0))
                 MessageBox.Show("Devi inserire un valore positivo");
             valutazioni = new valutazione[nv];
             settaDgv(dgvValutazioni, nv, 4, "MATERIA,VOTO,DATA,MATRICOLA");
@@ -636,7 +637,70 @@ namespace GetioneTabella3B
         private void frmMain_Load(object sender, EventArgs e)
         {
             btnCaricaTabellaStudenti_Click(sender, e);
+            popolaCmbClassi(cmbClassi);
             btnCaricaValutazioni_Click(sender, e);
+        }
+
+        private void popolaCmbClassi(ComboBox cmb)
+        {
+            //carico dinamicamente
+            ordinaStudentiClasse(studenti);
+            popolaCmbClassiDinamica(studenti, cmb);
+        }
+
+        private void popolaCmbClassiDinamica(studente[] studenti, ComboBox cmb)
+        {
+            cmb.Items.Clear();
+            for (int i = 0; i < studenti.Length - 1; i++)
+                if (studenti[i].classe != studenti[i + 1].classe)
+                    cmb.Items.Add(studenti[i].classe);
+            cmb.Items.Add(studenti[studenti.Length - 1].classe);
+        }
+
+        private void btnCalcolaMediaStudenteCombo_Click(object sender, EventArgs e)
+        {
+            int matricola = Convert.ToInt32(cmbMatricole.Text);
+            calcolaMediaVoti(valutazioni, matricola);
+        }
+
+        private void dgvStudenti_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            rigaStudente=e.RowIndex;
+        }
+
+        private void btnCalcolaMediaStudenteClic_Click(object sender, EventArgs e)
+        {
+            if (rigaStudente == -1)
+                MessageBox.Show("Devi selezionare uno studente", "ERRORE");
+            else
+                calcolaMediaVoti(valutazioni, studenti[rigaStudente].matricola);
+        }
+
+        private void btnInserisciStudente_Click(object sender, EventArgs e)
+        {
+            if (txtCognomeStudente.Text == "")
+                MessageBox.Show("Devi inserire il cognome!");
+            else
+                if (txtNomeStudente.Text == "")
+                MessageBox.Show("Devi inserire il nome!");
+            else
+                    if (cmbClassi.Text == "")
+                MessageBox.Show("Devi inserire la classe!");
+            else
+                caricaNuovoStudente(studenti);
+        }
+
+        private void caricaNuovoStudente(studente[] studenti)
+        {
+            ns++;
+            settaDgv(dgvStudenti, ns, 4, "MATRICOLA,COGNOME,NOME,CLASSE");
+            caricaTabellaStudenti(studenti, datiStudenti);
+            Array.Resize(ref studenti,studenti.Length+1);
+            studenti[studenti.Length - 1].matricola = studenti[studenti.Length-2].matricola +rnd.Next(1,10);
+            studenti[studenti.Length - 1].cognome = txtCognomeStudente.Text;
+            studenti[studenti.Length - 1].nome = txtNomeStudente.Text;
+            studenti[studenti.Length - 1].classe = cmbClassi.Text;
+            scriviSuDgvStudenti(dgvStudenti, studenti[studenti.Length - 1], ns - 1);
         }
     }
 }
