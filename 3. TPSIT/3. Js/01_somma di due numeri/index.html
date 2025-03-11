@@ -11,10 +11,10 @@
         <div id="wrapper">
             <h1>Somma di due numeri</h1>
             <div>
-                Primo Numero : <input type="text" id="txtN1" />
+                Primo Numero : <input type="text" id="txtN1" onkeydown="abbattiLettere(event)" />
             </div>
             <div>
-                Secondo Numero : <input type="text" id="txtN2" />
+                Secondo Numero : <input type="text" id="txtN2" onkeydown="abbattiLettere(event)" />
             </div>
             <div>
                 <input type="button" value="Somma" onclick="somma()" />

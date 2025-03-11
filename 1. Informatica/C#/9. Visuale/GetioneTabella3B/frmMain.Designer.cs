@@ -56,6 +56,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtCognomeStudente = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnCalcolaMediaClasse = new System.Windows.Forms.Button();
+            this.cmbClassiQuery = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudenti)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -234,13 +236,15 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.cmbClassiQuery);
+            this.groupBox3.Controls.Add(this.btnCalcolaMediaClasse);
             this.groupBox3.Controls.Add(this.btnCalcolaMediaStudenteClic);
             this.groupBox3.Controls.Add(this.cmbMatricole);
             this.groupBox3.Controls.Add(this.btnCalcolaMediaStudenteCombo);
             this.groupBox3.Controls.Add(this.btnCalcolaMediaStudente);
             this.groupBox3.Location = new System.Drawing.Point(1033, 224);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(283, 198);
+            this.groupBox3.Size = new System.Drawing.Size(283, 260);
             this.groupBox3.TabIndex = 7;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Query comuni";
@@ -363,6 +367,26 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "COGNOME";
             // 
+            // btnCalcolaMediaClasse
+            // 
+            this.btnCalcolaMediaClasse.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcolaMediaClasse.Location = new System.Drawing.Point(114, 163);
+            this.btnCalcolaMediaClasse.Name = "btnCalcolaMediaClasse";
+            this.btnCalcolaMediaClasse.Size = new System.Drawing.Size(163, 42);
+            this.btnCalcolaMediaClasse.TabIndex = 10;
+            this.btnCalcolaMediaClasse.Text = "CALCOLA MEDIA CLASSE";
+            this.btnCalcolaMediaClasse.UseVisualStyleBackColor = true;
+            this.btnCalcolaMediaClasse.Click += new System.EventHandler(this.btnCalcolaMediaClasse_Click_1);
+            // 
+            // cmbClassiQuery
+            // 
+            this.cmbClassiQuery.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbClassiQuery.FormattingEnabled = true;
+            this.cmbClassiQuery.Location = new System.Drawing.Point(8, 171);
+            this.cmbClassiQuery.Name = "cmbClassiQuery";
+            this.cmbClassiQuery.Size = new System.Drawing.Size(100, 21);
+            this.cmbClassiQuery.TabIndex = 15;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -420,6 +444,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtCognomeStudente;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnCalcolaMediaClasse;
+        private System.Windows.Forms.ComboBox cmbClassiQuery;
     }
 }
 

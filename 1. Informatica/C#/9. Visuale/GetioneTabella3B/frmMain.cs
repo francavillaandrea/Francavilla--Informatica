@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.VisualBasic;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolTip;
 using static GetioneTabella3B.frmMain;
 
 namespace GetioneTabella3B
@@ -639,6 +640,7 @@ namespace GetioneTabella3B
             btnCaricaTabellaStudenti_Click(sender, e);
             popolaCmbClassi(cmbClassi);
             btnCaricaValutazioni_Click(sender, e);
+            popolaCmbClassiDinamica(studenti, cmbClassiQuery);
         }
 
         private void popolaCmbClassi(ComboBox cmb)
@@ -687,20 +689,84 @@ namespace GetioneTabella3B
                     if (cmbClassi.Text == "")
                 MessageBox.Show("Devi inserire la classe!");
             else
-                caricaNuovoStudente(studenti);
+            {
+                caricaNuovoStudente(ref studenti);
+                btnCaricaValutazioni_Click(sender, e);
+            }
         }
 
-        private void caricaNuovoStudente(studente[] studenti)
+        private void caricaNuovoStudente(ref studente[] studenti)
         {
+            Array.Resize(ref studenti, studenti.Length + 1);
+            Array.Resize(ref datiStudenti, datiStudenti.Length + 1);
+            string studente = txtCognomeStudente.Text + " " + txtNomeStudente.Text + " " + cmbClassi.Text;
             ns++;
+            datiStudenti[ns - 1] = studente;
             settaDgv(dgvStudenti, ns, 4, "MATRICOLA,COGNOME,NOME,CLASSE");
             caricaTabellaStudenti(studenti, datiStudenti);
-            Array.Resize(ref studenti,studenti.Length+1);
-            studenti[studenti.Length - 1].matricola = studenti[studenti.Length-2].matricola +rnd.Next(1,10);
-            studenti[studenti.Length - 1].cognome = txtCognomeStudente.Text;
-            studenti[studenti.Length - 1].nome = txtNomeStudente.Text;
-            studenti[studenti.Length - 1].classe = cmbClassi.Text;
-            scriviSuDgvStudenti(dgvStudenti, studenti[studenti.Length - 1], ns - 1);
+            visualTabellaStudenti(studenti, dgvStudenti);
+        }
+
+     
+
+        private void btnCalcolaMediaClasse_Click_1(object sender, EventArgs e)
+        {
+            
+            string classe=cmbClassiQuery.Text;
+            double media = calcolaMediaClasse(studenti, valutazioni, classe);
+            MessageBox.Show(media.ToString("F2"));
+        }
+
+        private double calcolaMediaClasse(studente[] studenti, valutazione[] valutazioni, string classe)
+        {
+            ordinaStudentiClasse(studenti);
+            ordinaValutazioniMatricola(valutazioni);
+            int n = studenti.Length;
+            int i = 0;
+            bool superato = false;
+            int cont = 0;
+            double sommaVoti = 0;
+            while (!superato && i <= n - 1)
+            {
+                if (studenti[i].classe == classe)
+                {
+                    sommaVoti += sommaVotiStudente(valutazioni, studenti[i].matricola);
+                    cont++;
+                    i++;
+                }
+                else
+                {
+                    if (studenti[i].classe.CompareTo(classe) > 0)
+                        superato = true;
+                    else
+                        i++;
+                }
+            }
+            return sommaVoti/cont;
+        }
+
+        private double sommaVotiStudente(valutazione[] valutazioni, int matricola)
+        {
+            double somma = 0;
+            int n = valutazioni.Length;
+            int i = 0;
+            bool superato = false;
+            while (!superato && i <= n - 1)
+            {
+                if (valutazioni[i].matricola == matricola)
+                {
+                    somma += valutazioni[i].voto;
+                    i++;
+                }
+                else
+                {
+                    if (valutazioni[i].matricola>matricola)
+                        superato = true;
+                    else
+                        i++;
+                }
+            }
+            return somma;
         }
     }
 }
