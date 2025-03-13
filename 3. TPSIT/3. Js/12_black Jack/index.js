@@ -10,6 +10,7 @@ _txtBanco.value = nBanco;
 let somma = 0;
 let sommaBanco = 0;
 
+
 function visualizza(n)
 {
 
@@ -32,19 +33,39 @@ function banco()
     _txtBanco.value = sommaBanco;
     for(let i = 0; i < _chkNum.length;i++)
     {
-            _chkNum[i].disabled = true;
+        _chkNum[i].disabled = true;
 
     }
-    if(_txtBanco.value > _txtUser.value)
+    if(_txtBanco.value > 17)
     {
-        alert("Ha vinto il banco!");
+        _btnBanco.disabled = true;
+    }
+    else if(_txtBanco.value > 21)
+    {
+        _btnBanco.disabled = true;
+        alert("Il giocatore ha vinto")
         finePartita();
     }
-    else 
+    else if(_txtBanco.value >= 17 && _txtBanco.value < 21)
     {
-        alert("Il giocatore ha vinto!")
-        finePartita();
+        if(_txtBanco.value > _txtUser.value)
+            {
+                alert("Ha vinto il banco!");
+                finePartita();
+            }
+            else if(_txtBanco.value == _txtUser.value)
+            {
+                alert("Il Banco ha vinto!")
+                finePartita();
+            }
+            else 
+            {
+                alert("Il giocatore ha vinto!")
+                finePartita();
+            }
+        
     }
+    
 }
 
 function finePartita()
@@ -60,9 +81,3 @@ function generaNumero(min,max)
 {
     return Math.floor((max-min)*Math.random())+min;
 }
-
-
-
-
-
-
