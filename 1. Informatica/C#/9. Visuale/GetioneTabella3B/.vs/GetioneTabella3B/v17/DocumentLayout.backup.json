@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\alberto.barbero\\Desktop\\GetioneTabella3B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2347468-46EF-4FBA-AAAA-25335CFC1162}|GetioneTabella3B.csproj|c:\\users\\alberto.barbero\\desktop\\getionetabella3b\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2347468-46EF-4FBA-AAAA-25335CFC1162}|GetioneTabella3B.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2347468-46EF-4FBA-AAAA-25335CFC1162}|GetioneTabella3B.csproj|C:\\Users\\alberto.barbero\\Desktop\\GetioneTabella3B\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B2347468-46EF-4FBA-AAAA-25335CFC1162}|GetioneTabella3B.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2347468-46EF-4FBA-AAAA-25335CFC1162}|GetioneTabella3B.csproj|c:\\users\\alberto.barbero\\desktop\\getionetabella3b\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B2347468-46EF-4FBA-AAAA-25335CFC1162}|GetioneTabella3B.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B2347468-46EF-4FBA-AAAA-25335CFC1162}|GetioneTabella3B.csproj|c:\\users\\alberto.barbero\\desktop\\getionetabella3b\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2347468-46EF-4FBA-AAAA-25335CFC1162}|GetioneTabella3B.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "frmMain.cs",
               "DocumentMoniker": "C:\\Users\\alberto.barbero\\Desktop\\GetioneTabella3B\\frmMain.cs",
               "RelativeDocumentMoniker": "frmMain.cs",
               "ToolTip": "C:\\Users\\alberto.barbero\\Desktop\\GetioneTabella3B\\frmMain.cs",
               "RelativeToolTip": "frmMain.cs",
-              "ViewState": "AgIAAM8CAAAAAAAAAAAwwPgCAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAcDAAAAAAAAAADwvxsDAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T10:04:54.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "frmMain.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\alberto.barbero\\Desktop\\GetioneTabella3B\\frmMain.cs",
               "RelativeDocumentMoniker": "frmMain.cs",

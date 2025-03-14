@@ -724,14 +724,13 @@ namespace GetioneTabella3B
             int n = studenti.Length;
             int i = 0;
             bool superato = false;
-            int cont = 0;
             double sommaVoti = 0;
+            int contVoti = 0;
             while (!superato && i <= n - 1)
             {
                 if (studenti[i].classe == classe)
                 {
-                    sommaVoti += sommaVotiStudente(valutazioni, studenti[i].matricola);
-                    cont++;
+                    sommaVoti += sommaVotiStudente(valutazioni, studenti[i].matricola, ref contVoti);
                     i++;
                 }
                 else
@@ -742,10 +741,10 @@ namespace GetioneTabella3B
                         i++;
                 }
             }
-            return sommaVoti/cont;
+            return sommaVoti/contVoti;
         }
 
-        private double sommaVotiStudente(valutazione[] valutazioni, int matricola)
+        private double sommaVotiStudente(valutazione[] valutazioni, int matricola, ref int contVoti)
         {
             double somma = 0;
             int n = valutazioni.Length;
@@ -756,6 +755,7 @@ namespace GetioneTabella3B
                 if (valutazioni[i].matricola == matricola)
                 {
                     somma += valutazioni[i].voto;
+                    contVoti++;
                     i++;
                 }
                 else
@@ -767,6 +767,166 @@ namespace GetioneTabella3B
                 }
             }
             return somma;
+        }
+
+        private void btnContaVotiTra2Date_Click(object sender, EventArgs e)
+        {
+            string d1=dtp1.Text;
+            string d2 = dtp2.Text;
+            //suppongo valutazioni già ordinate cronologicamente
+            MessageBox.Show($"Le valutazioni tra {d1} e {d2} sono state {contaValutazioniTra2Date(valutazioni, d1, d2).ToString()}");
+        }
+
+        private int contaValutazioniTra2Date(valutazione[] valutazioni, string d1, string d2)
+        {
+            int cont = 0;
+            int n = valutazioni.Length;
+            int i = 0;
+            bool superato = false;
+            while (!superato && i <= n - 1)
+            {
+                if (valutazioni[i].data.CompareTo(d1) >=0 &&
+                    valutazioni[i].data.CompareTo(d2) <= 0)
+                {
+                    cont++;
+                    i++;
+                }
+                else
+                {
+                    if (valutazioni[i].data.CompareTo(d2) > 0)
+                        superato = true;
+                    else
+                        i++;
+                }
+            }
+            return cont;
+        }
+
+        private void btnCercaStudenteMediaMinore_Click(object sender, EventArgs e)
+        {
+            double media;
+            double min = double.MaxValue;
+            string minStudente = "";
+
+            ordinaValutazioniMatricola(valutazioni);
+            for (int i = 0; i < studenti.Length; i++)
+            {
+                media = calcolaMedia(valutazioni, studenti[i].matricola);
+                if(media != 0)
+                {
+                    if (media < min)
+                    {
+                        min = media;
+                        minStudente = studenti[i].cognome + " " +
+                            studenti[i].nome + " " +
+                            studenti[i].classe;
+                    }
+                    else
+                    {
+                        if(min==media)
+                            minStudente += studenti[i].cognome + " " +
+                           studenti[i].nome + " " +
+                           studenti[i].classe+"\n";
+
+                    }
+                }  
+            }
+            MessageBox.Show(minStudente);
+        }
+
+        private void btnCercaStudenteMediaMinoreOtt_Click(object sender, EventArgs e)
+        {
+            ordinaValutazioniMatricola(valutazioni);
+            double somma = 0;
+            int cont = 1;
+            double media;
+            double min = double.MaxValue;
+            string matrMinStudente = "";
+            int contMin = 0;
+
+            for (int i = 0; i < valutazioni.Length-1; i++)
+            {
+                if (valutazioni[i].matricola == valutazioni[i+1].matricola)
+                {
+                    somma += valutazioni[i].voto;
+                    cont++;
+                }
+                else //rompo la chiave
+                {
+                    media = somma / cont;
+                    if (media != 0)
+                    {
+                        if (media < min)
+                        {
+                            min = media;
+                            matrMinStudente = valutazioni[i].matricola.ToString();
+                            contMin = 1;
+                        }
+                        else
+                        {
+                            if (min == media)
+                            {
+                                matrMinStudente += " " + valutazioni[i].matricola.ToString();
+                                contMin++;
+                            }
+                               
+                        }
+                    }
+                    cont = 1;
+                }
+            }
+            media = somma / cont;
+            if (media != 0)
+            {
+                if (media < min)
+                {
+                    min = media;
+                    matrMinStudente = valutazioni[valutazioni.Length - 1].matricola.ToString();
+                    contMin = 1;
+                }
+                else
+                {
+                    if (min == media)
+                    {
+                        matrMinStudente += " " + valutazioni[valutazioni.Length - 1].matricola.ToString();
+                        contMin++;
+                    }
+                        
+                }
+            }
+            visualizzaDatiStudente(studenti, matrMinStudente, contMin);
+        }
+
+        private void visualizzaDatiStudente(studente[] studenti, string matr, int contMin)
+        {
+            string nominativo = "";
+            string[] v;
+
+            if (contMin == 1)
+            {
+                nominativo = cercaStudenteMatricola(studenti, matr);
+                MessageBox.Show(nominativo);
+            }
+                
+            else
+            {
+                v=matr.Split(' ');
+                for (int i = 0; i < contMin; i++)
+                {
+                    nominativo= cercaStudenteMatricola(studenti, v[0]);
+                    MessageBox.Show(nominativo);
+                }
+            }
+            
+        }
+
+        private string cercaStudenteMatricola(studente[] studenti, string matr)
+        {
+            int m = Convert.ToInt32(matr);
+            int i = 0;
+            while (studenti[i].matricola != m)
+                i++;
+            return studenti[i].cognome + " " + studenti[i].nome;
         }
     }
 }

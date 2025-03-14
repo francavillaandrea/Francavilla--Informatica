@@ -36,6 +36,9 @@
             this.btnCercaClassePiùStudenti = new System.Windows.Forms.Button();
             this.btnContaStudentiClasse = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.dtp2 = new System.Windows.Forms.DateTimePicker();
+            this.dtp1 = new System.Windows.Forms.DateTimePicker();
+            this.btnContaVotiTra2Date = new System.Windows.Forms.Button();
             this.cmbMaterieDinamica = new System.Windows.Forms.ComboBox();
             this.cmbMaterieStatica = new System.Windows.Forms.ComboBox();
             this.btnCercaMateriaPiùVoti = new System.Windows.Forms.Button();
@@ -44,6 +47,11 @@
             this.dgvValutazioni = new System.Windows.Forms.DataGridView();
             this.btnCaricaValutazioni = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnCercaStudenteMediaMinoreOtt = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnCercaStudenteMediaMinore = new System.Windows.Forms.Button();
+            this.cmbClassiQuery = new System.Windows.Forms.ComboBox();
+            this.btnCalcolaMediaClasse = new System.Windows.Forms.Button();
             this.btnCalcolaMediaStudenteClic = new System.Windows.Forms.Button();
             this.cmbMatricole = new System.Windows.Forms.ComboBox();
             this.btnCalcolaMediaStudenteCombo = new System.Windows.Forms.Button();
@@ -56,8 +64,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtCognomeStudente = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnCalcolaMediaClasse = new System.Windows.Forms.Button();
-            this.cmbClassiQuery = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudenti)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -147,6 +153,9 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.dtp2);
+            this.groupBox2.Controls.Add(this.dtp1);
+            this.groupBox2.Controls.Add(this.btnContaVotiTra2Date);
             this.groupBox2.Controls.Add(this.cmbMaterieDinamica);
             this.groupBox2.Controls.Add(this.cmbMaterieStatica);
             this.groupBox2.Controls.Add(this.btnCercaMateriaPiùVoti);
@@ -154,10 +163,37 @@
             this.groupBox2.Controls.Add(this.btnCalcolaMediaValutazioniMateria);
             this.groupBox2.Location = new System.Drawing.Point(1027, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(289, 168);
+            this.groupBox2.Size = new System.Drawing.Size(289, 229);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Query";
+            // 
+            // dtp2
+            // 
+            this.dtp2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtp2.Location = new System.Drawing.Point(6, 191);
+            this.dtp2.Name = "dtp2";
+            this.dtp2.Size = new System.Drawing.Size(108, 20);
+            this.dtp2.TabIndex = 10;
+            // 
+            // dtp1
+            // 
+            this.dtp1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtp1.Location = new System.Drawing.Point(6, 165);
+            this.dtp1.Name = "dtp1";
+            this.dtp1.Size = new System.Drawing.Size(108, 20);
+            this.dtp1.TabIndex = 9;
+            // 
+            // btnContaVotiTra2Date
+            // 
+            this.btnContaVotiTra2Date.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnContaVotiTra2Date.Location = new System.Drawing.Point(120, 168);
+            this.btnContaVotiTra2Date.Name = "btnContaVotiTra2Date";
+            this.btnContaVotiTra2Date.Size = new System.Drawing.Size(163, 42);
+            this.btnContaVotiTra2Date.TabIndex = 8;
+            this.btnContaVotiTra2Date.Text = "CONTA VOTI TRA 2 DATE";
+            this.btnContaVotiTra2Date.UseVisualStyleBackColor = true;
+            this.btnContaVotiTra2Date.Click += new System.EventHandler(this.btnContaVotiTra2Date_Click);
             // 
             // cmbMaterieDinamica
             // 
@@ -236,18 +272,73 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.btnCercaStudenteMediaMinoreOtt);
+            this.groupBox3.Controls.Add(this.button1);
+            this.groupBox3.Controls.Add(this.btnCercaStudenteMediaMinore);
             this.groupBox3.Controls.Add(this.cmbClassiQuery);
             this.groupBox3.Controls.Add(this.btnCalcolaMediaClasse);
             this.groupBox3.Controls.Add(this.btnCalcolaMediaStudenteClic);
             this.groupBox3.Controls.Add(this.cmbMatricole);
             this.groupBox3.Controls.Add(this.btnCalcolaMediaStudenteCombo);
             this.groupBox3.Controls.Add(this.btnCalcolaMediaStudente);
-            this.groupBox3.Location = new System.Drawing.Point(1033, 224);
+            this.groupBox3.Location = new System.Drawing.Point(602, 270);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(283, 260);
+            this.groupBox3.Size = new System.Drawing.Size(283, 362);
             this.groupBox3.TabIndex = 7;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Query comuni";
+            // 
+            // btnCercaStudenteMediaMinoreOtt
+            // 
+            this.btnCercaStudenteMediaMinoreOtt.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCercaStudenteMediaMinoreOtt.Location = new System.Drawing.Point(114, 256);
+            this.btnCercaStudenteMediaMinoreOtt.Name = "btnCercaStudenteMediaMinoreOtt";
+            this.btnCercaStudenteMediaMinoreOtt.Size = new System.Drawing.Size(163, 42);
+            this.btnCercaStudenteMediaMinoreOtt.TabIndex = 18;
+            this.btnCercaStudenteMediaMinoreOtt.Text = "CERCA STUDENTE MEDIA MINORE OTT.";
+            this.btnCercaStudenteMediaMinoreOtt.UseVisualStyleBackColor = true;
+            this.btnCercaStudenteMediaMinoreOtt.Click += new System.EventHandler(this.btnCercaStudenteMediaMinoreOtt_Click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(114, 304);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(163, 42);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "CERCA STUDENTI SENZA VOTI";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // btnCercaStudenteMediaMinore
+            // 
+            this.btnCercaStudenteMediaMinore.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCercaStudenteMediaMinore.Location = new System.Drawing.Point(114, 211);
+            this.btnCercaStudenteMediaMinore.Name = "btnCercaStudenteMediaMinore";
+            this.btnCercaStudenteMediaMinore.Size = new System.Drawing.Size(163, 42);
+            this.btnCercaStudenteMediaMinore.TabIndex = 16;
+            this.btnCercaStudenteMediaMinore.Text = "CERCA STUDENTE MEDIA MINORE";
+            this.btnCercaStudenteMediaMinore.UseVisualStyleBackColor = true;
+            this.btnCercaStudenteMediaMinore.Click += new System.EventHandler(this.btnCercaStudenteMediaMinore_Click);
+            // 
+            // cmbClassiQuery
+            // 
+            this.cmbClassiQuery.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbClassiQuery.FormattingEnabled = true;
+            this.cmbClassiQuery.Location = new System.Drawing.Point(8, 171);
+            this.cmbClassiQuery.Name = "cmbClassiQuery";
+            this.cmbClassiQuery.Size = new System.Drawing.Size(100, 21);
+            this.cmbClassiQuery.TabIndex = 15;
+            // 
+            // btnCalcolaMediaClasse
+            // 
+            this.btnCalcolaMediaClasse.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcolaMediaClasse.Location = new System.Drawing.Point(114, 163);
+            this.btnCalcolaMediaClasse.Name = "btnCalcolaMediaClasse";
+            this.btnCalcolaMediaClasse.Size = new System.Drawing.Size(163, 42);
+            this.btnCalcolaMediaClasse.TabIndex = 10;
+            this.btnCalcolaMediaClasse.Text = "CALCOLA MEDIA CLASSE";
+            this.btnCalcolaMediaClasse.UseVisualStyleBackColor = true;
+            this.btnCalcolaMediaClasse.Click += new System.EventHandler(this.btnCalcolaMediaClasse_Click_1);
             // 
             // btnCalcolaMediaStudenteClic
             // 
@@ -367,31 +458,11 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "COGNOME";
             // 
-            // btnCalcolaMediaClasse
-            // 
-            this.btnCalcolaMediaClasse.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcolaMediaClasse.Location = new System.Drawing.Point(114, 163);
-            this.btnCalcolaMediaClasse.Name = "btnCalcolaMediaClasse";
-            this.btnCalcolaMediaClasse.Size = new System.Drawing.Size(163, 42);
-            this.btnCalcolaMediaClasse.TabIndex = 10;
-            this.btnCalcolaMediaClasse.Text = "CALCOLA MEDIA CLASSE";
-            this.btnCalcolaMediaClasse.UseVisualStyleBackColor = true;
-            this.btnCalcolaMediaClasse.Click += new System.EventHandler(this.btnCalcolaMediaClasse_Click_1);
-            // 
-            // cmbClassiQuery
-            // 
-            this.cmbClassiQuery.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbClassiQuery.FormattingEnabled = true;
-            this.cmbClassiQuery.Location = new System.Drawing.Point(8, 171);
-            this.cmbClassiQuery.Name = "cmbClassiQuery";
-            this.cmbClassiQuery.Size = new System.Drawing.Size(100, 21);
-            this.cmbClassiQuery.TabIndex = 15;
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1419, 510);
+            this.ClientSize = new System.Drawing.Size(1419, 644);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -446,6 +517,12 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnCalcolaMediaClasse;
         private System.Windows.Forms.ComboBox cmbClassiQuery;
+        private System.Windows.Forms.Button btnContaVotiTra2Date;
+        private System.Windows.Forms.DateTimePicker dtp2;
+        private System.Windows.Forms.DateTimePicker dtp1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCercaStudenteMediaMinore;
+        private System.Windows.Forms.Button btnCercaStudenteMediaMinoreOtt;
     }
 }
 
