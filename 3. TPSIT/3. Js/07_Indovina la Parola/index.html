@@ -3,12 +3,12 @@
     <meta charset="UTF-8">
     <title> Indovina la parola </title>
     <link rel="stylesheet" href="index.css" />
-    <script type="text/javascript" src="index.js"></script>
+    <script defer type="text/javascript" src="index.js"></script>
 </head>
 
 <body>
     <div id="wrapper">
-        <h1 align="center"> Indovina la Parola</h1>
+        <h1 align="center"> Indovina la Parola </h1>
         <p> 
             <input type="text" name="txtCar" />
             <input type="text" name="txtCar" />
@@ -40,7 +40,7 @@
 	        <input type="checkbox" name="chkRis" >
         </p>
         <p>
-	        <input type="text" id="txtIns" maxlength="1">
+	        <input type="text" id="txtIns" maxlength="1" oninput="abilitaBtnInvia()">
 	        <input type="button" value="Invia" onclick="confronta()" id="btnInvia" disabled />
         </p>
         <p> 
