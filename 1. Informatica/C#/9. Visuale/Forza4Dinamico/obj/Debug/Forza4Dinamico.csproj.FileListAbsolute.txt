@@ -1,0 +1,10 @@
+C:\Users\marco.paschetta\Desktop\3B\Forza4Dinamico\bin\Debug\Forza4Dinamico.exe.config
+C:\Users\marco.paschetta\Desktop\3B\Forza4Dinamico\bin\Debug\Forza4Dinamico.exe
+C:\Users\marco.paschetta\Desktop\3B\Forza4Dinamico\bin\Debug\Forza4Dinamico.pdb
+C:\Users\marco.paschetta\Desktop\3B\Forza4Dinamico\obj\Debug\Forza4Dinamico.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B\Forza4Dinamico\obj\Debug\Forza4Dinamico.FrmMain.resources
+C:\Users\marco.paschetta\Desktop\3B\Forza4Dinamico\obj\Debug\Forza4Dinamico.Properties.Resources.resources
+C:\Users\marco.paschetta\Desktop\3B\Forza4Dinamico\obj\Debug\Forza4Dinamico.csproj.GenerateResource.cache
+C:\Users\marco.paschetta\Desktop\3B\Forza4Dinamico\obj\Debug\Forza4Dinamico.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B\Forza4Dinamico\obj\Debug\Forza4Dinamico.exe
+C:\Users\marco.paschetta\Desktop\3B\Forza4Dinamico\obj\Debug\Forza4Dinamico.pdb
