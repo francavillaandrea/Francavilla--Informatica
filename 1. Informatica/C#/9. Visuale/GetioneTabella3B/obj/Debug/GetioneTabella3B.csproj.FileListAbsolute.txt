@@ -8,3 +8,12 @@ C:\Users\alberto.barbero\Desktop\GetioneTabella3B\obj\Debug\GetioneTabella3B.csp
 C:\Users\alberto.barbero\Desktop\GetioneTabella3B\obj\Debug\GetioneTabella3B.csproj.CoreCompileInputs.cache
 C:\Users\alberto.barbero\Desktop\GetioneTabella3B\obj\Debug\GetioneTabella3B.exe
 C:\Users\alberto.barbero\Desktop\GetioneTabella3B\obj\Debug\GetioneTabella3B.pdb
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\GetioneTabella3B\bin\Debug\GetioneTabella3B.exe.config
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\GetioneTabella3B\bin\Debug\GetioneTabella3B.exe
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\GetioneTabella3B\bin\Debug\GetioneTabella3B.pdb
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\GetioneTabella3B\obj\Debug\GetioneTabella3B.csprojAssemblyReference.cache
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\GetioneTabella3B\obj\Debug\GetioneTabella3B.frmMain.resources
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\GetioneTabella3B\obj\Debug\GetioneTabella3B.Properties.Resources.resources
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\GetioneTabella3B\obj\Debug\GetioneTabella3B.csproj.GenerateResource.cache
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\GetioneTabella3B\obj\Debug\GetioneTabella3B.exe
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\GetioneTabella3B\obj\Debug\GetioneTabella3B.pdb

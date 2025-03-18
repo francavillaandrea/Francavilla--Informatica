@@ -422,7 +422,7 @@ namespace GetioneTabella3B
             {
                 dato = dati[i].Split(' ');
                 valutazioni[i].materia = dato[0];
-                valutazioni[i].voto = rnd.Next(3, 10);
+                valutazioni[i].voto = rnd.Next(2, 6);
                 valutazioni[i].data = dato[1];
                 //garantisco integrità referenziale!!!
                 valutazioni[i].matricola = cercaChiaveEsterna(studenti);
@@ -624,7 +624,7 @@ namespace GetioneTabella3B
             //suppongo no omonimie
             int i=0;
 
-            while (studenti[i].cognome != cognome &&
+            while (studenti[i].cognome != cognome ||
                 studenti[i].nome != nome &&
                 i != studenti.Length - 1)
                 i++;
@@ -819,7 +819,7 @@ namespace GetioneTabella3B
                         min = media;
                         minStudente = studenti[i].cognome + " " +
                             studenti[i].nome + " " +
-                            studenti[i].classe;
+                            studenti[i].classe + "\n";
                     }
                     else
                     {
@@ -839,7 +839,7 @@ namespace GetioneTabella3B
             ordinaValutazioniMatricola(valutazioni);
             double somma = 0;
             int cont = 1;
-            double media;
+            double media=0;
             double min = double.MaxValue;
             string matrMinStudente = "";
             int contMin = 0;
@@ -853,6 +853,9 @@ namespace GetioneTabella3B
                 }
                 else //rompo la chiave
                 {
+                    somma += valutazioni[i].voto;
+                    if(somma!=0)
+                    { 
                     media = somma / cont;
                     if (media != 0)
                     {
@@ -872,9 +875,12 @@ namespace GetioneTabella3B
                                
                         }
                     }
+                    }
                     cont = 1;
+                    somma= 0;
                 }
             }
+            somma += valutazioni[valutazioni.Length - 1].voto;
             media = somma / cont;
             if (media != 0)
             {
@@ -927,6 +933,106 @@ namespace GetioneTabella3B
             while (studenti[i].matricola != m)
                 i++;
             return studenti[i].cognome + " " + studenti[i].nome;
+        }
+
+        private void btnCercaStudentiTaglioni_Click(object sender, EventArgs e)
+        {
+            string taglioni = "";
+
+            ordinaValutazioniMatricola(valutazioni);
+            for (int i = 0; i < studenti.Length; i++)
+            {
+                if (calcolaMedia(valutazioni, studenti[i].matricola) == 0)
+                    taglioni += studenti[i].cognome + " - " +
+                        studenti[i].nome + " - " +
+                        studenti[i].classe + "\n";
+               }
+            MessageBox.Show(taglioni);
+        }
+
+        private void btnContaVotiStudenteInsufficienti_Click(object sender, EventArgs e)
+        {
+            string cognome = Interaction.InputBox("Inserisci il cognome");
+            string nome = Interaction.InputBox("Inserisci il nome");
+            int matricola=cercaMatricola(studenti,cognome,nome);
+            if (matricola == 0)
+                MessageBox.Show("Studente non trovato");
+            else
+            {
+                ordinaValutazioniMatricola(valutazioni);
+                MessageBox.Show(contaVotiStudenteInsufficienti(valutazioni, matricola).ToString());
+            }    
+        }
+
+        private int contaVotiStudenteInsufficienti(valutazione[] valutazioni, int matricola)
+        {
+            int cont = 0;
+            
+            int n = valutazioni.Length;
+            int i = 0;
+            bool superato = false;
+            while (!superato && i <= n - 1)
+            {
+                if (valutazioni[i].matricola==matricola)
+                {
+                    if (valutazioni[i].voto < 6)
+                        cont++;
+                    i++;
+                }
+                else
+                {
+                    if (valutazioni[i].matricola > matricola)
+                        superato = true;
+                    else
+                        i++;
+                }
+            }
+            return cont;
+
+        }
+
+        private void btnCercaClassePiùInsufficienze_Click(object sender, EventArgs e)
+        {
+            ordinaStudentiClasse(studenti);
+            scorriClassi(studenti, ref valutazioni);
+        }
+
+        private void scorriClassi(studente[] studenti, ref valutazione[] valutazioni)
+        {
+            ordinaValutazioniMatricola(valutazioni);
+            int cont=0;
+            string minClasse = "";
+            int minimo = int.MaxValue;
+            Array.Resize(ref valutazioni, valutazioni.Length + 1);
+            valutazioni[valutazioni.Length - 1].matricola = int.MaxValue; //TAPPO
+
+            for (int i = 0; i < studenti.Length-1; i++)
+            {
+                if (studenti[i].classe == studenti[i+1].classe)
+                {
+                    cont += contaVotiStudenteInsufficienti(valutazioni, studenti[i].matricola);
+                }
+                else
+                {
+                    cont += contaVotiStudenteInsufficienti(valutazioni, studenti[i].matricola);
+                    if (cont != 0)
+                    {
+                        if (cont < minimo)
+                        {
+                            minimo = cont;
+                            minClasse = studenti[i].classe + "\n";
+                        }
+                        else
+                        {
+                            if (cont == minimo)
+                                minClasse += studenti[i].classe + "\n";
+                        }
+                    }
+                    cont = 0;
+                }
+            }
+            MessageBox.Show(minClasse+ " " + minimo.ToString())
+                ;
         }
     }
 }

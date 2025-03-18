@@ -47,8 +47,9 @@
             this.dgvValutazioni = new System.Windows.Forms.DataGridView();
             this.btnCaricaValutazioni = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnContaVotiStudenteInsufficienti = new System.Windows.Forms.Button();
             this.btnCercaStudenteMediaMinoreOtt = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCercaStudentiTaglioni = new System.Windows.Forms.Button();
             this.btnCercaStudenteMediaMinore = new System.Windows.Forms.Button();
             this.cmbClassiQuery = new System.Windows.Forms.ComboBox();
             this.btnCalcolaMediaClasse = new System.Windows.Forms.Button();
@@ -64,6 +65,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtCognomeStudente = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnCercaClassePiùInsufficienze = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudenti)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -272,8 +274,10 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.btnCercaClassePiùInsufficienze);
+            this.groupBox3.Controls.Add(this.btnContaVotiStudenteInsufficienti);
             this.groupBox3.Controls.Add(this.btnCercaStudenteMediaMinoreOtt);
-            this.groupBox3.Controls.Add(this.button1);
+            this.groupBox3.Controls.Add(this.btnCercaStudentiTaglioni);
             this.groupBox3.Controls.Add(this.btnCercaStudenteMediaMinore);
             this.groupBox3.Controls.Add(this.cmbClassiQuery);
             this.groupBox3.Controls.Add(this.btnCalcolaMediaClasse);
@@ -283,10 +287,21 @@
             this.groupBox3.Controls.Add(this.btnCalcolaMediaStudente);
             this.groupBox3.Location = new System.Drawing.Point(602, 270);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(283, 362);
+            this.groupBox3.Size = new System.Drawing.Size(529, 362);
             this.groupBox3.TabIndex = 7;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Query comuni";
+            // 
+            // btnContaVotiStudenteInsufficienti
+            // 
+            this.btnContaVotiStudenteInsufficienti.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnContaVotiStudenteInsufficienti.Location = new System.Drawing.Point(322, 19);
+            this.btnContaVotiStudenteInsufficienti.Name = "btnContaVotiStudenteInsufficienti";
+            this.btnContaVotiStudenteInsufficienti.Size = new System.Drawing.Size(188, 42);
+            this.btnContaVotiStudenteInsufficienti.TabIndex = 19;
+            this.btnContaVotiStudenteInsufficienti.Text = "CONTA VOTI INSUFFICIENTI STUDENTE";
+            this.btnContaVotiStudenteInsufficienti.UseVisualStyleBackColor = true;
+            this.btnContaVotiStudenteInsufficienti.Click += new System.EventHandler(this.btnContaVotiStudenteInsufficienti_Click);
             // 
             // btnCercaStudenteMediaMinoreOtt
             // 
@@ -299,15 +314,16 @@
             this.btnCercaStudenteMediaMinoreOtt.UseVisualStyleBackColor = true;
             this.btnCercaStudenteMediaMinoreOtt.Click += new System.EventHandler(this.btnCercaStudenteMediaMinoreOtt_Click);
             // 
-            // button1
+            // btnCercaStudentiTaglioni
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(114, 304);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(163, 42);
-            this.button1.TabIndex = 17;
-            this.button1.Text = "CERCA STUDENTI SENZA VOTI";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCercaStudentiTaglioni.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCercaStudentiTaglioni.Location = new System.Drawing.Point(114, 304);
+            this.btnCercaStudentiTaglioni.Name = "btnCercaStudentiTaglioni";
+            this.btnCercaStudentiTaglioni.Size = new System.Drawing.Size(163, 42);
+            this.btnCercaStudentiTaglioni.TabIndex = 17;
+            this.btnCercaStudentiTaglioni.Text = "CERCA STUDENTI SENZA VOTI";
+            this.btnCercaStudentiTaglioni.UseVisualStyleBackColor = true;
+            this.btnCercaStudentiTaglioni.Click += new System.EventHandler(this.btnCercaStudentiTaglioni_Click);
             // 
             // btnCercaStudenteMediaMinore
             // 
@@ -458,6 +474,17 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "COGNOME";
             // 
+            // btnCercaClassePiùInsufficienze
+            // 
+            this.btnCercaClassePiùInsufficienze.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCercaClassePiùInsufficienze.Location = new System.Drawing.Point(322, 74);
+            this.btnCercaClassePiùInsufficienze.Name = "btnCercaClassePiùInsufficienze";
+            this.btnCercaClassePiùInsufficienze.Size = new System.Drawing.Size(188, 42);
+            this.btnCercaClassePiùInsufficienze.TabIndex = 20;
+            this.btnCercaClassePiùInsufficienze.Text = "CERCA CLASSE PIU\' INSUFFICIENZE";
+            this.btnCercaClassePiùInsufficienze.UseVisualStyleBackColor = true;
+            this.btnCercaClassePiùInsufficienze.Click += new System.EventHandler(this.btnCercaClassePiùInsufficienze_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -520,9 +547,11 @@
         private System.Windows.Forms.Button btnContaVotiTra2Date;
         private System.Windows.Forms.DateTimePicker dtp2;
         private System.Windows.Forms.DateTimePicker dtp1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCercaStudentiTaglioni;
         private System.Windows.Forms.Button btnCercaStudenteMediaMinore;
         private System.Windows.Forms.Button btnCercaStudenteMediaMinoreOtt;
+        private System.Windows.Forms.Button btnContaVotiStudenteInsufficienti;
+        private System.Windows.Forms.Button btnCercaClassePiùInsufficienze;
     }
 }
 
