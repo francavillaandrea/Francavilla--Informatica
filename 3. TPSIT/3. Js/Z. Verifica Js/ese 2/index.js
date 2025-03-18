@@ -43,6 +43,7 @@ function init()
 	}
 	_divNazione.textContent = elencoUnivocoNazioni[index];
 	let temp  = elencoUnivocoNazioni[index].toLowerCase();
+	console.log(temp)
 	_imgNazione.src = "./img/" + temp + ".png";
 
 }
