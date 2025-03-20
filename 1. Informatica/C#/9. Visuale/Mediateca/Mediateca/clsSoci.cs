@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using static Mediatece.clsSoci;
 
-namespace Mediateca
+namespace Mediatece
 {
-    public struct Socio
+    public struct socio
     {
         public string codSocio;
         public string cognome;
@@ -14,10 +16,10 @@ namespace Mediateca
         public string email;
         public string telefono;
     }
-   
-    internal class clsSoci
+    class clsSoci
     {
-        public static Socio[] soci = new Socio[50];
+
+        public static socio[] soci = new socio[50];
         public static string[] datiSoci = new string[]
         {
             "s1,Rossi,Mario,mario@rossi.it,3246785431",
@@ -26,20 +28,48 @@ namespace Mediateca
             "s4,Ferrero,Luigi,luigi@ferrero.it,3337651239",
             "s5,Montessori,Maria,maria@montessori.it,3270985632",
             "s6,Abate,Anna,anna@abate.it,3984560021",
-            "s7,Pautasso,Giuseppe,giuseppe@pautasso.it,3126754492",
+            "s7,Pautasso,Giuseppe,giuseppe@pautasso.it,3126754492"
         };
 
         public static int nSoci;
 
-        internal static void caricaSoci(object dgvSoci)
+        internal static void caricaSoci(DataGridView dgvSoci)
         {
             caricaTabellaSoci();
             visualizzaTabellaSoci(dgvSoci);
+            caricaDati(dgvSoci);
         }
 
-        private static void visualizzaTabellaSoci(object dgvSoci)
+        private static void caricaDati(DataGridView dgv)
         {
-            throw new NotImplementedException();
+            dgv.Rows.Clear();
+            for (int i = 0; i < nSoci; i++)
+            {
+                dgv.Rows.Add();
+                dgv.Rows[i].Cells[0].Value = soci[i].codSocio;
+                dgv.Rows[i].Cells[1].Value = soci[i].cognome;
+                dgv.Rows[i].Cells[2].Value = soci[i].nome;
+                dgv.Rows[i].Cells[3].Value = soci[i].email;
+                dgv.Rows[i].Cells[4].Value = soci[i].telefono;
+            }
+        }
+
+        private static void visualizzaTabellaSoci(DataGridView dgv)
+        {
+            settaDgv(dgv, "CODICE, COGNOME, NOME, EMAIL, TELEFONO");
+        }
+
+        private static void settaDgv(DataGridView dgv, string intesta)
+        {
+            dgv.ColumnCount = 5;
+            dgv.RowHeadersVisible = false;
+            dgv.ScrollBars = ScrollBars.Vertical;
+            string[] dati = intesta.Split(',');
+            for (int i = 0; i < dati.Length; i++)
+            {
+                dgv.Columns[i].HeaderText = dati[i];
+            }
+            dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
         }
 
         private static void caricaTabellaSoci()
@@ -50,9 +80,10 @@ namespace Mediateca
                 soci[i].codSocio = dati[0];
                 soci[i].cognome = dati[1];
                 soci[i].nome = dati[2];
-                soci[i].email= dati[3];
-                soci[i].telefono= dati[4];
+                soci[i].email = dati[3];
+                soci[i].telefono = dati[4];
             }
+            nSoci = datiSoci.Length;
         }
     }
 }
