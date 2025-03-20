@@ -1,0 +1,9 @@
+cd "repos"
+git add .
+
+echo "Inserisci il messaggio del commit: "
+read commit_message
+
+git commit -m "$commit_message"
+
+git push 
