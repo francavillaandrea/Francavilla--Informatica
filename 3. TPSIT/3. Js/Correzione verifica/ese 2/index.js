@@ -58,23 +58,31 @@ for(let i = 0; i < _txtsCitta.length;i++)
 
 function controlla()
 {
-	let cnt = 0;
+	let contCorrect = 0;
+	let contChecked = 0;
+
 	for(let i = 0; i < _chksCitta.length; i++)
 	{
 		if(_chksCitta[i].checked)
 		{
+			contChecked++;
 			if(_txtsCitta[i].nazione == nazioneSegreta)
 			{
 				_chksCitta[i].disabled = true;
 				_imgsCitta[i].src = `./img/${nazioneSegreta.toLowerCase()}.png`
 				_txtsCitta[i].disabled = true;
-				cnt++;
+				contCorrect++;
 			}
 		}
 	}
-	if(cnt == contCitta)
+
+	if(contCorrect == contCitta && contChecked == contCitta)
 	{
 		alert("Hai vinto!");
+	}
+	else 
+	{
+		alert("Riprova!");
 	}
 }
 
