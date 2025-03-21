@@ -1,11 +1,21 @@
-C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Mediateca\Mediateca\bin\Debug\Mediateca.exe.config
-C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Mediateca\Mediateca\bin\Debug\Mediateca.exe
-C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Mediateca\Mediateca\bin\Debug\Mediateca.pdb
-C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.csproj.AssemblyReference.cache
-C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.csproj.SuggestedBindingRedirects.cache
-C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.FrmMain.resources
-C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.Properties.Resources.resources
-C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.csproj.GenerateResource.cache
-C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.csproj.CoreCompileInputs.cache
-C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.exe
-C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.pdb
+C:\Users\alberto.barbero\Desktop\Mediateca\bin\Debug\Mediateca.exe.config
+C:\Users\alberto.barbero\Desktop\Mediateca\bin\Debug\Mediateca.exe
+C:\Users\alberto.barbero\Desktop\Mediateca\bin\Debug\Mediateca.pdb
+C:\Users\alberto.barbero\Desktop\Mediateca\obj\Debug\Mediateca.csproj.AssemblyReference.cache
+C:\Users\alberto.barbero\Desktop\Mediateca\obj\Debug\Mediateca.csproj.SuggestedBindingRedirects.cache
+C:\Users\alberto.barbero\Desktop\Mediateca\obj\Debug\Mediateca.frmMain.resources
+C:\Users\alberto.barbero\Desktop\Mediateca\obj\Debug\Mediateca.Properties.Resources.resources
+C:\Users\alberto.barbero\Desktop\Mediateca\obj\Debug\Mediateca.csproj.GenerateResource.cache
+C:\Users\alberto.barbero\Desktop\Mediateca\obj\Debug\Mediateca.csproj.CoreCompileInputs.cache
+C:\Users\alberto.barbero\Desktop\Mediateca\obj\Debug\Mediateca.exe
+C:\Users\alberto.barbero\Desktop\Mediateca\obj\Debug\Mediateca.pdb
+C:\Users\alberto.barbero\Desktop\Mediateca\Mediateca\bin\Debug\Mediateca.exe.config
+C:\Users\alberto.barbero\Desktop\Mediateca\Mediateca\bin\Debug\Mediateca.exe
+C:\Users\alberto.barbero\Desktop\Mediateca\Mediateca\bin\Debug\Mediateca.pdb
+C:\Users\alberto.barbero\Desktop\Mediateca\Mediateca\obj\Debug\Mediateca.csproj.AssemblyReference.cache
+C:\Users\alberto.barbero\Desktop\Mediateca\Mediateca\obj\Debug\Mediateca.frmMain.resources
+C:\Users\alberto.barbero\Desktop\Mediateca\Mediateca\obj\Debug\Mediateca.Properties.Resources.resources
+C:\Users\alberto.barbero\Desktop\Mediateca\Mediateca\obj\Debug\Mediateca.csproj.GenerateResource.cache
+C:\Users\alberto.barbero\Desktop\Mediateca\Mediateca\obj\Debug\Mediateca.csproj.CoreCompileInputs.cache
+C:\Users\alberto.barbero\Desktop\Mediateca\Mediateca\obj\Debug\Mediateca.exe
+C:\Users\alberto.barbero\Desktop\Mediateca\Mediateca\obj\Debug\Mediateca.pdb

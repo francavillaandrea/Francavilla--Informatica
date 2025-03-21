@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static Mediatece.clsSoci;
 
-namespace Mediatece
+namespace Mediateca
 {
     public struct socio
     {
@@ -16,9 +15,10 @@ namespace Mediatece
         public string email;
         public string telefono;
     }
-    class clsSoci
-    {
+    
 
+    internal class clsSoci
+    {
         public static socio[] soci = new socio[50];
         public static string[] datiSoci = new string[]
         {
@@ -30,14 +30,18 @@ namespace Mediatece
             "s6,Abate,Anna,anna@abate.it,3984560021",
             "s7,Pautasso,Giuseppe,giuseppe@pautasso.it,3126754492"
         };
-
         public static int nSoci;
 
-        internal static void caricaSoci(DataGridView dgvSoci)
+        internal static void caricaSoci(DataGridView dgv)
         {
             caricaTabellaSoci();
-            visualizzaTabellaSoci(dgvSoci);
-            caricaDati(dgvSoci);
+            visualizzaTabellaSoci(dgv);
+        }
+
+        private static void visualizzaTabellaSoci(DataGridView dgv)
+        {
+            settaDgv(dgv,"CODICE,COGNOME,NOME,EMAIL,TELEFONO");
+            caricaDati(dgv);
         }
 
         private static void caricaDati(DataGridView dgv)
@@ -45,7 +49,7 @@ namespace Mediatece
             dgv.Rows.Clear();
             for (int i = 0; i < nSoci; i++)
             {
-                dgv.Rows.Add();
+                dgv.Rows.Add(); //togliere riga vuota
                 dgv.Rows[i].Cells[0].Value = soci[i].codSocio;
                 dgv.Rows[i].Cells[1].Value = soci[i].cognome;
                 dgv.Rows[i].Cells[2].Value = soci[i].nome;
@@ -54,22 +58,16 @@ namespace Mediatece
             }
         }
 
-        private static void visualizzaTabellaSoci(DataGridView dgv)
-        {
-            settaDgv(dgv, "CODICE, COGNOME, NOME, EMAIL, TELEFONO");
-        }
-
         private static void settaDgv(DataGridView dgv, string intesta)
         {
             dgv.ColumnCount = 5;
             dgv.RowHeadersVisible = false;
             dgv.ScrollBars = ScrollBars.Vertical;
+            dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
             string[] dati = intesta.Split(',');
             for (int i = 0; i < dati.Length; i++)
-            {
                 dgv.Columns[i].HeaderText = dati[i];
-            }
-            dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+            
         }
 
         private static void caricaTabellaSoci()
@@ -84,6 +82,37 @@ namespace Mediatece
                 soci[i].telefono = dati[4];
             }
             nSoci = datiSoci.Length;
+        }
+
+        internal static void inserisciSocio(string cognome, string nome, string email, string telefono, DataGridView dgv)
+        {
+            string lastCode = soci[nSoci - 1].codSocio.Remove(0, 1);
+            int newCode = Convert.ToInt32(lastCode) + 1;
+            socio s = new socio();
+            s.codSocio = "s"+newCode.ToString();
+            s.cognome = cognome;
+            s.nome = nome;
+            s.email = email;
+            s.telefono = telefono;
+            soci[nSoci]=s;
+            nSoci++;
+            visualizzaTabellaSoci(dgv);
+
+        }
+
+        internal static void cancellaSocio(int indice, DataGridView dgv)
+        {
+            //uso una tabella locale in cui copio tutti i dati
+            //dei soci tranne quello da cancellare
+            socio[] newSoci= new socio[50];
+            int j = 0;
+            for (int i = 0; i < indice; i++)
+                newSoci[j++] = soci[i];
+            for (int i = indice+1;i<nSoci;i++)
+                newSoci[j++]= soci[i];
+            soci = newSoci;
+            nSoci--;
+            visualizzaTabellaSoci(dgv);
         }
     }
 }
