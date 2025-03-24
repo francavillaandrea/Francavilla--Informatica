@@ -1,0 +1,10 @@
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\WindowsFormsApp1\obj\Debug\Prato Fiorito.csproj.AssemblyReference.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmMain.resources
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\WindowsFormsApp1\obj\Debug\Prato Fiorito.csproj.GenerateResource.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\WindowsFormsApp1\obj\Debug\Prato Fiorito.csproj.CoreCompileInputs.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
