@@ -50,6 +50,18 @@ function scrambler()
 	}
 }
 
+function descrambler()
+{
+	let ris = "";
+	for(let i = 0; i < _txt1.value.length;i++)
+	{
+		let char = _txt2.value[i];
+		let pos = mat[1].indexOf(char);
+		ris +=  mat[0][pos];
+	}
+	alert(`La stringa decodificata è ${ris}`);
+
+}
 function random(min, max) {
 	return Math.floor((max - min) * Math.random() + min);
 }
