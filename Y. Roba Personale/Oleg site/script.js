@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
     animateCursor();
 
     // Cursor hover effects
-    const hoverElements = document.querySelectorAll('a, button, .work-item, .timeline-item, .certification-item');
+    const hoverElements = document.querySelectorAll('a, button, .work-item, .experience-item, .certification-item');
     
     hoverElements.forEach(el => {
         el.addEventListener('mouseenter', () => {
@@ -109,28 +109,33 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Theme toggle
+    // Theme toggle - Improved
     const themeToggle = document.querySelector('.theme-toggle');
-    const currentTheme = localStorage.getItem('theme') || 'light';
+    let currentTheme = localStorage.getItem('theme') || 'light';
     
-    document.documentElement.setAttribute('data-theme', currentTheme);
+    function setTheme(theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        
+        if (theme === 'dark') {
+            themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+            themeToggle.title = 'Switch to Light Mode';
+        } else {
+            themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+            themeToggle.title = 'Switch to Dark Mode';
+        }
+    }
+    
+    // Initialize theme
+    setTheme(currentTheme);
     
     themeToggle.addEventListener('click', function() {
-        const currentTheme = document.documentElement.getAttribute('data-theme');
-        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-        
-        document.documentElement.setAttribute('data-theme', newTheme);
-        localStorage.setItem('theme', newTheme);
-        
-        if (newTheme === 'dark') {
-            this.innerHTML = '<i class="fas fa-sun"></i>';
-        } else {
-            this.innerHTML = '<i class="fas fa-moon"></i>';
-        }
+        currentTheme = currentTheme === 'light' ? 'dark' : 'light';
+        setTheme(currentTheme);
         
         // Animate theme transition
         gsap.from('body', {
-            background: currentTheme === 'light' ? '#F8F9FA' : '#1A1A2E',
+            background: currentTheme === 'light' ? '#1A1A2E' : '#F8F9FA',
             duration: 0.5,
             ease: 'power2.inOut'
         });
@@ -238,11 +243,11 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!skillsSphere) return;
         
         const skills = [
-            'JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js',
-            'Express', 'GraphQL', 'Python', 'Django', 'Solidity',
-            'Ethereum', 'Web3.js', 'Three.js', 'GSAP', 'CSS3',
-            'SASS', 'Tailwind', 'MongoDB', 'PostgreSQL', 'Docker',
-            'AWS', 'Git', 'CI/CD', 'Jest', 'Cypress'
+            'Solidity', 'Ethereum', 'Web3.js', 'DeFi', 'React', 
+            'Next.js', 'TypeScript', 'Node.js', 'GraphQL', 'AWS',
+            'Docker', 'CI/CD', 'Smart Contracts', 'ERC-20', 'ERC-721',
+            'IPFS', 'Truffle', 'Hardhat', 'Moralis', 'The Graph',
+            'Chainlink', 'NFTs', 'DAOs', 'Web3Auth', 'WalletConnect'
         ];
         
         const sphere = TagSphere(skillsSphere, skills, {
@@ -288,7 +293,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 // Filter items
                 workItems.forEach(item => {
-                    if (filter === 'all' || item.classList.contains(filter)) {
+                    if (filter === 'all' || item.getAttribute('data-category') === filter) {
                         gsap.to(item, {
                             opacity: 1,
                             scale: 1,

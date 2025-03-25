@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Workstation | Oleg Morfilanets</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="computer.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="gradient-bg"></div>
+
+    <header>
+        <nav>
+            <div class="logo" data-text="OLEG MORFILANETS">
+                <span>OLEG</span><span class="logo-highlight">MORFILANETS</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Back to Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="computer-page">
+        <div class="section-header">
+            <span class="section-label">3D View</span>
+            <h1 class="section-title">My Workstation</h1>
+            <p class="section-description">Interactive 3D environment showcasing my development setup</p>
+        </div>
+        
+        <div class="scene-container" id="scene-container">
+            <div class="workstation">
+                <div class="monitor">
+                    <div class="screen">
+                        <div class="code-display">
+                            <pre><code class="solidity-code">
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract MorfToken {
+    string public name = "MorfToken";
+    string public symbol = "MORF";
+    uint8 public decimals = 18;
+    uint256 public totalSupply = 1000000 * 10**decimals;
+    
+    mapping(address => uint256) public balanceOf;
+    mapping(address => mapping(address => uint256)) public allowance;
+    
+    event Transfer(address indexed from, address indexed to, uint256 value);
+    event Approval(address indexed owner, address indexed spender, uint256 value);
+    
+    constructor() {
+        balanceOf[msg.sender] = totalSupply;
+    }
+    
+    function transfer(address to, uint256 value) external returns (bool) {
+        require(balanceOf[msg.sender] >= value, "Insufficient balance");
+        balanceOf[msg.sender] -= value;
+        balanceOf[to] += value;
+        emit Transfer(msg.sender, to, value);
+        return true;
+    }
+    
+    function approve(address spender, uint256 value) external returns (bool) {
+        allowance[msg.sender][spender] = value;
+        emit Approval(msg.sender, spender, value);
+        return true;
+    }
+}
+                            </code></pre>
+                        </div>
+                    </div>
+                    <div class="monitor-stand"></div>
+                    <div class="monitor-base"></div>
+                </div>
+                <div class="tower">
+                    <div class="tower-front"></div>
+                    <div class="tower-side"></div>
+                    <div class="tower-top"></div>
+                    <div class="rgb-lighting"></div>
+                </div>
+                <div class="keyboard">
+                    <div class="keyboard-base"></div>
+                    <div class="keyboard-keys"></div>
+                </div>
+                <div class="mouse"></div>
+                <div class="desk"></div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button class="control-btn" id="rotate-left"><i class="fas fa-undo"></i> Rotate Left</button>
+            <button class="control-btn" id="rotate-right"><i class="fas fa-redo"></i> Rotate Right</button>
+            <button class="control-btn" id="reset-view"><i class="fas fa-sync-alt"></i> Reset View</button>
+            <button class="control-btn" id="toggle-lights"><i class="fas fa-lightbulb"></i> Toggle Lights</button>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.11.4/dist/gsap.min.js"></script>
+    <script src="computer.js"></script>
+</body>
+</html>
