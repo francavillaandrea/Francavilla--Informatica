@@ -19,3 +19,12 @@ C:\Users\alberto.barbero\Desktop\Mediateca\Mediateca\obj\Debug\Mediateca.csproj.
 C:\Users\alberto.barbero\Desktop\Mediateca\Mediateca\obj\Debug\Mediateca.csproj.CoreCompileInputs.cache
 C:\Users\alberto.barbero\Desktop\Mediateca\Mediateca\obj\Debug\Mediateca.exe
 C:\Users\alberto.barbero\Desktop\Mediateca\Mediateca\obj\Debug\Mediateca.pdb
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\Mediateca\Mediateca\bin\Debug\Mediateca.exe.config
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\Mediateca\Mediateca\bin\Debug\Mediateca.exe
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\Mediateca\Mediateca\bin\Debug\Mediateca.pdb
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.csprojAssemblyReference.cache
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.frmMain.resources
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.Properties.Resources.resources
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.csproj.GenerateResource.cache
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.exe
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.pdb

@@ -114,5 +114,19 @@ namespace Mediateca
             nSoci--;
             visualizzaTabellaSoci(dgv);
         }
+
+        internal static void modificaSocio(string cognome,
+            string nome,
+            string email, 
+            string telefono, 
+            int indice, 
+            DataGridView dgv)
+        {
+            soci[indice].cognome = cognome;
+            soci[indice].nome = nome;
+            soci[indice].email = email;
+            soci[indice].telefono = telefono;
+            visualizzaTabellaSoci(dgv);
+        }
     }
 }

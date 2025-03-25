@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Mediateca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4F1CD80-3918-4E4C-868C-B896A1F78E73}|Mediateca\\Mediateca.csproj|c:\\users\\a.francavilla.3537\\desktop\\francavillaandrea\\1. informatica\\c#\\9. visuale\\mediateca\\mediateca\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4F1CD80-3918-4E4C-868C-B896A1F78E73}|Mediateca\\Mediateca.csproj|solutionrelative:mediateca\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4F1CD80-3918-4E4C-868C-B896A1F78E73}|Mediateca\\Mediateca.csproj|C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Mediateca\\mediateca\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4F1CD80-3918-4E4C-868C-B896A1F78E73}|Mediateca\\Mediateca.csproj|solutionrelative:mediateca\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4F1CD80-3918-4E4C-868C-B896A1F78E73}|Mediateca\\Mediateca.csproj|C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Mediateca\\mediateca\\clssoci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4F1CD80-3918-4E4C-868C-B896A1F78E73}|Mediateca\\Mediateca.csproj|solutionrelative:mediateca\\clssoci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4F1CD80-3918-4E4C-868C-B896A1F78E73}|Mediateca\\Mediateca.csproj|C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Mediateca\\mediateca\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4F1CD80-3918-4E4C-868C-B896A1F78E73}|Mediateca\\Mediateca.csproj|solutionrelative:mediateca\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsSoci.cs",
+              "DocumentMoniker": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Mediateca\\Mediateca\\clsSoci.cs",
+              "RelativeDocumentMoniker": "Mediateca\\clsSoci.cs",
+              "ToolTip": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Mediateca\\Mediateca\\clsSoci.cs",
+              "RelativeToolTip": "Mediateca\\clsSoci.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:54:18.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmMain.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Mediateca\\Mediateca\\FrmMain.Designer.cs",
+              "RelativeDocumentMoniker": "Mediateca\\FrmMain.Designer.cs",
+              "ToolTip": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Mediateca\\Mediateca\\FrmMain.Designer.cs",
+              "RelativeToolTip": "Mediateca\\FrmMain.Designer.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAnwD0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:54:18.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Mediateca\\Mediateca\\FrmMain.cs",
+              "RelativeDocumentMoniker": "Mediateca\\FrmMain.cs",
+              "ToolTip": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Mediateca\\Mediateca\\FrmMain.cs",
+              "RelativeToolTip": "Mediateca\\FrmMain.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:54:18.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMain.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Mediateca\\Mediateca\\FrmMain.cs",
+              "RelativeDocumentMoniker": "Mediateca\\FrmMain.cs",
+              "ToolTip": "C:\\Users\\a.francavilla.3537\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Mediateca\\Mediateca\\FrmMain.cs [Progettazione]*",
+              "RelativeToolTip": "Mediateca\\FrmMain.cs [Progettazione]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:54:18.43Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
