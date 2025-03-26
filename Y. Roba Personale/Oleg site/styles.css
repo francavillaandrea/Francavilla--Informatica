@@ -1706,3 +1706,179 @@ footer {
         justify-content: center;
     }
 }
+/* Aggiungi queste regole al tuo CSS esistente */
+
+/* Effetto hover per i link di navigazione */
+.nav-links li a {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 8px 0;
+}
+
+.nav-links li a::before {
+    content: attr(data-hover);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: var(--primary);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links li a:hover::before {
+    transform: translateY(-100%);
+}
+
+.nav-links li a span {
+    display: inline-block;
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.nav-links li a:hover span {
+    transform: translateY(-100%);
+}
+
+/* Layout per le tabelle di expertise */
+/* Modifica la sezione expertise */
+.expertise-container {
+    max-width: 100%;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+.skills-detail {
+    display: flex;
+    gap: 30px;
+    min-width: fit-content;
+    padding: 10px 0;
+}
+
+.skills-category {
+    flex: 0 0 auto;
+    width: 350px; /* Larghezza fissa per ogni categoria */
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: var(--border-radius);
+    border-left: 4px solid var(--primary);
+    transition: all 0.3s ease;
+}
+
+/* Effetto hover che allarga il testo */
+.skills-category:hover {
+    transform: scale(1.02);
+}
+
+.skills-category h3 {
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.skills-category:hover h3 {
+    letter-spacing: 1px;
+    transform: scale(1.05);
+}
+
+.skill-name {
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.skills-category:hover .skill-name {
+    font-weight: 600;
+    transform: scale(1.03);
+    margin-left: 5px;
+}
+
+/* Scrollbar personalizzata */
+.expertise-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.expertise-container::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.expertise-container::-webkit-scrollbar-thumb {
+    background-color: var(--primary);
+    border-radius: 10px;
+}
+
+/* Effetto hover per i link di navigazione che allarga il testo */
+.nav-links li a {
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s ease;
+    padding: 8px 12px;
+}
+
+.nav-links li a:hover {
+    transform: scale(1.1);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav-links li a::after {
+    content: attr(data-hover);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s ease;
+    color: var(--primary);
+}
+
+.nav-links li a:hover::after {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.nav-links li a span {
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.nav-links li a:hover span {
+    opacity: 0;
+    transform: scale(0.9);
+}
+@media (max-width: 768px) {
+    .skills-detail {
+        grid-template-columns: 1fr;
+    }
+}
+
+.skills-category {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: var(--border-radius);
+    border-left: 4px solid var(--primary);
+    transition: var(--transition);
+}
+
+.skills-category:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+}
+
+/* Animazione delle skill bar */
+.skill-progress {
+    width: 0;
+    transition: width 1.5s ease;
+}
+
+/* Mostra le skill bar quando la sezione è visibile */
+.skills-category.active .skill-progress {
+    width: var(--skill-percent);
+}
