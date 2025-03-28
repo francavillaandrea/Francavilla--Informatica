@@ -20,8 +20,57 @@ namespace Mediateca
         private void frmMain_Load(object sender, EventArgs e)
         {
             clsSoci.caricaSoci(dgvSoci);
+            clsMedia.caricaMedia(dgvMedia);
             btnSalvaSocio.Visible = false;
             btnAnnullaSocio.Visible = false;
+            btnSalvaMedia.Visible = false;
+            btnAnnullaMedia.Visible = false;
+            popolaCmbTipo(cmbTipo);
+            popolaCmbGenere(cmbGenere);
+            clsSoci.caricaSoci(dgvSoci);
+            clsMedia.caricaMedia(dgvMedia);
+        }
+
+        private void popolaCmbGenere(ComboBox cmb)
+        {
+            clsMedia.ordinaMediaGenere();
+            caricaCmbGenere(cmb);
+        }
+
+        private void caricaCmbGenere(ComboBox cmb)
+        {
+            cmb.Items.Clear();
+            for (int i = 0; i < clsMedia.nMedia - 1; i++)
+                if (clsMedia.medias[i].genere != clsMedia.medias[i + 1].genere)
+                    cmb.Items.Add(clsMedia.medias[i].genere);
+            cmb.Items.Add(clsMedia.medias[clsMedia.nMedia - 1].genere);
+        }
+
+        private void popolaCmbTipo(ComboBox cmb)
+        {
+            clsMedia.ordinaMediaTipo();
+            caricaCmbTipo(cmb);   
+        }
+
+        private void caricaCmbTipo(ComboBox cmb)
+        {
+            cmb.Items.Clear();
+            for (int i = 0; i < clsMedia.nMedia - 1; i++)
+                if (clsMedia.medias[i].tipo != clsMedia.medias[i + 1].tipo)
+                    cmb.Items.Add(clsMedia.medias[i].tipo);
+            cmb.Items.Add(clsMedia.medias[clsMedia.nMedia-1].tipo);
+        }
+
+        public static void settaDgv(DataGridView dgv, string intesta)
+        {
+            string[] dati = intesta.Split(',');
+            dgv.ColumnCount = dati.Length;
+            dgv.RowHeadersVisible = false;
+            dgv.ScrollBars = ScrollBars.Vertical;
+            dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+            for (int i = 0; i < dati.Length; i++)
+                dgv.Columns[i].HeaderText = dati[i];
+
         }
 
         private void btnInserisciSocio_Click(object sender, EventArgs e)
@@ -101,6 +150,34 @@ namespace Mediateca
         private void btnAnnullaSocio_Click(object sender, EventArgs e)
         {
             resetCampiSocio();
+        }
+
+        private void btnInserisciMedia_Click(object sender, EventArgs e)
+        {
+            if (txtTitolo.Text != "" &&
+                txtAutore.Text != "" &&
+                cmbTipo.Text != "" &&
+                cmbGenere.Text != "")
+            {
+                clsMedia.inserisciMedia(txtTitolo.Text,
+                    txtAutore.Text, cmbTipo.Text,
+                    cmbGenere.Text, dgvMedia);
+                resetCampiMedia();
+            }
+            else
+                MessageBox.Show("Compilare tutti i campi",
+                    "ATTENZIONE", MessageBoxButtons.OK,
+                    MessageBoxIcon.Exclamation);
+        }
+
+        private void resetCampiMedia()
+        {
+            txtTitolo.Text = "";
+            txtAutore.Text = "";
+            cmbTipo.Text = "";
+            cmbGenere.Text = "";
+            btnSalvaMedia.Visible = false;
+            btnAnnullaMedia.Visible = false;
         }
     }
 }
