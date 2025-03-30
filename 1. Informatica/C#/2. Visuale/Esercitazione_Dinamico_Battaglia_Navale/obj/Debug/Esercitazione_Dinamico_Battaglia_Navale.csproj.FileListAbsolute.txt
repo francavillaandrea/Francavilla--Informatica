@@ -1,0 +1,10 @@
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Esercitazione_Dinamico_Battaglia_Navale\bin\Debug\Esercitazione_Dinamico_Battaglia_Navale.exe.config
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Esercitazione_Dinamico_Battaglia_Navale\bin\Debug\Esercitazione_Dinamico_Battaglia_Navale.exe
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Esercitazione_Dinamico_Battaglia_Navale\bin\Debug\Esercitazione_Dinamico_Battaglia_Navale.pdb
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Esercitazione_Dinamico_Battaglia_Navale\obj\Debug\Esercitazione_Dinamico_Battaglia_Navale.csproj.AssemblyReference.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Esercitazione_Dinamico_Battaglia_Navale\obj\Debug\Esercitazione_Dinamico_Battaglia_Navale.FrmMain.resources
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Esercitazione_Dinamico_Battaglia_Navale\obj\Debug\Esercitazione_Dinamico_Battaglia_Navale.Properties.Resources.resources
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Esercitazione_Dinamico_Battaglia_Navale\obj\Debug\Esercitazione_Dinamico_Battaglia_Navale.csproj.GenerateResource.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Esercitazione_Dinamico_Battaglia_Navale\obj\Debug\Esercitazione_Dinamico_Battaglia_Navale.csproj.CoreCompileInputs.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Esercitazione_Dinamico_Battaglia_Navale\obj\Debug\Esercitazione_Dinamico_Battaglia_Navale.exe
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Esercitazione_Dinamico_Battaglia_Navale\obj\Debug\Esercitazione_Dinamico_Battaglia_Navale.pdb

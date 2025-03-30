@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Prato_Fiorito\\",
+  "WorkspaceRootPath": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\2. Visuale\\Prato_Fiorito\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81BB91B4-E905-4D1E-8A6C-9E23EF30DFE4}|Prato_Fiorito.csproj|c:\\users\\paolc\\desktop\\francavillaandrea\\1. informatica\\c#\\9. visuale\\prato_fiorito\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{81BB91B4-E905-4D1E-8A6C-9E23EF30DFE4}|Prato_Fiorito.csproj|C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\2. Visuale\\Prato_Fiorito\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BB91B4-E905-4D1E-8A6C-9E23EF30DFE4}|Prato_Fiorito.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81BB91B4-E905-4D1E-8A6C-9E23EF30DFE4}|Prato_Fiorito.csproj|c:\\users\\paolc\\desktop\\francavillaandrea\\1. informatica\\c#\\2. visuale\\prato_fiorito\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{81BB91B4-E905-4D1E-8A6C-9E23EF30DFE4}|Prato_Fiorito.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81BB91B4-E905-4D1E-8A6C-9E23EF30DFE4}|Prato_Fiorito.csproj|C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Prato_Fiorito\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{81BB91B4-E905-4D1E-8A6C-9E23EF30DFE4}|Prato_Fiorito.csproj|C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\2. Visuale\\Prato_Fiorito\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81BB91B4-E905-4D1E-8A6C-9E23EF30DFE4}|Prato_Fiorito.csproj|solutionrelative:frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81BB91B4-E905-4D1E-8A6C-9E23EF30DFE4}|Prato_Fiorito.csproj|C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Prato_Fiorito\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81BB91B4-E905-4D1E-8A6C-9E23EF30DFE4}|Prato_Fiorito.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,15 +26,19 @@
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FrmMain.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Prato_Fiorito\\FrmMain.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\2. Visuale\\Prato_Fiorito\\FrmMain.Designer.cs",
               "RelativeDocumentMoniker": "FrmMain.Designer.cs",
-              "ToolTip": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Prato_Fiorito\\FrmMain.Designer.cs",
+              "ToolTip": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\2. Visuale\\Prato_Fiorito\\FrmMain.Designer.cs",
               "RelativeToolTip": "FrmMain.Designer.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAlwCYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -43,24 +47,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FrmMain.cs",
-              "DocumentMoniker": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Prato_Fiorito\\FrmMain.cs",
+              "DocumentMoniker": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\2. Visuale\\Prato_Fiorito\\FrmMain.cs",
               "RelativeDocumentMoniker": "FrmMain.cs",
-              "ToolTip": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Prato_Fiorito\\FrmMain.cs",
+              "ToolTip": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\2. Visuale\\Prato_Fiorito\\FrmMain.cs",
               "RelativeToolTip": "FrmMain.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAlwEUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T09:54:50.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FrmMain.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Prato_Fiorito\\FrmMain.cs",
+              "DocumentMoniker": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\2. Visuale\\Prato_Fiorito\\FrmMain.cs",
               "RelativeDocumentMoniker": "FrmMain.cs",
-              "ToolTip": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\9. Visuale\\Prato_Fiorito\\FrmMain.cs [Progettazione]",
+              "ToolTip": "C:\\Users\\paolc\\Desktop\\Francavillaandrea\\1. Informatica\\C#\\2. Visuale\\Prato_Fiorito\\FrmMain.cs [Progettazione]",
               "RelativeToolTip": "FrmMain.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T09:51:46.41Z",

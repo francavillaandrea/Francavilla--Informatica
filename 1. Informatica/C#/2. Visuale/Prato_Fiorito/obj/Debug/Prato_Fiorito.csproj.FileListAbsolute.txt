@@ -3,3 +3,13 @@ C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Prato_Fior
 C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Prato_Fiorito\obj\Debug\Prato_Fiorito.csproj.GenerateResource.cache
 C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Prato_Fiorito\obj\Debug\Prato_Fiorito.csproj.CoreCompileInputs.cache
 C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\9. Visuale\Prato_Fiorito\obj\Debug\Prato_Fiorito.FrmMain.resources
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Prato_Fiorito\bin\Debug\Prato_Fiorito.exe.config
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Prato_Fiorito\bin\Debug\Prato_Fiorito.exe
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Prato_Fiorito\bin\Debug\Prato_Fiorito.pdb
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Prato_Fiorito\obj\Debug\Prato_Fiorito.csproj.AssemblyReference.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Prato_Fiorito\obj\Debug\Prato_Fiorito.Properties.Resources.resources
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Prato_Fiorito\obj\Debug\Prato_Fiorito.FrmMain.resources
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Prato_Fiorito\obj\Debug\Prato_Fiorito.csproj.GenerateResource.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Prato_Fiorito\obj\Debug\Prato_Fiorito.csproj.CoreCompileInputs.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Prato_Fiorito\obj\Debug\Prato_Fiorito.exe
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Prato_Fiorito\obj\Debug\Prato_Fiorito.pdb

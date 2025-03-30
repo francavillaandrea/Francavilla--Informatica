@@ -1,0 +1,10 @@
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Othello\bin\Debug\Othello.exe.config
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Othello\bin\Debug\Othello.exe
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Othello\bin\Debug\Othello.pdb
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Othello\obj\Debug\Othello.csproj.AssemblyReference.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Othello\obj\Debug\Othello.FrmMain.resources
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Othello\obj\Debug\Othello.Properties.Resources.resources
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Othello\obj\Debug\Othello.csproj.GenerateResource.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Othello\obj\Debug\Othello.csproj.CoreCompileInputs.cache
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Othello\obj\Debug\Othello.exe
+C:\Users\paolc\Desktop\Francavillaandrea\1. Informatica\C#\2. Visuale\Othello\obj\Debug\Othello.pdb
