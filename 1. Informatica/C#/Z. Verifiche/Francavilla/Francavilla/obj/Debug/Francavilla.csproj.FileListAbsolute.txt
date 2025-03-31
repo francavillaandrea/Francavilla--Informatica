@@ -1,0 +1,11 @@
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla\Francavilla\obj\Debug\Francavilla.csproj.AssemblyReference.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla\Francavilla\obj\Debug\Francavilla.csproj.SuggestedBindingRedirects.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla\Francavilla\obj\Debug\Francavilla.FrmFrancavilla.resources
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla\Francavilla\obj\Debug\Francavilla.Properties.Resources.resources
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla\Francavilla\obj\Debug\Francavilla.csproj.GenerateResource.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla\Francavilla\obj\Debug\Francavilla.csproj.CoreCompileInputs.cache
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla\Francavilla\bin\Debug\Francavilla.exe.config
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla\Francavilla\bin\Debug\Francavilla.exe
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla\Francavilla\bin\Debug\Francavilla.pdb
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla\Francavilla\obj\Debug\Francavilla.exe
+C:\Users\a.francavilla.3537\Desktop\Francavillaandrea\1. Informatica\C#\Z. Verifiche\Francavilla\Francavilla\obj\Debug\Francavilla.pdb
