@@ -164,5 +164,23 @@ namespace Mediateca
             medias[indice].genere = genere;
             visualizzaTabellaMedia(dgv);
         }
+
+        internal static void assegnaPrestito(string codMedia, DataGridView dgv)
+        {
+            int i = 0;
+            while (medias[i].codMedia!=codMedia) 
+                i++;
+            medias[i].isInPrestito = true;
+            visualizzaTabellaMedia(dgv);
+        }
+
+        internal static void consegnaPrestito(string codMedia, DataGridView dgv)
+        {
+            int i = 0;
+            while (medias[i].codMedia != codMedia)
+                i++;
+            medias[i].isInPrestito = false;
+            visualizzaTabellaMedia(dgv);
+        }
     }
 }

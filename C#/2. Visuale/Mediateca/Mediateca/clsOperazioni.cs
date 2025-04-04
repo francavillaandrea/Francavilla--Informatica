@@ -1,9 +1,11 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Mediateca
 {
@@ -107,6 +109,44 @@ namespace Mediateca
                  });
             }
             cmb.DataSource = items;
+        }
+
+        internal static void inserisciPrestito(string codSocio, string codMedia, DataGridView dgvOperazioni, DataGridView dgvMedia)
+        {
+            string lastCode = operazioni[nOperazioni - 1].codOperazione.Remove(0, 1);
+            int newCode = Convert.ToInt32(lastCode) + 1;
+            operazione o = new operazione();
+            o.codOperazione = "o" + newCode.ToString();
+            o.codMedia = codMedia;
+            o.codSocio = codSocio;
+            o.dataPrestito = DateTime.Now.ToShortDateString();
+            o.dataRestituzione = null;
+            operazioni[nOperazioni] = o;
+            nOperazioni++;
+            visualizzaTabellaOperazioni(dgvOperazioni);
+            //vado a mettere a true il campo isInPrestito
+            //del media appena imprestato
+            clsMedia.assegnaPrestito(codMedia,dgvMedia);
+        }
+        
+        internal static void restituisciPrestito(int indice, DataGridView dgvOperazioni, DataGridView dgvMedia)
+        {
+            //uso una tabella locale in cui copio tutti i dati
+            //delle operazioni tranne quello da cancellare
+
+            if (dgvOperazioni.Rows[indice].Cells[4].Value != null)
+                MessageBox.Show("Media già restituito",
+                    "ATTENZIONE",MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+            else
+            {
+                operazioni[indice].dataRestituzione=DateTime.Now.ToShortDateString();
+                visualizzaTabellaOperazioni(dgvOperazioni);
+                //vado a mettere a false il campo isInPrestito
+                //del media restituito
+                string codMedia= dgvOperazioni.Rows[indice].Cells[1].Value.ToString();
+                clsMedia.consegnaPrestito(codMedia, dgvMedia);
+            }
         }
     }
 }

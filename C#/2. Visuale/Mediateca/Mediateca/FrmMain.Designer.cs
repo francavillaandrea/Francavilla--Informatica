@@ -488,6 +488,7 @@
             this.btnRestituzione.TabIndex = 9;
             this.btnRestituzione.Text = "RESTITUZIONE";
             this.btnRestituzione.UseVisualStyleBackColor = true;
+            this.btnRestituzione.Click += new System.EventHandler(this.btnRestituzione_Click);
             // 
             // btnPrestito
             // 
@@ -498,6 +499,7 @@
             this.btnPrestito.TabIndex = 8;
             this.btnPrestito.Text = "PRESTITO";
             this.btnPrestito.UseVisualStyleBackColor = true;
+            this.btnPrestito.Click += new System.EventHandler(this.btnPrestito_Click);
             // 
             // label11
             // 

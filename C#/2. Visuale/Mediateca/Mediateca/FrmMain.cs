@@ -104,7 +104,7 @@ namespace Mediateca
         private void btnCancellaSocio_Click(object sender, EventArgs e)
         {
             //seleziono sulla DGV il socio da cancellare
-            if (MessageBox.Show("Confermi la cancellazione?",
+            if (MessageBox.Show("Confermi la cancellazione del socio selezionato?",
                 "ATTENZIONE",
                 MessageBoxButtons.YesNo,
                 MessageBoxIcon.Warning) ==
@@ -183,7 +183,7 @@ namespace Mediateca
         private void btnCancellaMedia_Click(object sender, EventArgs e)
         {
             //seleziono sulla DGV il socio da cancellare
-            if (MessageBox.Show("Confermi la cancellazione?",
+            if (MessageBox.Show("Confermi la cancellazione del media selezionato?",
                 "ATTENZIONE",
                 MessageBoxButtons.YesNo,
                 MessageBoxIcon.Warning) ==
@@ -239,6 +239,34 @@ namespace Mediateca
                 clsOperazioni.popolaCmbMedia(cmbMedia, clsMedia.medias,
                     clsMedia.nMedia);
                 clsOperazioni.popolaCmbSocio(cmbSocio, clsSoci.soci,clsSoci.nSoci);
+            }
+        }
+
+        private void btnPrestito_Click(object sender, EventArgs e)
+        {
+            if(cmbSocio.Text!="" && cmbMedia.Text!="")
+            {
+                string codSocio=cmbSocio.SelectedValue.ToString();
+                string codMedia = cmbMedia.SelectedValue.ToString();
+                clsOperazioni.inserisciPrestito(codSocio, codMedia,
+                    dgvOperazioni,dgvMedia);
+                clsOperazioni.popolaCmbMedia(cmbMedia, clsMedia.medias, clsMedia.nMedia);
+            }
+            else
+                MessageBox.Show("Selezionare dalle combo il socio e il media",
+                    "WARNING",MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        }
+
+        private void btnRestituzione_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Confermi la cancellazione del socio selezionato?",
+                "ATTENZIONE",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning) ==
+                DialogResult.Yes)
+            {
+                int indice = dgvOperazioni.CurrentCell.RowIndex;
+                clsOperazioni.restituisciPrestito(indice, dgvOperazioni, dgvMedia);
             }
         }
     }
