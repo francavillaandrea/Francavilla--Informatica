@@ -1,0 +1,10 @@
+C:\Users\marco.paschetta\Desktop\3B INF\EseDatagridview\bin\Debug\EseDatagridview.exe.config
+C:\Users\marco.paschetta\Desktop\3B INF\EseDatagridview\bin\Debug\EseDatagridview.exe
+C:\Users\marco.paschetta\Desktop\3B INF\EseDatagridview\bin\Debug\EseDatagridview.pdb
+C:\Users\marco.paschetta\Desktop\3B INF\EseDatagridview\obj\Debug\EseDatagridview.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B INF\EseDatagridview\obj\Debug\EseDatagridview.FrmMain.resources
+C:\Users\marco.paschetta\Desktop\3B INF\EseDatagridview\obj\Debug\EseDatagridview.Properties.Resources.resources
+C:\Users\marco.paschetta\Desktop\3B INF\EseDatagridview\obj\Debug\EseDatagridview.csproj.GenerateResource.cache
+C:\Users\marco.paschetta\Desktop\3B INF\EseDatagridview\obj\Debug\EseDatagridview.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B INF\EseDatagridview\obj\Debug\EseDatagridview.exe
+C:\Users\marco.paschetta\Desktop\3B INF\EseDatagridview\obj\Debug\EseDatagridview.pdb

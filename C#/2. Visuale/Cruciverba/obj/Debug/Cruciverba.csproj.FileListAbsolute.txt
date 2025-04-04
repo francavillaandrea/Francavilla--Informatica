@@ -1,0 +1,20 @@
+C:\Users\alberto.barbero\Desktop\Cruciverba\bin\Debug\Cruciverba.exe.config
+C:\Users\alberto.barbero\Desktop\Cruciverba\bin\Debug\Cruciverba.exe
+C:\Users\alberto.barbero\Desktop\Cruciverba\bin\Debug\Cruciverba.pdb
+C:\Users\alberto.barbero\Desktop\Cruciverba\obj\Debug\Cruciverba.csproj.AssemblyReference.cache
+C:\Users\alberto.barbero\Desktop\Cruciverba\obj\Debug\Cruciverba.frmMain.resources
+C:\Users\alberto.barbero\Desktop\Cruciverba\obj\Debug\Cruciverba.Properties.Resources.resources
+C:\Users\alberto.barbero\Desktop\Cruciverba\obj\Debug\Cruciverba.csproj.GenerateResource.cache
+C:\Users\alberto.barbero\Desktop\Cruciverba\obj\Debug\Cruciverba.csproj.CoreCompileInputs.cache
+C:\Users\alberto.barbero\Desktop\Cruciverba\obj\Debug\Cruciverba.exe
+C:\Users\alberto.barbero\Desktop\Cruciverba\obj\Debug\Cruciverba.pdb
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\Cruciverba\bin\Debug\Cruciverba.exe.config
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\Cruciverba\bin\Debug\Cruciverba.exe
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\Cruciverba\bin\Debug\Cruciverba.pdb
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\Cruciverba\obj\Debug\Cruciverba.csproj.AssemblyReference.cache
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\Cruciverba\obj\Debug\Cruciverba.frmMain.resources
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\Cruciverba\obj\Debug\Cruciverba.Properties.Resources.resources
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\Cruciverba\obj\Debug\Cruciverba.csproj.GenerateResource.cache
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\Cruciverba\obj\Debug\Cruciverba.csproj.CoreCompileInputs.cache
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\Cruciverba\obj\Debug\Cruciverba.exe
+\\nas01\AreaScambio\_INF\3-TERZE\3B INF 2024-2025\Informatica\Visuale\Cruciverba\obj\Debug\Cruciverba.pdb

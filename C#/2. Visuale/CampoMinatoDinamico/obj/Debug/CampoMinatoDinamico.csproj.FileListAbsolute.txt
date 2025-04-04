@@ -1,0 +1,10 @@
+C:\Users\marco.paschetta\Desktop\3B\CampoMinatoDinamico\bin\Debug\CampoMinatoDinamico.exe.config
+C:\Users\marco.paschetta\Desktop\3B\CampoMinatoDinamico\bin\Debug\CampoMinatoDinamico.exe
+C:\Users\marco.paschetta\Desktop\3B\CampoMinatoDinamico\bin\Debug\CampoMinatoDinamico.pdb
+C:\Users\marco.paschetta\Desktop\3B\CampoMinatoDinamico\obj\Debug\CampoMinatoDinamico.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B\CampoMinatoDinamico\obj\Debug\CampoMinatoDinamico.FrmMain.resources
+C:\Users\marco.paschetta\Desktop\3B\CampoMinatoDinamico\obj\Debug\CampoMinatoDinamico.Properties.Resources.resources
+C:\Users\marco.paschetta\Desktop\3B\CampoMinatoDinamico\obj\Debug\CampoMinatoDinamico.csproj.GenerateResource.cache
+C:\Users\marco.paschetta\Desktop\3B\CampoMinatoDinamico\obj\Debug\CampoMinatoDinamico.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B\CampoMinatoDinamico\obj\Debug\CampoMinatoDinamico.exe
+C:\Users\marco.paschetta\Desktop\3B\CampoMinatoDinamico\obj\Debug\CampoMinatoDinamico.pdb

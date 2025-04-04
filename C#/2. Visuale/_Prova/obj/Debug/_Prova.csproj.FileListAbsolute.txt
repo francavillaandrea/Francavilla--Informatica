@@ -1,0 +1,10 @@
+C:\Users\marco.paschetta\Desktop\3B INF\_Prova\bin\Debug\_Prova.exe.config
+C:\Users\marco.paschetta\Desktop\3B INF\_Prova\bin\Debug\_Prova.exe
+C:\Users\marco.paschetta\Desktop\3B INF\_Prova\bin\Debug\_Prova.pdb
+C:\Users\marco.paschetta\Desktop\3B INF\_Prova\obj\Debug\_Prova.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\3B INF\_Prova\obj\Debug\_Prova.FrmMain.resources
+C:\Users\marco.paschetta\Desktop\3B INF\_Prova\obj\Debug\_Prova.Properties.Resources.resources
+C:\Users\marco.paschetta\Desktop\3B INF\_Prova\obj\Debug\_Prova.csproj.GenerateResource.cache
+C:\Users\marco.paschetta\Desktop\3B INF\_Prova\obj\Debug\_Prova.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\3B INF\_Prova\obj\Debug\_Prova.exe
+C:\Users\marco.paschetta\Desktop\3B INF\_Prova\obj\Debug\_Prova.pdb
